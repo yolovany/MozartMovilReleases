@@ -11,4 +11,5 @@ MozartMovil es una aplicación para dispositivos Android, complementaria a Mozar
 **Manual de MozartMovil.**
   https://infotek.notion.site/Portal-de-manuales-de-Infotek-b5bc7bb7fa244d9a972dd5033aaf7bc6
   
+  
 ![alt text](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Faec98657-abea-41bf-8a68-f75d59bc13ee%2FUntitled.png?table=block&id=51f68a86-33c0-46ff-8123-e1d7b1d48db3&spaceId=d09b41a7-1f96-4dee-8d70-4608c48d45a1&width=2000&userId=91d53ed3-612b-4885-b378-705947cc011c&cache=v2)
