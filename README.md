@@ -1,5 +1,4 @@
-![MozartMovil]
-(https://raw.githubusercontent.com/yolovany/MozartMovilReleases/main/header.png)
+![MozartMovil](https://raw.githubusercontent.com/yolovany/MozartMovilReleases/main/header.png)
 
 MozartMovil es una aplicación para dispositivos Android, complementaria a Mozart, que permite llevar el control de la producción en el campo y empaque, automatizando la inserción de registro de destajos, reloj checador, entradas y salidas de almacén.
 
