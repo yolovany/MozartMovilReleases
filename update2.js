@@ -323,7 +323,7 @@
 						"FormatsDescription":"debe contener una cadena \"V790\" y 15 números considerando los números de la cadena"
 					},
 					{
-						"Devices":["X704A","X704V"],
+						"Devices":["X704A","X704V","TB125FU"],
 						"Manufacturer":"LENOVO",
 						"Formats":["[a-z-0-9-A-Z]{8}"],
 						"FormatsDescription":"debe ser alfanumérico de 8 caracteres"
