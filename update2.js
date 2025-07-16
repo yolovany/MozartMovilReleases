@@ -335,7 +335,7 @@
 						"FormatsDescription":"debe ser Alfanumérico de 11 caracteres"
 					},
 					{
-						"Devices":["beyond2q",],
+						"Devices":["beyond2q","dm3q"],
 						"Manufacturer":"samsung",
 						"Formats":["[a-z-0-9-A-Z]{16}"],
 						"FormatsDescription":"debe ser Alfanumérico de 11 caracteres"
