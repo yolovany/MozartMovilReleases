@@ -238,11 +238,11 @@
 			},
 			{
 				"CommonName":"PRODUCTORA SC PRODUCE",
-				"VersionCode":266,
-				"VersionName":"2.6.6",
-				"BuildVersion":2025072317192,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.6.6.25072317192/MozartMovil.Ver.2.6.6.Build.2025072317192.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.6.6.25072317192",
+				"VersionCode":267,
+				"VersionName":"2.6.7",
+				"BuildVersion":2025072409301,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.6.7.25072409301/MozartMovil.Ver.2.6.7.Build.2025072409301.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.6.7.25072409301",
 				"Size":25254223,
 				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
 				"MasterKey":"Mozart2010"
