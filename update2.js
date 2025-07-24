@@ -238,7 +238,7 @@
 			},
 			{
 				"CommonName":"PRODUCTORA SC PRODUCE",
-				"VersionCode":268,
+				"VersionCode":266,
 				"VersionName":"2.6.6",
 				"BuildVersion":2025072316481,
 				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.6.6.25072316481/MozartMovil.Ver.2.6.6.Build.2025072316481.apk",
