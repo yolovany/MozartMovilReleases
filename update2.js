@@ -244,7 +244,7 @@
 				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.6.6.25072316481/MozartMovil.Ver.2.6.6.Build.2025072316481.apk",
 				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.6.6.25072316481",
 				"Size":25254223,
-				"Companies":["SC_PRODUCE"],
+				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
 				"MasterKey":"Mozart2010"
 			},
 			
