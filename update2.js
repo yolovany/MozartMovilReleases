@@ -245,7 +245,8 @@
 				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081723102",
 				"Size":25311771,
 				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
-				"MasterKey":"Mozart2010"
+				"MasterKey":"Mozart2010",
+				"Required":true
 			}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -378,6 +379,7 @@
 				]
 			}
 ]
+
 
 
 
