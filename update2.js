@@ -235,7 +235,19 @@
 				"EnableSimultaneousScanLock":false,
 				"Companies":["RDJ2016"],
 				"MasterKey":"Mozart2010"
-			},	
+			},
+			{
+				"CommonName":"RANCHO SANTA MONICA",
+				"VersionCode":261,
+				"VersionName":"2.6.1",
+				"BuildVersion":2025031321483,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.6.1.25040212235/MozartMovil.Ver.2.6.1.Build.2025031321483.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.6.1.25040212235",
+				"Size":25122583,
+				"EnableSimultaneousScanLock":false,
+				"Companies":["SANTAMONICA"],
+				"MasterKey":"Mozart2010"
+			},
 			{
 				"CommonName":"PRODUCTORA SC PRODUCE",
 				"VersionCode":270,
@@ -379,6 +391,7 @@
 				]
 			}
 ]
+
 
 
 
