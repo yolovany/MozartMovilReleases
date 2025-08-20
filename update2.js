@@ -152,18 +152,6 @@
 				"MasterKey":"Mozart2010"
 			},
 			{
-				"CommonName":"RANCHO DON JUANITO",
-				"VersionCode":0,
-				"VersionName":"0.0.0",
-				"BuildVersion":0,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.4.3.2307191316/MozartMovil.Ver.2.4.3.Build.2023071913161.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.4.3.2307191316",
-				"Size":50866820,
-				"EnableSimultaneousScanLock":false,
-				"Companies":["RDJ2016"],
-				"MasterKey":"Mozart2010"
-			},
-			{
 				"CommonName":"RANCHO SANTA MONICA",
 				"VersionCode":0,
 				"VersionName":"0.0.0",
@@ -247,6 +235,18 @@
 				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
 				"MasterKey":"Mozart2010",
 				"Required":true
+			},
+			{
+				"CommonName":"RANCHO DON JUANITO",
+				"VersionCode":252,
+				"VersionName":"2.5.2",
+				"BuildVersion":2024061216429,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.5.1.24061216429/MozartMovil.Ver.2.5.2.Build.2024061216429.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.5.1.24061216429",
+				"Size":24990085,
+				"EnableSimultaneousScanLock":false,
+				"Companies":["RDJ2016"],
+				"MasterKey":"Mozart2010"
 			},
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -379,6 +379,7 @@
 				]
 			}
 ]
+
 
 
 
