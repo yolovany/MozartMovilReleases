@@ -265,9 +265,9 @@
 				"VersionCode":270,
 				"VersionName":"2.7.0",
 				"BuildVersion":2025081723102,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.0.25081723102/MozartMovil.Ver.2.7.0.Build.2025081723102.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081723102",
-				"Size":25311771,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.0.25081810074/MozartMovil.Ver.2.7.0.Build.2025081810074.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081810074",
+				"Size":25315867,
 				"Companies":["COSTA_FARMS"],
 				"MasterKey":"Mozart2010"
 			},
@@ -402,6 +402,7 @@
 				]
 			}
 ]
+
 
 
 
