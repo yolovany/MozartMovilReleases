@@ -201,18 +201,6 @@
 				"MasterKey":"Mozart2010"
 			},
 			{
-				"CommonName":"AGRÍCOLA FRUVAS",
-				"VersionCode":246,
-				"VersionName":"2.4.6",
-				"BuildVersion":2024012321502,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.4.7.24010612230/MozartMovil.Ver.2.4.7.Build.2024012321502.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.4.7.24010612230",
-				"Size":51600681,
-				"EnableSimultaneousScanLock":false,
-				"Companies":["FRUVAS"],
-				"MasterKey":"Mozart2010"
-			},
-			{
 				"CommonName":"RANCHO DON JUANITO",
 				"VersionCode":252,
 				"VersionName":"2.5.2",
@@ -261,10 +249,21 @@
 				"Required":true
 			},
 			{
+				"CommonName":"AGRÍCOLA FRUVAS",
+				"VersionCode":270,
+				"VersionName":"2.7.0",
+				"BuildVersion":2025081810074,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.0.25081810074/MozartMovil.Ver.2.7.0.Build.2025081810074.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081810074",
+				"Size":25315867,
+				"Companies":["FRUVAS"],
+				"MasterKey":"Mozart2010"
+			},
+			{
 				"CommonName":"PRODUCTORA COSTA FARMS",
 				"VersionCode":270,
 				"VersionName":"2.7.0",
-				"BuildVersion":2025081723102,
+				"BuildVersion":2025081810074,
 				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.0.25081810074/MozartMovil.Ver.2.7.0.Build.2025081810074.apk",
 				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081810074",
 				"Size":25315867,
@@ -402,6 +401,7 @@
 				]
 			}
 ]
+
 
 
 
