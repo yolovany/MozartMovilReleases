@@ -250,12 +250,12 @@
 			},
 			{
 				"CommonName":"AGRÍCOLA FRUVAS",
-				"VersionCode":270,
-				"VersionName":"2.7.0",
-				"BuildVersion":2025081810074,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.0.25081810074/MozartMovil.Ver.2.7.0.Build.2025081810074.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081810074",
-				"Size":25315867,
+				"VersionCode":271,
+				"VersionName":"2.7.1",
+				"BuildVersion":2025082215541,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.1.25082215541/MozartMovil.Ver.2.7.0.Build.2025082215541.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.1.25082215541",
+				"Size":25311771,
 				"Companies":["FRUVAS"],
 				"MasterKey":"Mozart2010"
 			},
@@ -401,6 +401,7 @@
 				]
 			}
 ]
+
 
 
 
