@@ -224,18 +224,6 @@
 				"Companies":["SANTAMONICA"],
 				"MasterKey":"Mozart2010"
 			},
-	        {
-				"CommonName":"AGRÍCOLA VEGEX",
-				"VersionCode":268,
-				"VersionName":"2.6.8",
-				"BuildVersion":2025073111571,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.6.8.25073111571/MozartMovil.Ver.2.6.8.Build.2025080415582.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.6.8.25073111571",
-				"Size":25254223,
-				"EnableSimultaneousScanLock":false,
-				"Companies":["VEGEX","SHANI"],
-				"MasterKey":"Mozart2010"
-			},
 			{
 				"CommonName":"PRODUCTORA SC PRODUCE",
 				"VersionCode":270,
@@ -249,6 +237,17 @@
 				"Required":true
 			},
 			{
+				"CommonName":"PRODUCTORA COSTA FARMS",
+				"VersionCode":270,
+				"VersionName":"2.7.0",
+				"BuildVersion":2025081810074,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.0.25081810074/MozartMovil.Ver.2.7.0.Build.2025081810074.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081810074",
+				"Size":25315867,
+				"Companies":["COSTA_FARMS"],
+				"MasterKey":"Mozart2010"
+			},
+			{
 				"CommonName":"AGRÍCOLA FRUVAS",
 				"VersionCode":271,
 				"VersionName":"2.7.1",
@@ -259,15 +258,16 @@
 				"Companies":["FRUVAS"],
 				"MasterKey":"Mozart2010"
 			},
-			{
-				"CommonName":"PRODUCTORA COSTA FARMS",
-				"VersionCode":270,
-				"VersionName":"2.7.0",
-				"BuildVersion":2025081810074,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.0.25081810074/MozartMovil.Ver.2.7.0.Build.2025081810074.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081810074",
-				"Size":25315867,
-				"Companies":["COSTA_FARMS"],
+	        {
+				"CommonName":"AGRÍCOLA VEGEX",
+				"VersionCode":271,
+				"VersionName":"2.7.1",
+				"BuildVersion":2025082518352,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.1.25082215541/MozartMovil.Ver.2.7.0.Build.2025082518352.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.1.25082215541",
+				"Size":25311771,
+				"EnableSimultaneousScanLock":false,
+				"Companies":["VEGEX","SHANI"],
 				"MasterKey":"Mozart2010"
 			},
 	
@@ -401,6 +401,7 @@
 				]
 			}
 ]
+
 
 
 
