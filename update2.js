@@ -263,7 +263,7 @@
 				"VersionCode":271,
 				"VersionName":"2.7.1",
 				"BuildVersion":2025082518352,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.1.25082215541/MozartMovil.Ver.2.7.0.Build.2025082518352.apk",
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.1.25082215541/MozartMovil.Ver.2.7.1.Build.2025082518352.apk",
 				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.1.25082215541",
 				"Size":25311771,
 				"EnableSimultaneousScanLock":false,
@@ -401,6 +401,7 @@
 				]
 			}
 ]
+
 
 
 
