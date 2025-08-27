@@ -225,18 +225,6 @@
 				"MasterKey":"Mozart2010"
 			},
 			{
-				"CommonName":"PRODUCTORA SC PRODUCE",
-				"VersionCode":270,
-				"VersionName":"2.7.0",
-				"BuildVersion":2025081810074,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.0.25081810074/MozartMovil.Ver.2.7.0.Build.2025081810074.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.0.25081810074",
-				"Size":25315867,
-				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
-				"MasterKey":"Mozart2010",
-				"Required":true
-			},
-			{
 				"CommonName":"PRODUCTORA COSTA FARMS",
 				"VersionCode":270,
 				"VersionName":"2.7.0",
@@ -258,13 +246,25 @@
 				"Companies":["FRUVAS"],
 				"MasterKey":"Mozart2010"
 			},
+			{
+				"CommonName":"PRODUCTORA SC PRODUCE",
+				"VersionCode":273,
+				"VersionName":"2.7.3",
+				"BuildVersion":2025082714181,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.3.25082714181/MozartMovil.Ver.2.7.3.Build.2025082714181.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.3.25082714181",
+				"Size":25311771,
+				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
+				"MasterKey":"Mozart2010",
+				"Required":true
+			},
 	        {
 				"CommonName":"AGRÍCOLA VEGEX",
-				"VersionCode":272,
-				"VersionName":"2.7.2",
-				"BuildVersion":2025082615232,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.2.25082615232/MozartMovil.Ver.2.7.2.Build.2025082615232.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.2.25082615232",
+				"VersionCode":273,
+				"VersionName":"2.7.3",
+				"BuildVersion":2025082714181,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.3.25082714181/MozartMovil.Ver.2.7.3.Build.2025082714181.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.3.25082714181",
 				"Size":25311771,
 				"EnableSimultaneousScanLock":false,
 				"Companies":["VEGEX","SHANI"],
@@ -401,6 +401,7 @@
 				]
 			}
 ]
+
 
 
 
