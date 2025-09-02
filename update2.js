@@ -236,17 +236,6 @@
 				"MasterKey":"Mozart2010"
 			},
 			{
-				"CommonName":"AGRÍCOLA FRUVAS",
-				"VersionCode":271,
-				"VersionName":"2.7.1",
-				"BuildVersion":2025082215541,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.1.25082215541/MozartMovil.Ver.2.7.0.Build.2025082215541.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.1.25082215541",
-				"Size":25311771,
-				"Companies":["FRUVAS"],
-				"MasterKey":"Mozart2010"
-			},
-			{
 				"CommonName":"PRODUCTORA SC PRODUCE",
 				"VersionCode":273,
 				"VersionName":"2.7.3",
@@ -270,6 +259,17 @@
 				"Companies":["VEGEX","SHANI"],
 				"MasterKey":"Mozart2010",
 				"Required":true		
+			},
+			{
+				"CommonName":"AGRÍCOLA FRUVAS",
+				"VersionCode":273,
+				"VersionName":"2.7.3",
+				"BuildVersion":2025090216332,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.3.25090216332/MozartMovil.Ver.2.7.3.Build.2025090216332.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.3.25090216332",
+				"Size":25311771,
+				"Companies":["FRUVAS"],
+				"MasterKey":"Mozart2010"
 			},
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -402,6 +402,7 @@
 				]
 			}
 ]
+
 
 
 
