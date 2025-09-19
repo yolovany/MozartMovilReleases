@@ -235,18 +235,6 @@
 				"Companies":["COSTA_FARMS"],
 				"MasterKey":"Mozart2010"
 			},
-			{
-				"CommonName":"PRODUCTORA SC PRODUCE",
-				"VersionCode":273,
-				"VersionName":"2.7.3",
-				"BuildVersion":2025082714181,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.3.25082714181/MozartMovil.Ver.2.7.3.Build.2025082714181.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.3.25082714181",
-				"Size":25311771,
-				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
-				"MasterKey":"Mozart2010",
-				"Required":true
-			},
 	        {
 				"CommonName":"AGRÍCOLA VEGEX",
 				"VersionCode":273,
@@ -270,6 +258,18 @@
 				"Size":25311854,
 				"Companies":["FRUVAS"],
 				"MasterKey":"Mozart2010"
+			},
+			{
+				"CommonName":"PRODUCTORA SC PRODUCE",
+				"VersionCode":274,
+				"VersionName":"2.7.4",
+				"BuildVersion":2025091714291,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.4.25091714291/MozartMovil.Ver.2.7.4.Build.2025091714291.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.4.25091714291",
+				"Size":25315950,
+				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
+				"MasterKey":"Mozart2010",
+				"Required":true
 			},
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -402,6 +402,7 @@
 				]
 			}
 ]
+
 
 
 
