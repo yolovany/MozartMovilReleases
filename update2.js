@@ -189,18 +189,6 @@
 				"MasterKey":"Mozart2010"
 			},
 			{
-				"CommonName":"CRISTAPURO",
-				"VersionCode":0,
-				"VersionName":"0.0.0",
-				"BuildVersion":0,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.1.9.2110291915/MozartMovil.Ver.2.1.9.Build.202110291915.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.1.9.2110291915",
-				"Size":49543184,
-				"EnableSimultaneousScanLock":false,
-				"Companies":["CRISTA","QI"],
-				"MasterKey":"Mozart2010"
-			},
-			{
 				"CommonName":"RANCHO DON JUANITO",
 				"VersionCode":252,
 				"VersionName":"2.5.2",
@@ -270,6 +258,18 @@
 				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
 				"MasterKey":"Mozart2010",
 				"Required":true
+			},
+			{
+				"CommonName":"CRISTAPURO",
+				"VersionCode":275,
+				"VersionName":"2.7.5",
+				"BuildVersion":2025093014231,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.5.25093014231/MozartMovil.Ver.2.7.5.Build.2025093014231.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.5.25093014231",
+				"Size":25315950,
+				"EnableSimultaneousScanLock":false,
+				"Companies":["CRISTA","QI"],
+				"MasterKey":"Mozart2010"
 			},
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -402,6 +402,7 @@
 				]
 			}
 ]
+
 
 
 
