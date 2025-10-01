@@ -263,9 +263,9 @@
 				"CommonName":"CRISTAPURO",
 				"VersionCode":275,
 				"VersionName":"2.7.5",
-				"BuildVersion":2025093014231,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.5.25093014231/MozartMovil.Ver.2.7.5.Build.2025093014231.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.5.25093014231",
+				"BuildVersion":2025100107582,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.5.25100107582/MozartMovil.Ver.2.7.5.Build.2025100107582.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.5.25100107582",
 				"Size":25315950,
 				"EnableSimultaneousScanLock":false,
 				"Companies":["CRISTA","QI"],
@@ -402,6 +402,7 @@
 				]
 			}
 ]
+
 
 
 
