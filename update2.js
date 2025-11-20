@@ -249,15 +249,15 @@
 			},
 			{
 				"CommonName":"PRODUCTORA SC PRODUCE",
-				"VersionCode":274,
-				"VersionName":"2.7.4",
-				"BuildVersion":2025091909542,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.4.25091909542/MozartMovil.Ver.2.7.4.Build.2025091909542.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.4.25091909542",
-				"Size":25315950,
+				"VersionCode":279,
+				"VersionName":"2.7.9",
+				"BuildVersion":2025111910292,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.9.25111910292/MozartMovil.Ver.2.7.9.Build.2025111910292.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.7.9.25111910292",
+				"Size":25336517,
 				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
 				"MasterKey":"Mozart2010",
-				"Required":true
+				"Required":false
 			},
 			{
 				"CommonName":"CRISTAPURO",
