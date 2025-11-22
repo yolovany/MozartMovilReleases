@@ -6,19 +6,22 @@
 
 ---
 
-## 📥 Última Versión: 2.7.9 (Build 2025111910292)
+## 📥 Última Versión: 2.8.0 (Build 2025112114201)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 19 de noviembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.7.9**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.7.9.25111910292/MozartMovil.Ver.2.7.9.Build.2025111910292.apk)
+*   **Fecha de lanzamiento:** 21 de noviembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.0.25112114201/MozartMovil.Ver.2.8.0.Build.2025112114201.apk)
 
-### ✨ Novedades Principales en la Versión 2.7.9
+### ✨ Novedades Principales en la Versión 2.8.0
 
-*   **🆕 Módulo de Inventario Físico:** Realiza inventarios completos directamente desde la app, escaneando códigos QR de artículos y ubicaciones.
-*   **🖼️ Optimización de Imágenes:** Las imágenes de los artículos ahora se comprimen y cargan de forma más eficiente, mejorando la velocidad y reduciendo el consumo de memoria.
-*   **🔐 Autorización por QR para Eliminar Destajos:** Añade una capa de seguridad al requerir la escaneo de un QR de supervisor para eliminar registros de destajos.
-*   **🛠️ Mejoras Generales:** Incluye optimizaciones en traspasos, registros en bitácora, y correcciones de estabilidad para una experiencia más fluida.
+*   **🧮 Cálculo de Caducidades:** Ajuste en el cálculo de fecha de caducidad en el generador de etiquetas, ahora basado en meses configurados por artículo o cliente.
+*   **🚚 Mejoras en Traspasos:**
+    *   **Manejo de Almacenes "Patio":** Detección automática y mejor validación de entradas y ubicaciones.
+    *   **Almacenes de Transición:** Flujo optimizado para evitar selecciones redundantes y mejor manejo de ubicaciones repetidas.
+    *   **Validaciones Seguras:** Control coherente de repetición de ubicaciones según configuración del almacén.
+*   **🏷️ Optimización en Etiquetas:** Simplificación interna del generador de etiquetas para mayor velocidad y estabilidad.
+*   **🐞 Correcciones:** Solución a problemas de navegación en selección de almacenes y consistencia en ubicaciones repetidas.
 
 ---
 
@@ -26,7 +29,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-279-build-2025111910292).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-280-build-2025112114201).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -38,6 +41,14 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.7.9 (19 de noviembre de 2025)
+*   **Novedades:**
+    *   **Módulo de Inventario Físico:** Realiza inventarios completos escaneando códigos QR de artículos y ubicaciones.
+    *   **Optimización de Imágenes:** Compresión y carga eficiente de imágenes de artículos.
+    *   **Autorización por QR para Eliminar Destajos:** Requiere escaneo de QR de supervisor para eliminar registros.
+*   **Mejoras:**
+    *   Optimizaciones en traspasos, registros en bitácora y estabilidad general.
 
 ### Versión 2.7.8 (05 de noviembre de 2025)
 *   **Novedades:**
