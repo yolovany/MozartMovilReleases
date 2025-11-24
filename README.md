@@ -6,22 +6,23 @@
 
 ---
 
-## 📥 Última Versión: 2.8.0 (Build 2025112114201)
+## 📥 Última Versión: 2.8.0 (Build 2025112410512)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 21 de noviembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.0.25112114201/MozartMovil.Ver.2.8.0.Build.2025112114201.apk)
+*   **Fecha de lanzamiento:** 24 de noviembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.0.25112410512/MozartMovil.Ver.2.8.0.Build.2025112410512.apk)
 
 ### ✨ Novedades Principales en la Versión 2.8.0
 
-*   **🧮 Cálculo de Caducidades:** Ajuste en el cálculo de fecha de caducidad en el generador de etiquetas, ahora basado en meses configurados por artículo o cliente.
-*   **🚚 Mejoras en Traspasos:**
-    *   **Manejo de Almacenes "Patio":** Detección automática y mejor validación de entradas y ubicaciones.
-    *   **Almacenes de Transición:** Flujo optimizado para evitar selecciones redundantes y mejor manejo de ubicaciones repetidas.
-    *   **Validaciones Seguras:** Control coherente de repetición de ubicaciones según configuración del almacén.
-*   **🏷️ Optimización en Etiquetas:** Simplificación interna del generador de etiquetas para mayor velocidad y estabilidad.
-*   **🐞 Correcciones:** Solución a problemas de navegación en selección de almacenes y consistencia en ubicaciones repetidas.
+*   **🌐 Nuevo Portal de Manuales:** Acceso más rápido, navegación interna y mejor compatibilidad con Notion.
+*   **🔄 Navegación Web mejorada:** Funcionalidad pull-to-refresh y botón de cierre para una mejor experiencia.
+*   **⚡ Sincronización optimizada:** Procesos mucho más rápidos y tiempos de espera reducidos.
+*   **🔍 Actualizaciones más confiables:** Verificación de nuevas versiones más estable y segura.
+*   **🚀 Arranque acelerado:** Reducción del tiempo de carga inicial de la aplicación.
+*   **🛜 Mejor gestión de red:** Detección precisa de internet y conexión al servidor para evitar fallos.
+*   **🧹 Limpieza interna:** Simplificación del código y eliminación de funciones obsoletas para mayor estabilidad.
+*   **🐞 Correcciones generales:** Mejor comportamiento del visor web y mensajes más claros.
 
 ---
 
@@ -29,7 +30,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-280-build-2025112114201).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-280-build-2025112410512).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -41,6 +42,15 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.0 (Build 2025112114201) (21 de noviembre de 2025)
+*   **Novedades:**
+    *   **Cálculo de Caducidades:** Ajuste en el cálculo basado en meses configurados por artículo o cliente.
+*   **Mejoras:**
+    *   **Traspasos:** Detección automática de almacenes "Patio", flujo optimizado en almacenes de transición y validaciones seguras.
+    *   **Etiquetas:** Simplificación interna del generador de etiquetas.
+*   **Correcciones:**
+    *   Solución a problemas de navegación en selección de almacenes y consistencia en ubicaciones repetidas.
 
 ### Versión 2.7.9 (19 de noviembre de 2025)
 *   **Novedades:**
