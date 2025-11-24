@@ -257,7 +257,7 @@
 				"Size":26012515,
 				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
 				"MasterKey":"Mozart2010",
-				"Required":false
+				"Required":true
 			},
 			{
 				"CommonName":"CRISTAPURO",
