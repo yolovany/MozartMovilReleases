@@ -6,23 +6,21 @@
 
 ---
 
-## 📥 Última Versión: 2.8.0 (Build 2025112410512)
+## 📥 Última Versión: 2.8.1 (Build 2025112713071)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 24 de noviembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.0.25112410512/MozartMovil.Ver.2.8.0.Build.2025112410512.apk)
+*   **Fecha de lanzamiento:** 27 de noviembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.1.112713071/MozartMovil.Ver.2.8.1.Build.2025112713071.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.0
+### ✨ Novedades Principales en la Versión 2.8.1
 
-*   **🌐 Nuevo Portal de Manuales:** Acceso más rápido, navegación interna y mejor compatibilidad con Notion.
-*   **🔄 Navegación Web mejorada:** Funcionalidad pull-to-refresh y botón de cierre para una mejor experiencia.
-*   **⚡ Sincronización optimizada:** Procesos mucho más rápidos y tiempos de espera reducidos.
-*   **🔍 Actualizaciones más confiables:** Verificación de nuevas versiones más estable y segura.
-*   **🚀 Arranque acelerado:** Reducción del tiempo de carga inicial de la aplicación.
-*   **🛜 Mejor gestión de red:** Detección precisa de internet y conexión al servidor para evitar fallos.
-*   **🧹 Limpieza interna:** Simplificación del código y eliminación de funciones obsoletas para mayor estabilidad.
-*   **🐞 Correcciones generales:** Mejor comportamiento del visor web y mensajes más claros.
+*   **📦 Descarga de catálogos más rápida:** Proceso ágil y menor consumo de datos.
+*   **🏷️ QRs más confiables en traspasos:** Inclusión de índice interno para unicidad.
+*   **🔁 Mejor orden en referencias internas:** Limpieza y eliminación de duplicados.
+*   **🏭 Mejoras en traspasos y producción:** Lógica mejorada y ocultamiento de almacenes especiales.
+*   **📄 Mejor impresión:** Referencias más limpias y simplificación de lógica.
+*   **🐞 Correcciones y ajustes generales:** Solución a problemas de diálogos y selección de almacenes.
 
 ---
 
@@ -30,7 +28,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-280-build-2025112410512).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-281-build-2025112713071).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -42,6 +40,19 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.0 (Build 2025112410512) (24 de noviembre de 2025)
+*   **Novedades:**
+    *   **Nuevo Portal de Manuales:** Acceso más rápido y mejor compatibilidad con Notion.
+    *   **Navegación Web mejorada:** Funcionalidad pull-to-refresh y botón de cierre.
+*   **Mejoras:**
+    *   **Sincronización optimizada:** Procesos más rápidos.
+    *   **Arranque acelerado:** Reducción del tiempo de carga inicial.
+    *   **Mejor gestión de red:** Detección precisa de internet y conexión al servidor.
+*   **Correcciones:**
+    *   **Actualizaciones más confiables:** Verificación de versiones estable.
+    *   **Limpieza interna:** Código simplificado y mayor estabilidad.
+    *   Correcciones generales en visor web.
 
 ### Versión 2.8.0 (Build 2025112114201) (21 de noviembre de 2025)
 *   **Novedades:**
