@@ -6,21 +6,18 @@
 
 ---
 
-## 📥 Última Versión: 2.8.1 (Build 2025112713071)
+## 📥 Última Versión: 2.8.2 (Build 2025120114241)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 27 de noviembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.1.112713071/MozartMovil.Ver.2.8.1.Build.2025112713071.apk)
+*   **Fecha de lanzamiento:** 1 de diciembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.2.25120114241/MozartMovil.Ver.2.8.2.Build.2025120114241.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.1
+### ✨ Novedades Principales en la Versión 2.8.2
 
-*   **📦 Descarga de catálogos más rápida:** Proceso ágil y menor consumo de datos.
-*   **🏷️ QRs más confiables en traspasos:** Inclusión de índice interno para unicidad.
-*   **🔁 Mejor orden en referencias internas:** Limpieza y eliminación de duplicados.
-*   **🏭 Mejoras en traspasos y producción:** Lógica mejorada y ocultamiento de almacenes especiales.
-*   **📄 Mejor impresión:** Referencias más limpias y simplificación de lógica.
-*   **🐞 Correcciones y ajustes generales:** Solución a problemas de diálogos y selección de almacenes.
+*   **⚡ Descarga de Catálogos Acelerada:** Descargas simultáneas y pantalla siempre activa durante la actualización.
+*   **🖨️ Corrección en Impresión de Etiquetas:** Solución a cierres inesperados al reimprimir desde el historial.
+*   **🛠️ Estabilidad y Diagnóstico:** Registros internos más inteligentes y mayor detalle en reportes de error.
 
 ---
 
@@ -28,7 +25,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-281-build-2025112713071).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-282-build-2025120114241).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -40,6 +37,17 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.1 (Build 2025112713071) (27 de noviembre de 2025)
+*   **Novedades:**
+    *   **Descarga de catálogos más rápida:** Proceso ágil y menor consumo de datos.
+    *   **QRs más confiables en traspasos:** Inclusión de índice interno para unicidad.
+*   **Mejoras:**
+    *   **Mejor orden en referencias internas:** Limpieza y eliminación de duplicados.
+    *   **Mejoras en traspasos y producción:** Lógica mejorada y ocultamiento de almacenes especiales.
+*   **Correcciones:**
+    *   **Mejor impresión:** Referencias más limpias y simplificación de lógica.
+    *   **Correcciones y ajustes generales:** Solución a problemas de diálogos y selección de almacenes.
 
 ### Versión 2.8.0 (Build 2025112410512) (24 de noviembre de 2025)
 *   **Novedades:**
