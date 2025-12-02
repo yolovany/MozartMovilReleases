@@ -6,18 +6,17 @@
 
 ---
 
-## 📥 Última Versión: 2.8.2 (Build 2025120114241)
+## 📥 Última Versión: 2.8.2 (Build 2025120211362)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 1 de diciembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.2.25120114241/MozartMovil.Ver.2.8.2.Build.2025120114241.apk)
+*   **Fecha de lanzamiento:** 2 de diciembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.2.25120211362/MozartMovil.Ver.2.8.2.Build.2025120211362.apk)
 
 ### ✨ Novedades Principales en la Versión 2.8.2
 
-*   **⚡ Descarga de Catálogos Acelerada:** Descargas simultáneas y pantalla siempre activa durante la actualización.
-*   **🖨️ Corrección en Impresión de Etiquetas:** Solución a cierres inesperados al reimprimir desde el historial.
-*   **🛠️ Estabilidad y Diagnóstico:** Registros internos más inteligentes y mayor detalle en reportes de error.
+*   **🧹 Limpieza Automática:** El sistema elimina datos antiguos para mantener la app ligera.
+*   **🖨️ Corrección en Impresión:** Solución definitiva a cierres al imprimir desde historial.
 
 ---
 
@@ -25,7 +24,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-282-build-2025120114241).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-282-build-2025120211362).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +36,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.2 (Build 2025120114241) (1 de diciembre de 2025)
+*   **Novedades:**
+    *   **Descarga de Catálogos Acelerada:** Descargas simultáneas y pantalla siempre activa durante la actualización.
+*   **Correcciones:**
+    *   **Corrección en Impresión de Etiquetas:** Solución a cierres inesperados al reimprimir desde el historial.
+    *   **Estabilidad y Diagnóstico:** Registros internos más inteligentes y mayor detalle en reportes de error.
 
 ### Versión 2.8.1 (Build 2025112713071) (27 de noviembre de 2025)
 *   **Novedades:**
