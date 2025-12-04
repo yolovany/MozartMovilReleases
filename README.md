@@ -6,17 +6,17 @@
 
 ---
 
-## 📥 Última Versión: 2.8.2 (Build 2025120211362)
+## 📥 Última Versión: 2.8.3 (Build 2025120409351)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 2 de diciembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.2.25120211362/MozartMovil.Ver.2.8.2.Build.2025120211362.apk)
+*   **Fecha de lanzamiento:** 4 de diciembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.3**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.3.25120409351/MozartMovil.Ver.2.8.3.Build.2025120409351.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.2
+### ✨ Novedades Principales en la Versión 2.8.3
 
-*   **🧹 Limpieza Automática:** El sistema elimina datos antiguos para mantener la app ligera.
-*   **🖨️ Corrección en Impresión:** Solución definitiva a cierres al imprimir desde historial.
+*   **👥 Trabajo en Equipo (Reloj Checador):** Hemos mejorado la visibilidad de los empleados cuando se usan varios dispositivos en la misma zona. Sin conflictos.
+*   **📲 Pantalla Principal (Modo Online):** Si usas la aplicación conectado a internet, notarás que el menú es más sencillo. Solo lo útil.
 
 ---
 
@@ -36,6 +36,12 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.2 (Build 2025120211362) (2 de diciembre de 2025)
+*   **Novedades:**
+    *   **🧹 Limpieza Automática:** El sistema elimina datos antiguos para mantener la app ligera.
+*   **Correcciones:**
+    *   **🖨️ Corrección en Impresión:** Solución definitiva a cierres al imprimir desde historial.
 
 ### Versión 2.8.2 (Build 2025120114241) (1 de diciembre de 2025)
 *   **Novedades:**
