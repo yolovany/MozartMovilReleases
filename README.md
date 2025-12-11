@@ -6,18 +6,18 @@
 
 ---
 
-## 📥 Última Versión: 2.8.3 (Build 2025121012472)
+## 📥 Última Versión: 2.8.4 (Build 2025121101051)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 10 de diciembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.3**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.3.25121012472/MozartMovil.Ver.2.8.3.Build.2025121012472.apk)
+*   **Fecha de lanzamiento:** 11 de diciembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.4**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.4.25121101051/MozartMovil.Ver.2.8.4.Build.2025121101051.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.3
+### ✨ Novedades Principales en la Versión 2.8.4
 
-*   **🔄 Flexibilidad en Ubicaciones:** Gestión de ubicaciones repetidas en almacenes "EN TRANSICIÓN".
-*   **📦 Control de Inventario (Validación):** Candado de seguridad y validación de referencias en tiempo real.
-*   **🔍 Consulta al Toque:** Acceso rápido a detalles de productos desde el inventario.
+*   **🔄 Escaneo Flexible de QR:** Opción para permitir códigos repetidos temporalmente en inventarios y traspasos.
+*   **🛡️ Seguridad Automática:** Desactivación automática de "permitir repetidos" al finalizar la tarea.
+*   **🛠️ Estabilidad en Traspasos:** Solución a cierres al confirmar traspasos masivos.
 
 ---
 
@@ -25,7 +25,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-283-build-2025121012472).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-284-build-2025121101051).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +37,12 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.3 (Build 2025121012472) (10 de diciembre de 2025)
+*   **Novedades:**
+    *   **🔄 Flexibilidad en Ubicaciones:** Gestión de ubicaciones repetidas en almacenes "EN TRANSICIÓN".
+    *   **📦 Control de Inventario (Validación):** Candado de seguridad y validación de referencias en tiempo real.
+    *   **🔍 Consulta al Toque:** Acceso rápido a detalles de productos desde el inventario.
 
 ### Versión 2.8.3 (Build 2025120409351) (4 de diciembre de 2025)
 *   **Novedades:**
