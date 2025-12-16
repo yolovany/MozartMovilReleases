@@ -6,18 +6,18 @@
 
 ---
 
-## 📥 Última Versión: 2.8.4 (Build 2025121101051)
+## 📥 Última Versión: 2.8.5 (Build 2025121614281)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 11 de diciembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.4**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.4.25121101051/MozartMovil.Ver.2.8.4.Build.2025121101051.apk)
+*   **Fecha de lanzamiento:** 16 de diciembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.5**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.5.25121614281/MozartMovil.Ver.2.8.5.Build.2025121614281.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.4
+### ✨ Novedades Principales en la Versión 2.8.5
 
-*   **🔄 Escaneo Flexible de QR:** Opción para permitir códigos repetidos temporalmente en inventarios y traspasos.
-*   **🛡️ Seguridad Automática:** Desactivación automática de "permitir repetidos" al finalizar la tarea.
-*   **🛠️ Estabilidad en Traspasos:** Solución a cierres al confirmar traspasos masivos.
+*   **🏷️ Generador de Etiquetas QR:** Nuevo módulo para crear etiquetas, búsqueda inteligente de referencias, integración con inventario.
+*   **🛡️ Seguridad y Control:** Bloqueo de duplicados en inventarios y traspasos, validación de horario en reloj.
+*   **🖨️ Mejoras en Impresión:** Etiquetas más limpias (referencias largas), códigos QR simplificados en traspasos de misma ubicación.
 
 ---
 
@@ -25,7 +25,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-284-build-2025121101051).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-285-build-2025121614281).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +37,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.4 (Build 2025121101051) (11 de diciembre de 2025)
+*   **Novedades:**
+    *   **🔄 Escaneo Flexible de QR:** Opción para permitir códigos repetidos temporalmente en inventarios y traspasos.
+    *   **🛡️ Seguridad Automática:** Desactivación automática de "permitir repetidos" al finalizar la tarea.
+*   **Correcciones:**
+    *   **🛠️ Estabilidad en Traspasos:** Solución a cierres al confirmar traspasos masivos.
 
 ### Versión 2.8.3 (Build 2025121012472) (10 de diciembre de 2025)
 *   **Novedades:**
