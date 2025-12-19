@@ -6,7 +6,7 @@
 
 ---
 
-## 📥 Última Versión: 2.8.5 (Build 2025121915272)
+## 📥 Última Versión: 2.8.5 Build 2025121915272
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
@@ -37,44 +37,44 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
 ## 📜 Historial de Cambios Recientes
 
-### Versión 2.8.5 (Build 2025121614281) (16 de diciembre de 2025)
+### Versión 2.8.5 Build 2025121614281 (16 de diciembre de 2025)
 *   **Novedades:**
     *   **🏷️ Generador de Etiquetas QR:** Nuevo módulo para crear etiquetas, búsqueda inteligente de referencias, integración con inventario.
     *   **🛡️ Seguridad y Control:** Bloqueo de duplicados en inventarios y traspasos, validación de horario en reloj.
     *   **🖨️ Mejoras en Impresión:** Etiquetas más limpias (referencias largas), códigos QR simplificados en traspasos de misma ubicación.
 
-### Versión 2.8.4 (Build 2025121101051) (11 de diciembre de 2025)
+### Versión 2.8.4 Build 2025121101051 (11 de diciembre de 2025)
 *   **Novedades:**
     *   **🔄 Escaneo Flexible de QR:** Opción para permitir códigos repetidos temporalmente en inventarios y traspasos.
     *   **🛡️ Seguridad Automática:** Desactivación automática de "permitir repetidos" al finalizar la tarea.
 *   **Correcciones:**
     *   **🛠️ Estabilidad en Traspasos:** Solución a cierres al confirmar traspasos masivos.
 
-### Versión 2.8.3 (Build 2025121012472) (10 de diciembre de 2025)
+### Versión 2.8.3 Build 2025121012472 (10 de diciembre de 2025)
 *   **Novedades:**
     *   **🔄 Flexibilidad en Ubicaciones:** Gestión de ubicaciones repetidas en almacenes "EN TRANSICIÓN".
     *   **📦 Control de Inventario (Validación):** Candado de seguridad y validación de referencias en tiempo real.
     *   **🔍 Consulta al Toque:** Acceso rápido a detalles de productos desde el inventario.
 
-### Versión 2.8.3 (Build 2025120409351) (4 de diciembre de 2025)
+### Versión 2.8.3 Build 2025120409351 (4 de diciembre de 2025)
 *   **Novedades:**
     *   **👥 Trabajo en Equipo (Reloj Checador):** Mejor visibilidad de empleados en múltiples dispositivos.
     *   **📲 Pantalla Principal (Modo Online):** Menú simplificado al estar conectado.
 
-### Versión 2.8.2 (Build 2025120211362) (2 de diciembre de 2025)
+### Versión 2.8.2 Build 2025120211362 (2 de diciembre de 2025)
 *   **Novedades:**
     *   **🧹 Limpieza Automática:** El sistema elimina datos antiguos para mantener la app ligera.
 *   **Correcciones:**
     *   **🖨️ Corrección en Impresión:** Solución definitiva a cierres al imprimir desde historial.
 
-### Versión 2.8.2 (Build 2025120114241) (1 de diciembre de 2025)
+### Versión 2.8.2 Build 2025120114241 (1 de diciembre de 2025)
 *   **Novedades:**
     *   **Descarga de Catálogos Acelerada:** Descargas simultáneas y pantalla siempre activa durante la actualización.
 *   **Correcciones:**
     *   **Corrección en Impresión de Etiquetas:** Solución a cierres inesperados al reimprimir desde el historial.
     *   **Estabilidad y Diagnóstico:** Registros internos más inteligentes y mayor detalle en reportes de error.
 
-### Versión 2.8.1 (Build 2025112713071) (27 de noviembre de 2025)
+### Versión 2.8.1 Build 2025112713071 (27 de noviembre de 2025)
 *   **Novedades:**
     *   **Descarga de catálogos más rápida:** Proceso ágil y menor consumo de datos.
     *   **QRs más confiables en traspasos:** Inclusión de índice interno para unicidad.
@@ -85,7 +85,7 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **Mejor impresión:** Referencias más limpias y simplificación de lógica.
     *   **Correcciones y ajustes generales:** Solución a problemas de diálogos y selección de almacenes.
 
-### Versión 2.8.0 (Build 2025112410512) (24 de noviembre de 2025)
+### Versión 2.8.0 Build 2025112410512 (24 de noviembre de 2025)
 *   **Novedades:**
     *   **Nuevo Portal de Manuales:** Acceso más rápido y mejor compatibilidad con Notion.
     *   **Navegación Web mejorada:** Funcionalidad pull-to-refresh y botón de cierre.
@@ -98,7 +98,7 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **Limpieza interna:** Código simplificado y mayor estabilidad.
     *   Correcciones generales en visor web.
 
-### Versión 2.8.0 (Build 2025112114201) (21 de noviembre de 2025)
+### Versión 2.8.0 Build 2025112114201 (21 de noviembre de 2025)
 *   **Novedades:**
     *   **Cálculo de Caducidades:** Ajuste en el cálculo basado en meses configurados por artículo o cliente.
 *   **Mejoras:**
