@@ -6,18 +6,17 @@
 
 ---
 
-## 📥 Última Versión: 2.8.5 (Build 2025121614281)
+## 📥 Última Versión: 2.8.5 (Build 2025121915272)
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 16 de diciembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.5**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.5.25121614281/MozartMovil.Ver.2.8.5.Build.2025121614281.apk)
+*   **Fecha de lanzamiento:** 19 de diciembre de 2025
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.5**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.5.25121915272/MozartMovil.Ver.2.8.5.Build.2025121915272.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.5
+### ✨ Novedades Principales en la Versión 2.8.5 (2da. Revisión)
 
-*   **🏷️ Generador de Etiquetas QR:** Nuevo módulo para crear etiquetas, búsqueda inteligente de referencias, integración con inventario.
-*   **🛡️ Seguridad y Control:** Bloqueo de duplicados en inventarios y traspasos, validación de horario en reloj.
-*   **🖨️ Mejoras en Impresión:** Etiquetas más limpias (referencias largas), códigos QR simplificados en traspasos de misma ubicación.
+*   **🏷️ Etiquetas más limpias:** Corrección en el formato al imprimir referencias largas.
+*   **🛡️ Ajuste visual:** Ahora se muestra el código de referencia completo impreso en tus productos.
 
 ---
 
@@ -25,7 +24,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-285-build-2025121614281).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-285-build-2025121915272).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +36,12 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.5 (Build 2025121614281) (16 de diciembre de 2025)
+*   **Novedades:**
+    *   **🏷️ Generador de Etiquetas QR:** Nuevo módulo para crear etiquetas, búsqueda inteligente de referencias, integración con inventario.
+    *   **🛡️ Seguridad y Control:** Bloqueo de duplicados en inventarios y traspasos, validación de horario en reloj.
+    *   **🖨️ Mejoras en Impresión:** Etiquetas más limpias (referencias largas), códigos QR simplificados en traspasos de misma ubicación.
 
 ### Versión 2.8.4 (Build 2025121101051) (11 de diciembre de 2025)
 *   **Novedades:**
