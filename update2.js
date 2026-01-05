@@ -57,15 +57,16 @@
 			},
 			{
 				"CommonName":"RANCHO EDGARMUNGUIA",
-				"VersionCode":246,
-				"VersionName":"2.4.6",
-				"BuildVersion":2023121511052,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.4.6.2311290155/MozartMovil.Ver.2.4.6.Build.2023121511052.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.4.6.2311290155",
-				"Size":51559721,
+				"VersionCode":285,
+				"VersionName":"2.8.5",
+				"BuildVersion":2025121915272,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.5.25121915272/MozartMovil.Ver.2.8.5.Build.2025121915272.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.8.5.25121915272",
+				"Size":26029085,
 				"EnableSimultaneousScanLock":false,
 				"Companies":["EDGARMUNGUIA"],
-				"MasterKey":"Mozart2010"
+				"MasterKey":"Mozart2010",
+				"Required":false
 			},
 			{
 				"CommonName":"AGRÍCOLA NKR",
