@@ -6,17 +6,17 @@
 
 ---
 
-## 📥 Última Versión: 2.8.5 Build 2025121915272
+## 📥 Última Versión: 2.8.6 Build 2026010613091
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 19 de diciembre de 2025
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.5**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.5.25121915272/MozartMovil.Ver.2.8.5.Build.2025121915272.apk)
+*   **Fecha de lanzamiento:** 06 de enero, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.6**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.6.26010613091/MozartMovil.Ver.2.8.6.Build.2026010613091.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.5 (2da. Revisión)
+### ✨ Novedades Principales en la Versión 2.8.6
 
-*   **🏷️ Etiquetas más limpias:** Corrección en el formato al imprimir referencias largas.
-*   **🛡️ Ajuste visual:** Ahora se muestra el código de referencia completo impreso en tus productos.
+*   **🛡️ Protección de Órdenes Activas**: Antes de registrar Entradas o Traspasos, la aplicación ahora verifica automáticamente que la Orden de Producción siga disponible. Si la orden ya no existe o está cerrada, el sistema bloqueará el movimiento para evitar guardar datos erróneos.
+*   **🦓 Corrección en Escáneres Zebra**: Solucionamos la lectura del código de supervisor al intentar borrar destajos. El teclado Zebra ahora procesa el código de autorización correctamente al primer intento.
 
 ---
 
@@ -24,7 +24,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-285-build-2025121915272).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-286-build-2026010613091).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -36,6 +36,11 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.5 Build 2025121915272 (19 de diciembre, 2025)
+*   **Novedades:**
+    *   **🏷️ Etiquetas más limpias:** Corrección en el formato al imprimir referencias largas.
+    *   **🛡️ Ajuste visual:** Ahora se muestra el código de referencia completo impreso en tus productos.
 
 ### Versión 2.8.5 Build 2025121614281 (16 de diciembre de 2025)
 *   **Novedades:**
