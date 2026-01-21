@@ -6,17 +6,18 @@
 
 ---
 
-## 📥 Última Versión: 2.8.6 Build 2026010613091
+## 📥 Última Versión: 2.8.6 Build 2026012102482
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 06 de enero, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.6**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.6.26010613091/MozartMovil.Ver.2.8.6.Build.2026010613091.apk)
+*   **Fecha de lanzamiento:** 21 de enero, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.6**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.6.26012102482/MozartMovil.Ver.2.8.6.Build.2026012102482.apk)
 
 ### ✨ Novedades Principales en la Versión 2.8.6
 
-*   **🛡️ Protección de Órdenes Activas**: Antes de registrar Entradas o Traspasos, la aplicación ahora verifica automáticamente que la Orden de Producción siga disponible. Si la orden ya no existe o está cerrada, el sistema bloqueará el movimiento para evitar guardar datos erróneos.
-*   **🦓 Corrección en Escáneres Zebra**: Solucionamos la lectura del código de supervisor al intentar borrar destajos. El teclado Zebra ahora procesa el código de autorización correctamente al primer intento.
+*   **🚛 Optimización en Traspasos (Patios y Transición):** Selección automática de ubicación para almacenes de transición y autocorrección de ubicación siguiente en caso de conflicto.
+*   **🗑️ Corrección al Eliminar Traspasos Completos:** Solución a error interno al intentar borrar un traspaso completo, asegurando que la operación se cancele limpiamente.
+*   **🔧 Mejoras de Estabilidad:** Ajustes en la generación de etiquetas QR y blindaje contra cierres inesperados en carga de datos.
 
 ---
 
@@ -36,6 +37,11 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.6 Build 2026010613091 (06 de enero, 2026)
+*   **Novedades:**
+    *   **🛡️ Protección de Órdenes Activas**: Antes de registrar Entradas o Traspasos, la aplicación ahora verifica automáticamente que la Orden de Producción siga disponible.
+    *   **🦓 Corrección en Escáneres Zebra**: Solucionamos la lectura del código de supervisor al intentar borrar destajos.
 
 ### Versión 2.8.5 Build 2025121915272 (19 de diciembre, 2025)
 *   **Novedades:**
