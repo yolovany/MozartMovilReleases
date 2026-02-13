@@ -23,6 +23,7 @@
  		    // - DisableEmailNotifications: booleano para activar o inactivar envío de notificaciones por correo desde MozartMovil.
  		    // - PayConditions: Esta clase la utiliza especificarle a MozartWebServices el número de movimientos para considerar un dispositivo como parte de la factura del mes.
  		    // - SerialDeviceFormats: Se utiliza para la validación de números seriales de dispositivos en MozartMovil.
+	        // - NewMarchLabelFormatSCProduce: Parametro especial para SC_PRODUCE para usar nuevo formato de etiquetas de producto terminado vigente en Marzo.
 
 
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -258,6 +259,7 @@
 				"Size":26033181,
 				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
 				"MasterKey":"Mozart2010",
+				"NewMarchLabelFormatSCProduce":false,
 				"Required":false
 			},
 			{
@@ -403,6 +405,7 @@
 				]
 			}
 ]
+
 
 
 
