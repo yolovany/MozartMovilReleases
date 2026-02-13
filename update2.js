@@ -259,7 +259,7 @@
 				"Size":26033181,
 				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
 				"MasterKey":"Mozart2010",
-				"NewMarchLabelFormatSCProduce":false,
+				"NewMarchLabelFormatSCProduce":true,
 				"Required":false
 			},
 			{
@@ -405,6 +405,7 @@
 				]
 			}
 ]
+
 
 
 
