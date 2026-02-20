@@ -319,7 +319,7 @@
 						"FormatsDescription":"debe ser un número de 7 dígitos"
 					},
 					{
-						"Devices":["TC15","TC21","TC26"],
+						"Devices":["TC15","TC21","TC22","TC26"],
 						"Manufacturer":"Zebra Technologies",
 						"Formats":["[0-9]{14}"],
 						"FormatsDescription":"debe ser un número de 14 dígitos"
@@ -405,6 +405,7 @@
 				]
 			}
 ]
+
 
 
 
