@@ -236,7 +236,7 @@
 				"EnableSimultaneousScanLock":false,
 				"Companies":["VEGEX","SHANI"],
 				"MasterKey":"Mozart2010",
-				"Required":false
+				"Required":true
 			},
 			{
 				"CommonName":"AGRÍCOLA FRUVAS",
@@ -405,6 +405,7 @@
 				]
 			}
 ]
+
 
 
 
