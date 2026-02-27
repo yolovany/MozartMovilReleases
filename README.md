@@ -6,18 +6,18 @@
 
 ---
 
-## 📥 Última Versión: 2.8.6 Build 2026012102482
+## 📥 Última Versión: 2.8.7 Build 2026022707531
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 21 de enero, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.6**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.6.26012102482/MozartMovil.Ver.2.8.6.Build.2026012102482.apk)
+*   **Fecha de lanzamiento:** 27 de febrero, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.7**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.7.26022707531/MozartMovil.Ver.2.8.7.Build.2026022707531.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.6
+### ✨ Novedades Principales en la Versión 2.8.7
 
-*   **🚛 Optimización en Traspasos (Patios y Transición):** Selección automática de ubicación para almacenes de transición y autocorrección de ubicación siguiente en caso de conflicto.
-*   **🗑️ Corrección al Eliminar Traspasos Completos:** Solución a error interno al intentar borrar un traspaso completo, asegurando que la operación se cancele limpiamente.
-*   **🔧 Mejoras de Estabilidad:** Ajustes en la generación de etiquetas QR y blindaje contra cierres inesperados en carga de datos.
+*   **🏷️ Formato de Etiqueta en Inglés por Cliente:** El formato de fechas (Mfg Date / Best By) se define ahora por cliente, eliminando la configuración global.
+*   **🔄 Eliminación de Configuración Global:** Se elimina la opción general antigua para mayor claridad y orden.
+*   **🖨️ Impacto en Impresión:** La impresión por Bluetooth y ZPL respeta la configuración individual del cliente.
 
 ---
 
@@ -25,7 +25,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-286-build-2026010613091).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-287-build-2026022707531).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +37,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.6 Build 2026012102482 (21 de enero, 2026)
+*   **Novedades:**
+    *   **🚛 Optimización en Traspasos (Patios y Transición):** Selección automática de ubicación para almacenes de transición y autocorrección de ubicación siguiente en caso de conflicto.
+*   **Correcciones:**
+    *   **🗑️ Corrección al Eliminar Traspasos Completos:** Solución a error interno al intentar borrar un traspaso completo, asegurando que la operación se cancele limpiamente.
+    *   **🔧 Mejoras de Estabilidad:** Ajustes en la generación de etiquetas QR y blindaje contra cierres inesperados en carga de datos.
 
 ### Versión 2.8.6 Build 2026010613091 (06 de enero, 2026)
 *   **Novedades:**
