@@ -6,18 +6,20 @@
 
 ---
 
-## 📥 Última Versión: 2.8.7 Build 2026022707531
+## 📥 Última Versión: 2.8.8 Build 2026030413251
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 27 de febrero, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.7**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.7.26022707531/MozartMovil.Ver.2.8.7.Build.2026022707531.apk)
+*   **Fecha de lanzamiento:** 4 de marzo, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.8**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.8.26030413251/MozartMovil.Ver.2.8.8.Build.2026030413251.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.7
+### ✨ Novedades Principales en la Versión 2.8.8
 
-*   **🏷️ Formato de Etiqueta en Inglés por Cliente:** El formato de fechas (Mfg Date / Best By) se define ahora por cliente, eliminando la configuración global.
-*   **🔄 Eliminación de Configuración Global:** Se elimina la opción general antigua para mayor claridad y orden.
-*   **🖨️ Impacto en Impresión:** La impresión por Bluetooth y ZPL respeta la configuración individual del cliente.
+*   **🔄 Mensaje de Carga al Comprobar Conexión en Descarga de Catálogos:** Retroalimentación en vivo, manejo de errores claro y detección inteligente de red.
+*   **🌐 Resiliencia en Redes Inestables:** Mayor tolerancia de espera y efectividad en ruta reduciendo errores por tiempo agotado.
+*   **📱 Corrección de Errores al Reemplazar Dispositivos en la Licencia:** Enfoque en equipos activos y optimización del proceso de migración de movimientos.
+*   **📅 Búsqueda y Reimpresión de Remisiones de Días Atrás:** Libertad en el calendario con un nuevo selector de fecha y acceso inmediato a recibos de cualquier día pasado.
+*   **⚡ Impresiones Fluidas:** Cero interrupciones en la validación por Bluetooth y prevención de cierres con validaciones de seguridad estrictas.
 
 ---
 
@@ -25,7 +27,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-287-build-2026022707531).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-288-build-2026030413251).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +39,12 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.7 Build 2026022707531 (27 de febrero, 2026)
+*   **Novedades:**
+    *   **🏷️ Formato de Etiqueta en Inglés por Cliente:** El formato de fechas (Mfg Date / Best By) se define ahora por cliente, eliminando la configuración global.
+    *   **🔄 Eliminación de Configuración Global:** Se elimina la opción general antigua para mayor claridad y orden.
+    *   **🖨️ Impacto en Impresión:** La impresión por Bluetooth y ZPL respeta la configuración individual del cliente.
 
 ### Versión 2.8.6 Build 2026012102482 (21 de enero, 2026)
 *   **Novedades:**
