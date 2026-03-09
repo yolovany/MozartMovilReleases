@@ -6,20 +6,18 @@
 
 ---
 
-## 📥 Última Versión: 2.8.8 Build 2026030413251
+## 📥 Última Versión: 2.8.9 Build 202603090915
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 4 de marzo, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.8**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.8.26030413251/MozartMovil.Ver.2.8.8.Build.2026030413251.apk)
+*   **Fecha de lanzamiento:** 9 de marzo, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.9**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.9.202603090915/MozartMovil.Ver.2.8.9.Build.202603090915.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.8
+### ✨ Novedades Principales en la Versión 2.8.9
 
-*   **🔄 Mensaje de Carga al Comprobar Conexión en Descarga de Catálogos:** Retroalimentación en vivo, manejo de errores claro y detección inteligente de red.
-*   **🌐 Resiliencia en Redes Inestables:** Mayor tolerancia de espera y efectividad en ruta reduciendo errores por tiempo agotado.
-*   **📱 Corrección de Errores al Reemplazar Dispositivos en la Licencia:** Enfoque en equipos activos y optimización del proceso de migración de movimientos.
-*   **📅 Búsqueda y Reimpresión de Remisiones de Días Atrás:** Libertad en el calendario con un nuevo selector de fecha y acceso inmediato a recibos de cualquier día pasado.
-*   **⚡ Impresiones Fluidas:** Cero interrupciones en la validación por Bluetooth y prevención de cierres con validaciones de seguridad estrictas.
+*   **⏱️ Corrección en Registro de Tiempos:** Solucionado el bloqueo al intentar registrar SALIDA, COMIDA, DESCANSO o CAMBIO DE CC sin una ENTRADA previa.
+*   **✨ Interfaz y Navegación Mejoradas:** Los contadores inician ahora desde "1 de X", más opciones al finalizar el registro en el checador, títulos más amigables y pantalla inicial (Splash) más limpia.
+*   **📧 Soporte y Notificaciones Proactivas:** Reactivación del sistema de alertas automáticas a soporte técnico por errores inusuales o cambios de licencias.
 
 ---
 
@@ -27,7 +25,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-288-build-2026030413251).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-289-build-202603090915).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -39,6 +37,16 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.8 Build 2026030413251 (4 de marzo, 2026)
+*   **Novedades:**
+    *   **📅 Búsqueda y Reimpresión de Remisiones de Días Atrás:** Libertad en el calendario con un nuevo selector de fecha y acceso inmediato a recibos de cualquier día pasado.
+*   **Mejoras:**
+    *   **🔄 Mensaje de Carga al Comprobar Conexión en Descarga de Catálogos:** Retroalimentación en vivo, manejo de errores claro y detección inteligente de red.
+    *   **🌐 Resiliencia en Redes Inestables:** Mayor tolerancia de espera y efectividad en ruta reduciendo errores por tiempo agotado.
+*   **Correcciones:**
+    *   **📱 Corrección de Errores al Reemplazar Dispositivos en la Licencia:** Enfoque en equipos activos y optimización del proceso de migración de movimientos.
+    *   **⚡ Impresiones Fluidas:** Cero interrupciones en la validación por Bluetooth y prevención de cierres con validaciones de seguridad estrictas.
 
 ### Versión 2.8.7 Build 2026022707531 (27 de febrero, 2026)
 *   **Novedades:**
