@@ -6,18 +6,16 @@
 
 ---
 
-## 📥 Última Versión: 2.8.9 Build 202603090915
+## 📥 Última Versión: 2.9.0 Build 202603101447
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 9 de marzo, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.8.9**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.9.202603090915/MozartMovil.Ver.2.8.9.Build.202603090915.apk)
+*   **Fecha de lanzamiento:** 10 de marzo, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.9.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.9.0.2603101447/MozartMovil.Ver.2.9.0.Build.202603101447.apk)
 
-### ✨ Novedades Principales en la Versión 2.8.9
+### ✨ Novedades Principales en la Versión 2.9.0
 
-*   **⏱️ Corrección en Registro de Tiempos:** Solucionado el bloqueo al intentar registrar SALIDA, COMIDA, DESCANSO o CAMBIO DE CC sin una ENTRADA previa.
-*   **✨ Interfaz y Navegación Mejoradas:** Los contadores inician ahora desde "1 de X", más opciones al finalizar el registro en el checador, títulos más amigables y pantalla inicial (Splash) más limpia.
-*   **📧 Soporte y Notificaciones Proactivas:** Reactivación del sistema de alertas automáticas a soporte técnico por errores inusuales o cambios de licencias.
+*   **🏷️ Etiquetas Inteligentes en Inglés:** Las etiquetas y códigos QR de producto terminado ahora aplican automáticamente el formato en inglés cuando el perfil del cliente así lo requiere.
 
 ---
 
@@ -25,7 +23,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-289-build-202603090915).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-290-build-202603101447).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +35,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.8.9 Build 202603090915 (9 de marzo, 2026)
+*   **Mejoras:**
+    *   **✨ Interfaz y Navegación Mejoradas:** Los contadores inician ahora desde "1 de X", más opciones al finalizar el registro en el checador, títulos más amigables y pantalla inicial (Splash) más limpia.
+    *   **📧 Soporte y Notificaciones Proactivas:** Reactivación del sistema de alertas automáticas a soporte técnico por errores inusuales o cambios de licencias.
+*   **Correcciones:**
+    *   **⏱️ Corrección en Registro de Tiempos:** Solucionado el bloqueo al intentar registrar SALIDA, COMIDA, DESCANSO o CAMBIO DE CC sin una ENTRADA previa.
 
 ### Versión 2.8.8 Build 2026030413251 (4 de marzo, 2026)
 *   **Novedades:**
