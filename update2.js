@@ -263,18 +263,6 @@
 				"Required":false
 			},
 			{
-				"CommonName":"DONSABINO",
-				"VersionCode":2113,
-				"VersionName":"2.11.3",
-				"BuildVersion":202604210442,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.3.2604210442/MozartMovil.Ver.2.11.3.Build.202604210442.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.11.3.2604210442",
-				"Size":26054072,
-				"Companies":["DONSABINO"],
-				"MasterKey":"Mozart2010",
-				"Required":false
-			},
-			{
 				"CommonName":"CRISTAPURO",
 				"VersionCode":275,
 				"VersionName":"2.7.5",
