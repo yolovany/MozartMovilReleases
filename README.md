@@ -6,16 +6,17 @@
 
 ---
 
-## 📥 Última Versión: 2.9.0 Build 202603101447
+## 📥 Última Versión: 2.11.3 Build 202604210442
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 10 de marzo, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.9.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.9.0.2603101447/MozartMovil.Ver.2.9.0.Build.202603101447.apk)
+*   **Fecha de lanzamiento:** 21 de abril, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.11.3**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.3.2604210442/MozartMovil.Ver.2.11.3.Build.202604210442.apk)
 
-### ✨ Novedades Principales en la Versión 2.9.0
+### ✨ Novedades Principales en la Versión 2.11.3
 
-*   **🏷️ Etiquetas Inteligentes en Inglés:** Las etiquetas y códigos QR de producto terminado ahora aplican automáticamente el formato en inglés cuando el perfil del cliente así lo requiere.
+*   **⚡ Escaneo Sin Interrupciones (Cero Pausas):** Se eliminó el límite de velocidad entre escaneos, permitiendo capturas de destajos tan rápidas como el dispositivo lo permita.
+*   **🛠️ Mensajes Claros y Rastro de Errores:** Mensajes de error descriptivos y un historial silencioso que guarda un rastro detallado para que soporte técnico pueda dar soluciones instantáneas.
 
 ---
 
@@ -23,7 +24,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-290-build-202603101447).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2113-build-202604210442).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -35,6 +36,10 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.9.0 Build 202603101447 (10 de marzo, 2026)
+*   **Novedades:**
+    *   **🏷️ Etiquetas Inteligentes en Inglés:** Las etiquetas y códigos QR de producto terminado ahora aplican automáticamente el formato en inglés cuando el perfil del cliente así lo requiere.
 
 ### Versión 2.8.9 Build 202603090915 (9 de marzo, 2026)
 *   **Mejoras:**
