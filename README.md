@@ -6,17 +6,20 @@
 
 ---
 
-## 📥 Última Versión: 2.11.3 Build 202604210442
+## 📥 Última Versión: 2.11.4 Build 202604240352
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 21 de abril, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.11.3**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.3.2604210442/MozartMovil.Ver.2.11.3.Build.202604210442.apk)
+*   **Fecha de lanzamiento:** 24 de abril, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.11.4**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.4.2604240352/MozartMovil.Ver.2.11.4.Build.202604240352.apk)
 
-### ✨ Novedades Principales en la Versión 2.11.3
+### ✨ Novedades Principales en la Versión 2.11.4
 
-*   **⚡ Escaneo Sin Interrupciones (Cero Pausas):** Se eliminó el límite de velocidad entre escaneos, permitiendo capturas de destajos tan rápidas como el dispositivo lo permita.
-*   **🛠️ Mensajes Claros y Rastro de Errores:** Mensajes de error descriptivos y un historial silencioso que guarda un rastro detallado para que soporte técnico pueda dar soluciones instantáneas.
+*   **🛡️ Mayor Estabilidad en el Registro de Destajos:** Validación reforzada para evitar errores y duplicados, especialmente en zonas con conectividad intermitente.
+*   **🏷️ Etiquetas QR para Artículos de Patio:** Generación e impresión de códigos QR para artículos del grupo "patio" de forma manual.
+*   **�️ Reimpresión de Remisiones desde el Servidor:** Acceso a remisiones históricas directamente desde el servidor si no están en el dispositivo.
+*   **📋 Escaneo QR/NFC Opcional en Visitas:** Configuración por vendedor para hacer opcional el escaneo al iniciar una visita a cliente.
+*   **🚗 Mayor Control en el Kilometraje:** Validación automática de valores de kilómetros para evitar errores de captura.
 
 ---
 
@@ -24,7 +27,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2113-build-202604210442).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2114-build-202604240352).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -36,6 +39,11 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.11.3 Build 202604210442 (21 de abril, 2026)
+*   **Novedades:**
+    *   **⚡ Escaneo Sin Interrupciones (Cero Pausas):** Se eliminó el límite de velocidad entre escaneos, permitiendo capturas de destajos tan rápidas como el dispositivo lo permita.
+    *   **🛠️ Mensajes Claros y Rastro de Errores:** Mensajes de error descriptivos y un historial silencioso que guarda un rastro detallado para que soporte técnico pueda dar soluciones instantáneas.
 
 ### Versión 2.9.0 Build 202603101447 (10 de marzo, 2026)
 *   **Novedades:**

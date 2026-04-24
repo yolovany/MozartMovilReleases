@@ -264,12 +264,12 @@
 			},
 			{
 				"CommonName":"DONSABINO",
-				"VersionCode":2113,
-				"VersionName":"2.11.3",
-				"BuildVersion":202604210442,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.3.2604210442/MozartMovil.Ver.2.11.3.Build.202604210442.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.11.3.2604210442",
-				"Size":26054072,
+				"VersionCode":2114,
+				"VersionName":"2.11.4",
+				"BuildVersion":202604240352,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.4.2604240352/MozartMovil.Ver.2.11.4.Build.202604240352.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.11.4.2604240352",
+				"Size":26058168,
 				"Companies":["DONSABINO"],
 				"MasterKey":"Mozart2010",
 				"Required":false
