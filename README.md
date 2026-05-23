@@ -6,16 +6,19 @@
 
 ---
 
-## 📥 Última Versión: 2.11.6 Build 202605181255
+## 📥 Última Versión: 2.11.7 Build 202605230113
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 18 de mayo, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.11.6**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.6.2605181255/MozartMovil.Ver.2.11.6.Build.202605181255.apk)
+*   **Fecha de lanzamiento:** 23 de mayo, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.11.7**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.7.2605230113/MozartMovil.Ver.2.11.7.Build.202605230113.apk)
 
-### ✨ Novedades Principales en la Versión 2.11.6
+### ✨ Novedades Principales en la Versión 2.11.7
 
-*   **🧾 Registro del Ayudante del Vendedor en Cortes de Venta:** Se incluye ahora el ayudante del vendedor en el registro de cortes de venta para módulos de visita a cliente.
+*   **🔍 Búsqueda Inteligente de Empleados por Folio:** Mejoramos la búsqueda de empleados al escanear por folio en destajos. El sistema verifica si el grupo del empleado requiere clave adicional, cruzando información entre el folio escaneado y los datos del empleado para asegurar que solo el personal autorizado registre destajos.
+*   **🧊 Nuevo Módulo: Entradas a Cuarto Frío:** Nuevo sistema para gestionar entradas de productos al cuarto frío, con pantalla de inicio para capturar la información inicial y pantalla de confirmación para revisar y validar los datos antes de guardarlos. Incluye validaciones en cada paso para evitar errores en el inventario de productos refrigerados.
+*   **🌐 Actualización de Conexiones con Servidores:** Renovamos las referencias de comunicación con los servicios de Usuarios y Datos de Empresa, garantizando mayor eficiencia y estabilidad de conexión con los servidores de MozartWeb.
+*   **🚪 Control de Acceso al Módulo de Cuarto Frío:** Solo los usuarios con permisos adecuados podrán acceder al nuevo módulo de entradas a cuarto frío. El administrador configura desde el sistema central qué usuarios tienen habilitado este módulo especializado.
 
 ---
 
@@ -23,7 +26,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2116-build-202605181255).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2117-build-202605230113).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -35,6 +38,10 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.11.6 Build 202605181255 (18 de mayo, 2026)
+*   **Novedades:**
+    *   **🧾 Registro del Ayudante del Vendedor en Cortes de Venta:** Se incluye ahora el ayudante del vendedor en el registro de cortes de venta para módulos de visita a cliente.
 
 ### Versión 2.11.5 Build 202605051249 (5 de mayo, 2026)
 *   **Novedades:**
