@@ -6,20 +6,17 @@
 
 ---
 
-## 📥 Última Versión: 2.11.4 Build 202604240352
+## 📥 Última Versión: 2.11.5 Build 202605051249
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 24 de abril, 2026
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.11.4**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.4.2604240352/MozartMovil.Ver.2.11.4.Build.202604291459.apk)
+*   **Fecha de lanzamiento:** 5 de mayo, 2026
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.11.5**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.11.5.2605051249/MozartMovil.Ver.2.11.5.Build.202605051249.apk)
 
-### ✨ Novedades Principales en la Versión 2.11.4
+### ✨ Novedades Principales en la Versión 2.11.5
 
-*   **🛡️ Mayor Estabilidad en el Registro de Destajos:** Validación reforzada para evitar errores y duplicados, especialmente en zonas con conectividad intermitente.
-*   **🏷️ Etiquetas QR para Artículos de Patio:** Generación e impresión de códigos QR para artículos del grupo "patio" de forma manual.
-*   **�️ Reimpresión de Remisiones desde el Servidor:** Acceso a remisiones históricas directamente desde el servidor si no están en el dispositivo.
-*   **📋 Escaneo QR/NFC Opcional en Visitas:** Configuración por vendedor para hacer opcional el escaneo al iniciar una visita a cliente.
-*   **🚗 Mayor Control en el Kilometraje:** Validación automática de valores de kilómetros para evitar errores de captura.
+*   **� Inventarios Reales (Sin Negativos):** Ajustamos el cálculo interno de existencias. El sistema ignora automáticamente registros con valores negativos al sumar totales de un artículo o ubicación, mejorando la obtención de ubicaciones disponibles en todos los procesos de control de almacén.
+*   **🏷️ Filtros Precisos para Etiquetas QR:** Corregimos la lógica de visualización en el módulo de Generación de Etiquetas QR, donde los grupos de artículos no siempre se filtraban correctamente. Al generar QRs se enlistan artículos de patio y de producción en proceso.
 
 ---
 
@@ -27,7 +24,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2114-build-202604240352).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2115-build-202605051249).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -39,6 +36,14 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.11.4 Build 202604291459 (29 de abril, 2026)
+*   **Novedades:**
+    *   **🛡️ Mayor Estabilidad en el Registro de Destajos:** Validación reforzada para evitar errores y duplicados, especialmente en zonas con conectividad intermitente.
+    *   **🏷️ Etiquetas QR para Artículos de Patio:** Generación e impresión de códigos QR para artículos del grupo "patio" de forma manual.
+    *   **🖨️ Reimpresión de Remisiones desde el Servidor:** Acceso a remisiones históricas directamente desde el servidor si no están en el dispositivo.
+    *   **📋 Escaneo QR/NFC Opcional en Visitas:** Configuración por vendedor para hacer opcional el escaneo al iniciar una visita a cliente.
+    *   **🚗 Mayor Control en el Kilometraje:** Validación automática de valores de kilómetros para evitar errores de captura.
 
 ### Versión 2.11.3 Build 202604210442 (21 de abril, 2026)
 *   **Novedades:**
