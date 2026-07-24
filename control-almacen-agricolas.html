@@ -322,25 +322,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     const doc = new DOMParser().parseFromString(template, 'text/html');
     document.documentElement.replaceWith(doc.documentElement);
 
-    // Fullscreen toggle button, appended once the real document is in place.
-    (function() {
-      var btn = document.createElement('button');
-      btn.id = '__fs_btn__';
-      btn.title = 'Pantalla completa';
-      btn.setAttribute('aria-label', 'Pantalla completa');
-      btn.textContent = '⛶';
-      btn.style.cssText = 'position:fixed;bottom:16px;right:16px;z-index:2147483647;width:44px;height:44px;border-radius:50%;border:none;background:rgba(9,20,89,0.85);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.3);font-size:18px;';
-      btn.addEventListener('click', function() {
-        var el = document.documentElement;
-        if (!document.fullscreenElement && !document.webkitFullscreenElement) {
-          (el.requestFullscreen || el.webkitRequestFullscreen || function() {}).call(el);
-        } else {
-          (document.exitFullscreen || document.webkitExitFullscreen || function() {}).call(document);
-        }
-      });
-      document.body.appendChild(btn);
-    })();
-
     // Resolve page-frame markers: mint this document's own blob for each
     // framed page — from local text when this is the root, otherwise by
     // asking the direct parent over the relay protocol above. An
@@ -389,6 +370,31 @@ document.addEventListener('DOMContentLoaded', async function() {
     if (window.Babel && typeof window.Babel.transformScriptTags === 'function') {
       window.Babel.transformScriptTags();
     }
+
+    // Fullscreen toggle button. Added last (and re-added if the app wipes
+    // body during a later render pass) so it survives app mount/hydration.
+    function addFullscreenButton() {
+      if (document.getElementById('__fs_btn__')) return;
+      var btn = document.createElement('button');
+      btn.id = '__fs_btn__';
+      btn.title = 'Pantalla completa';
+      btn.setAttribute('aria-label', 'Pantalla completa');
+      btn.textContent = '⛶';
+      btn.style.cssText = 'position:fixed;bottom:16px;right:16px;z-index:2147483647;width:44px;height:44px;border-radius:50%;border:none;background:rgba(9,20,89,0.85);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.3);font-size:18px;';
+      btn.addEventListener('click', function() {
+        var el = document.documentElement;
+        if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+          (el.requestFullscreen || el.webkitRequestFullscreen || function() {}).call(el);
+        } else {
+          (document.exitFullscreen || document.webkitExitFullscreen || function() {}).call(document);
+        }
+      });
+      document.body.appendChild(btn);
+    }
+    addFullscreenButton();
+    new MutationObserver(addFullscreenButton).observe(document.body, { childList: true });
+    setTimeout(addFullscreenButton, 500);
+    setTimeout(addFullscreenButton, 1500);
   } catch (err) {
     setStatus('Error unpacking: ' + err.message);
     console.error('Bundle unpack error:', err);
