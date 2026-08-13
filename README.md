@@ -6,19 +6,21 @@
 
 ---
 
-## 📥 Última Versión: 2.13.1 Build 202607150113
+## 📥 Última Versión: 2.14.0 Build 202608121120
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 15 de julio, 2026, 1:13 AM
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.13.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.13.1.2607150113/MozartMovil.Ver.2.13.1.Build.202607150113.apk)
+*   **Fecha de lanzamiento:** 12 de agosto, 2026, 11:20 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 2.14.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.14.0.2608121120/MozartMovil.Ver.2.14.0.Build.202608121120.apk)
 
-### ✨ Novedades Principales en la Versión 2.13.1
+### ✨ Novedades Principales en la Versión 2.14.0
 
-*   **🌸 Producción FLOWERS: Desfase de Fecha en Movimientos:** Ajuste de fecha configurable (-2 a +2 días) exclusivo para FLOWERS, aplicable a entradas y traspasos abiertos desde producción, validado contra el servidor con respaldo local y remoto.
-*   **🔁 Destajos Prorrateados: Repetición Solo por Gafete:** Escanear el gafete permite registrar un destajo prorrateado repetido para el empleado, evitando la restricción de la lista que excluye a quienes ya tienen uno registrado hoy.
-*   **🚫 Reloj Checador: Corrección de Filtro por Puesto:** Cada registro ahora conserva y se filtra por el puesto que tenía al momento de capturarse, en lugar de reasignarse retroactivamente al puesto actual.
-*   **🏷️ Producción: Renombre de Etiqueta de Menú:** "Orden de barricas" ahora se refleja como "orden de producción" en el menú.
+*   **🔧 Mantenimientos: Selección de Equipo por Escaneo:** El técnico escanea el código pegado en el equipo (serie o clave) en lugar de buscarlo en la lista, con confirmación en pantalla del equipo seleccionado y solicitud de permiso de cámara al momento de usarla.
+*   **📋 Mantenimientos: Lista de Equipos Real del Cliente:** La lista se arma desde el catálogo de EQUIPOS, donde el flujo de comodatos de MozartWeb asigna y retira, evitando equipos ya retirados y ausencias de los recién asignados.
+*   **🚪 Reloj Checador: Quitar Empleado de la Lista sin Movimiento:** Manteniendo presionado su renglón se quita de la lista al empleado escaneado por error, con opción de eliminar los tiempos de la jornada en curso, abarcando las dos fechas en jornadas nocturnas.
+*   **✅ Reloj Checador: Selección de Empleados Confiable:** La deselección al registrar un tiempo ocurre una sola vez, en línea y fuera de línea, con reconciliación por último movimiento al abrir el módulo y corrección de respaldos de consulta invertidos.
+*   **↩️ Reloj Checador: Revertir una SALIDA Restaura el Estado Previo:** Los empleados afectados vuelven a quedar seleccionados con su tabla de prorrateo y se restauran las horas de pase de lista de destajos.
+*   **🏷️ Cambio de Orden: Etiquetas QR Nuevas y Bloqueo de Reúso:** Se generan códigos QR ligados a la referencia del traspaso de retorno, se conserva la ubicación original de cada barrica y se rechazan etiquetas ya usadas como origen de un traspaso.
 
 ---
 
@@ -26,7 +28,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2131-build-202607150113).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2140-build-202608121120).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -38,6 +40,14 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.13.1 Build 202607150113 (15 de julio, 2026, 1:13 AM)
+*   **Novedades:**
+    *   **🌸 Producción FLOWERS: Desfase de Fecha en Movimientos:** Ajuste de fecha configurable (-2 a +2 días) exclusivo para FLOWERS, aplicable a entradas y traspasos abiertos desde producción, validado contra el servidor con respaldo local y remoto.
+    *   **🔁 Destajos Prorrateados: Repetición Solo por Gafete:** Escanear el gafete permite registrar un destajo prorrateado repetido para el empleado, evitando la restricción de la lista que excluye a quienes ya tienen uno registrado hoy.
+    *   **🚫 Reloj Checador: Corrección de Filtro por Puesto:** Cada registro ahora conserva y se filtra por el puesto que tenía al momento de capturarse, en lugar de reasignarse retroactivamente al puesto actual.
+    *   **🔓 Acceso a Configuración al Fallar la Validación de Fecha:** Cuando el servidor no responde y la validación de fecha está activa, se ofrece un acceso directo a configuración para desactivarla con la contraseña de autorización.
+    *   **🏷️ Producción: Renombre de Etiqueta de Menú:** "Orden de barricas" ahora se refleja como "orden de producción" en el menú.
 
 ### Versión 2.13.0 Build 202606241953 (24 de junio, 2026, 7:53 PM)
 *   **Novedades:**
