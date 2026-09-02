@@ -6,29 +6,24 @@
 
 ---
 
-## 📥 Última Versión: 3.0.0 Build 202609011240
+## 📥 Última Versión: 3.1.0 Build 202609021354
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 1 de septiembre, 2026, 12:40 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.0.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.0.0.2609011240/MozartMovil.Ver.3.0.0.Build.202609011240.apk)
+*   **Fecha de lanzamiento:** 2 de septiembre, 2026, 1:54 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.1.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.1.0.2609021354/MozartMovil.Ver.3.1.0.Build.202609021354.apk)
 
-### ✨ Novedades Principales en la Versión 3.0.0
+### ✨ Novedades Principales en la Versión 3.1.0
 
-**🏢 Multiempresa** *(aplica sólo a equipos configurados con más de una empresa)*
+**🏷️ Etiquetas de Lote** *(equipos de producto terminado que imprimen sobre rollo preimpreso)*
 
-*   **🧑‍🌾 Destajos: Captura con la Cuadrilla Mezclada:** El operador escanea a toda su gente sin elegir empresa ni cerrar sesión; el prefijo del gafete identifica la empresa del empleado y el destajo se registra ahí, con el precio de su catálogo.
-*   **📋 Pase de Lista y Selección de Empleados:** La lista trae a toda la cuadrilla mezclada y ordenada por apellido, las operaciones masivas alcanzan a todos, y dos empleados de distinta empresa con el mismo número ya se distinguen entre sí.
-*   **⏰ Reloj Checador: Registro Masivo con Cuadrilla Mixta:** Cada movimiento queda en la empresa del empleado con el horario de su jornada; el resumen, las búsquedas, la edición y el deshacer un lote trabajan sobre la cuadrilla completa.
-*   **🖨️ Tickets con la Cuadrilla Completa:** El corte, su reimpresión, el corte general y la tira de acumulados salen con toda la gente, cada quien con su nombre, tarifa y destajos.
-*   **✅ Aviso cuando los Catálogos no Coinciden:** Al terminar la descarga se revisa que los catálogos que alimentan el destajo signifiquen lo mismo en todas las empresas, y se pide corregirlo en Mozart antes de operar.
-*   **🔐 Departamento, Puesto y Nómina de Cada Empresa:** Estos datos salen del propio empleado y no de la configuración de la empresa principal.
+*   **🎯 La Variante se Elige Donde se Imprime:** El selector de variante deja de vivir sólo en Configuración y aparece en el generador de etiquetas y en el diálogo de confirmación al registrar una entrada. Es el mismo ajuste visto desde los tres puntos: elegir en uno se refleja en los otros.
+*   **🆕 Tres Presentaciones del Nuevo Rollo Preimpreso:** Segunda etiqueta preimpresa, con el bloque de lote abajo, vertical, o en las dos posiciones a la vez. Las tres comparten rollo, así que una sola calibración de posición sirve para todas.
 
 **🧩 Otras Mejoras** *(aplican a todos los equipos)*
 
-*   **🏷️ Etiquetas: Lote sobre el Rollo Preimpreso de 4"x6":** La lotificación se imprime sobre el espacio en blanco del rollo en lugar de pegarle encima el vinilo, con calibración de posición independiente por tamaño de etiqueta.
-*   **🔧 Mantenimientos: Nombre Comercial en el Ticket:** El ticket imprime el nombre comercial del cliente, al guardar y al reimprimir.
-*   **🛠️ Correcciones:** Descarga de catálogos sin interrupciones intermitentes, llave de supervisor del reloj funcional de nuevo, bloqueo de operaciones con descarga incompleta y corrección de cierres inesperados al eliminar destajos e imprimir.
+*   **🖨️ Mantenimientos: Ticket en Impresoras SM58XX:** El ticket se armaba siempre para impresoras CPCL y en una SM58XX salían impresos los comandos como texto. Ahora se detecta el modelo y se imprime en texto plano cuando corresponde, al guardar y al reimprimir.
+*   **🛠️ Correcciones:** La variante de lote deja de compartir ajuste con el tamaño de la etiqueta de QR de producto en proceso, que producía una etiqueta en blanco sin ningún aviso; se corrige el centrado del bloque de lote dentro del espacio que le reserva el arte, y la calibración de posición pasa a guardarse por rollo.
 
 ---
 
@@ -36,7 +31,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-300-build-202609011240).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-310-build-202609021354).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -48,6 +43,18 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.0.0 Build 202609011240 (1 de septiembre, 2026, 12:40 PM)
+*   **Novedades:**
+    *   **🧑‍🌾 Destajos: Captura con la Cuadrilla Mezclada:** El operador escanea a toda su gente sin elegir empresa ni cerrar sesión; el prefijo del gafete identifica la empresa del empleado y el destajo se registra ahí, con el precio de su catálogo.
+    *   **📋 Pase de Lista y Selección de Empleados:** La lista trae a toda la cuadrilla mezclada y ordenada por apellido, las operaciones masivas alcanzan a todos, y dos empleados de distinta empresa con el mismo número ya se distinguen entre sí.
+    *   **⏰ Reloj Checador: Registro Masivo con Cuadrilla Mixta:** Cada movimiento queda en la empresa del empleado con el horario de su jornada; el resumen, las búsquedas, la edición y el deshacer un lote trabajan sobre la cuadrilla completa.
+    *   **🖨️ Tickets con la Cuadrilla Completa:** El corte, su reimpresión, el corte general y la tira de acumulados salen con toda la gente, cada quien con su nombre, tarifa y destajos.
+    *   **✅ Aviso cuando los Catálogos no Coinciden:** Al terminar la descarga se revisa que los catálogos que alimentan el destajo signifiquen lo mismo en todas las empresas, y se pide corregirlo en Mozart antes de operar.
+    *   **🔐 Departamento, Puesto y Nómina de Cada Empresa:** Estos datos salen del propio empleado y no de la configuración de la empresa principal.
+    *   **🏷️ Etiquetas: Lote sobre el Rollo Preimpreso de 4"x6":** La lotificación se imprime sobre el espacio en blanco del rollo en lugar de pegarle encima el vinilo, con calibración de posición independiente por tamaño de etiqueta.
+    *   **🔧 Mantenimientos: Nombre Comercial en el Ticket:** El ticket imprime el nombre comercial del cliente, al guardar y al reimprimir.
+    *   **🛠️ Correcciones:** Descarga de catálogos sin interrupciones intermitentes, llave de supervisor del reloj funcional de nuevo, bloqueo de operaciones con descarga incompleta y corrección de cierres inesperados al eliminar destajos e imprimir.
 
 ### Versión 2.14.0 Build 202608121120 (12 de agosto, 2026, 11:20 AM)
 *   **Novedades:**
