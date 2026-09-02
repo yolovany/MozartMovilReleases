@@ -6,21 +6,29 @@
 
 ---
 
-## 📥 Última Versión: 2.14.0 Build 202608121120
+## 📥 Última Versión: 3.0.0 Build 202609011240
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 12 de agosto, 2026, 11:20 AM
-*   **Enlace de descarga:** [**Descargar MozartMovil 2.14.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/2.14.0.2608121120/MozartMovil.Ver.2.14.0.Build.202608121120.apk)
+*   **Fecha de lanzamiento:** 1 de septiembre, 2026, 12:40 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.0.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.0.0.2609011240/MozartMovil.Ver.3.0.0.Build.202609011240.apk)
 
-### ✨ Novedades Principales en la Versión 2.14.0
+### ✨ Novedades Principales en la Versión 3.0.0
 
-*   **🔧 Mantenimientos: Selección de Equipo por Escaneo:** El técnico escanea el código pegado en el equipo (serie o clave) en lugar de buscarlo en la lista, con confirmación en pantalla del equipo seleccionado y solicitud de permiso de cámara al momento de usarla.
-*   **📋 Mantenimientos: Lista de Equipos Real del Cliente:** La lista se arma desde el catálogo de EQUIPOS, donde el flujo de comodatos de MozartWeb asigna y retira, evitando equipos ya retirados y ausencias de los recién asignados.
-*   **🚪 Reloj Checador: Quitar Empleado de la Lista sin Movimiento:** Manteniendo presionado su renglón se quita de la lista al empleado escaneado por error, con opción de eliminar los tiempos de la jornada en curso, abarcando las dos fechas en jornadas nocturnas.
-*   **✅ Reloj Checador: Selección de Empleados Confiable:** La deselección al registrar un tiempo ocurre una sola vez, en línea y fuera de línea, con reconciliación por último movimiento al abrir el módulo y corrección de respaldos de consulta invertidos.
-*   **↩️ Reloj Checador: Revertir una SALIDA Restaura el Estado Previo:** Los empleados afectados vuelven a quedar seleccionados con su tabla de prorrateo y se restauran las horas de pase de lista de destajos.
-*   **🏷️ Cambio de Orden: Etiquetas QR Nuevas y Bloqueo de Reúso:** Se generan códigos QR ligados a la referencia del traspaso de retorno, se conserva la ubicación original de cada barrica y se rechazan etiquetas ya usadas como origen de un traspaso.
+**🏢 Multiempresa** *(aplica sólo a equipos configurados con más de una empresa)*
+
+*   **🧑‍🌾 Destajos: Captura con la Cuadrilla Mezclada:** El operador escanea a toda su gente sin elegir empresa ni cerrar sesión; el prefijo del gafete identifica la empresa del empleado y el destajo se registra ahí, con el precio de su catálogo.
+*   **📋 Pase de Lista y Selección de Empleados:** La lista trae a toda la cuadrilla mezclada y ordenada por apellido, las operaciones masivas alcanzan a todos, y dos empleados de distinta empresa con el mismo número ya se distinguen entre sí.
+*   **⏰ Reloj Checador: Registro Masivo con Cuadrilla Mixta:** Cada movimiento queda en la empresa del empleado con el horario de su jornada; el resumen, las búsquedas, la edición y el deshacer un lote trabajan sobre la cuadrilla completa.
+*   **🖨️ Tickets con la Cuadrilla Completa:** El corte, su reimpresión, el corte general y la tira de acumulados salen con toda la gente, cada quien con su nombre, tarifa y destajos.
+*   **✅ Aviso cuando los Catálogos no Coinciden:** Al terminar la descarga se revisa que los catálogos que alimentan el destajo signifiquen lo mismo en todas las empresas, y se pide corregirlo en Mozart antes de operar.
+*   **🔐 Departamento, Puesto y Nómina de Cada Empresa:** Estos datos salen del propio empleado y no de la configuración de la empresa principal.
+
+**🧩 Otras Mejoras** *(aplican a todos los equipos)*
+
+*   **🏷️ Etiquetas: Lote sobre el Rollo Preimpreso de 4"x6":** La lotificación se imprime sobre el espacio en blanco del rollo en lugar de pegarle encima el vinilo, con calibración de posición independiente por tamaño de etiqueta.
+*   **🔧 Mantenimientos: Nombre Comercial en el Ticket:** El ticket imprime el nombre comercial del cliente, al guardar y al reimprimir.
+*   **🛠️ Correcciones:** Descarga de catálogos sin interrupciones intermitentes, llave de supervisor del reloj funcional de nuevo, bloqueo de operaciones con descarga incompleta y corrección de cierres inesperados al eliminar destajos e imprimir.
 
 ---
 
@@ -28,7 +36,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-2140-build-202608121120).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-300-build-202609011240).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -40,6 +48,15 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 2.14.0 Build 202608121120 (12 de agosto, 2026, 11:20 AM)
+*   **Novedades:**
+    *   **🔧 Mantenimientos: Selección de Equipo por Escaneo:** El técnico escanea el código pegado en el equipo (serie o clave) en lugar de buscarlo en la lista, con confirmación en pantalla del equipo seleccionado y solicitud de permiso de cámara al momento de usarla.
+    *   **📋 Mantenimientos: Lista de Equipos Real del Cliente:** La lista se arma desde el catálogo de EQUIPOS, donde el flujo de comodatos de MozartWeb asigna y retira, evitando equipos ya retirados y ausencias de los recién asignados.
+    *   **🚪 Reloj Checador: Quitar Empleado de la Lista sin Movimiento:** Manteniendo presionado su renglón se quita de la lista al empleado escaneado por error, con opción de eliminar los tiempos de la jornada en curso, abarcando las dos fechas en jornadas nocturnas.
+    *   **✅ Reloj Checador: Selección de Empleados Confiable:** La deselección al registrar un tiempo ocurre una sola vez, en línea y fuera de línea, con reconciliación por último movimiento al abrir el módulo y corrección de respaldos de consulta invertidos.
+    *   **↩️ Reloj Checador: Revertir una SALIDA Restaura el Estado Previo:** Los empleados afectados vuelven a quedar seleccionados con su tabla de prorrateo y se restauran las horas de pase de lista de destajos.
+    *   **🏷️ Cambio de Orden: Etiquetas QR Nuevas y Bloqueo de Reúso:** Se generan códigos QR ligados a la referencia del traspaso de retorno, se conserva la ubicación original de cada barrica y se rechazan etiquetas ya usadas como origen de un traspaso.
 
 ### Versión 2.13.1 Build 202607150113 (15 de julio, 2026, 1:13 AM)
 *   **Novedades:**
