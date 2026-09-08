@@ -6,34 +6,23 @@
 
 ---
 
-## 📥 Última Versión: 3.2.0 Build 202609072114
+## 📥 Última Versión: 3.2.1 Build 202609081254
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 7 de septiembre, 2026, 9:14 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.2.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.2.0.2609072114/MozartMovil.Ver.3.2.0.Build.202609072114.apk)
+*   **Fecha de lanzamiento:** 8 de septiembre, 2026, 12:54 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.2.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.2.1.2609081254/MozartMovil.Ver.3.2.1.Build.202609081254.apk)
 
-### ✨ Novedades Principales en la Versión 3.2.0
+### ✨ Novedades Principales en la Versión 3.2.1
+
+**🚛 Tractocamión** *(equipos de mantenimiento y carga)*
+
+*   **🩹 Los Clientes Vuelven a Abrirse en Mantenimientos:** Al abrir un cliente salía "El usuario no tiene equipos asignados" y la pantalla se cerraba: el paquete comprimido de catálogos armaba la tabla de clientes sin equipos ni rutas. Ahora el equipo manda su lista de campos y revisa el paquete antes de tirar los catálogos que ya tiene; si llega recortado lo descarta y baja tabla por tabla.
+*   **📥 Doce Catálogos que no Estaban Bajando:** El camino de respaldo se guiaba por la posición de cada tabla en la lista y, al acotarla a las del módulo, doce catálogos dejaron de llegar: vendedores, tareas de mantenimiento, rutas, departamentos, proveedores, salidas y traspasos. Ahora cada tabla se identifica por su nombre, y se agregan rutas 2 y tractocamión. La descarga comprimida además espera lo mismo que la de ventas en ruta, para no rendirse en redes lentas.
 
 **🚚 Venta en Ruta** *(equipos que trabajan con agenda y visita a cliente)*
 
-*   **🧾 Reimpresiones: Documentos de Días Pasados:** El módulo ya dejaba elegir la fecha, pero al pedir un documento anterior no imprimía nada. Ahora repone remisiones de venta y recibos de cobranza de cualquier día, marcados como REIMPRESION, y también de clientes que ya no van en la ruta. Una remisión cancelada no se reimprime.
-*   **🚀 Descarga de Catálogos en Dos Segundos:** Entrar a visita a cliente descargaba tabla por tabla y escribía renglón por renglón. Ahora es un solo envío comprimido y una transacción por tabla, con las mismas tablas y los mismos datos de antes.
-*   **⚠️ Cobranza: Aviso de Cobros Previos:** Antes de guardar un cobro se muestran los que esa factura ya tiene registrados, con fecha, importe, forma de pago y quién los cobró. No bloquea: los abonos parciales siguen igual.
-*   **🖨️ Comprobantes más Cuidados:** El pagaré imprime el importe con el mismo formato que el total del ticket y su cantidad con letra sale del mismo número; los datos del cliente se acomodan al ancho del papel; el bloque de saldos dice a qué fecha corresponde; y el cobro de una factura ya liquidada vuelve a imprimirse.
-
-**🧪 Recepción y Trazabilidad** *(equipos que reciben producto en patio)*
-
-*   **📅 La Fecha al Frente de la Referencia de Lote:** La referencia pasa de terminar con la fecha a empezar con ella en formato `aammdd`, seguida de producto, agricultor y rancho, para que el orden alfabético refleje la antigüedad y un lote viejo se identifique de un vistazo. Ningún lote ya emitido se toca: los dos formatos conviven hasta que las barricas existentes salgan de patio, y la geometría de las etiquetas no cambia.
-
-**📡 Impresión por Bluetooth** *(todos los módulos que imprimen)*
-
-*   **🖨️ Una Sola Conexión por Tanda:** La impresión abría y cerraba la conexión entre copias y ahí se perdían tiras a medias. Ahora es una sola conexión, con espera hasta que la impresora reciba todo y reintentos que descartan conexiones muertas. Si una tanda falla a medias, el aviso dice cuántas copias salieron y el reintento continúa desde la que falta. El interruptor de invertir colores de las firmas pasa a Configuración.
-
-**🧩 Otras Mejoras** *(equipos de mantenimiento y tractocamión)*
-
-*   **🔧 Mantenimientos: Estabilidad, Encabezado y Legibilidad:** Se corrigen tres cierres inesperados al cambiar de pestaña, guardar e imprimir; el encabezado del ticket se baja junto con los catálogos y avisa con reintento si falta; el flujo termina y regresa al menú al imprimir bien; y la lista de servicios encabeza con el cliente, fecha, equipo, tareas e importe en lugar del folio repetido.
-*   **🚛 Tractocamión: Bluetooth Automático y Flujo Correcto:** El bluetooth se enciende solo al entrar al módulo y sólo se apaga si fue la aplicación quien lo encendió. Mantenimientos y Descarga ya no terminan pidiendo el origen de la carga al reanudar. La descarga de catálogos se acota a las tablas del módulo y va comprimida.
+*   **🛡️ La Descarga de la Agenda, a Prueba del Mismo Tropiezo:** La agenda se guiaba por la misma posición en la lista que causó el problema en tractocamión. Se revisó tabla por tabla y no faltaba nada; aun así se cambió a identificar cada tabla por su nombre, para que un cambio futuro no vuelva a dejar catálogos afuera sin que nadie se entere. Las 35 tablas se verificaron contra el servidor y llegan completas.
 
 ---
 
@@ -41,7 +30,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-320-build-202609072114).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-321-build-202609081254).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -53,6 +42,17 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.2.0 Build 202609072114 (7 de septiembre, 2026, 9:14 PM)
+*   **Novedades:**
+    *   **🧾 Reimpresiones: Documentos de Días Pasados:** El módulo ya dejaba elegir la fecha, pero al pedir un documento anterior no imprimía nada. Ahora repone remisiones de venta y recibos de cobranza de cualquier día, marcados como REIMPRESION, y también de clientes que ya no van en la ruta. Una remisión cancelada no se reimprime.
+    *   **🚀 Venta en Ruta: Descarga de Catálogos en Dos Segundos:** Entrar a visita a cliente descargaba tabla por tabla y escribía renglón por renglón. Ahora es un solo envío comprimido y una transacción por tabla, con las mismas tablas y los mismos datos de antes.
+    *   **⚠️ Cobranza: Aviso de Cobros Previos:** Antes de guardar un cobro se muestran los que esa factura ya tiene registrados, con fecha, importe, forma de pago y quién los cobró. No bloquea: los abonos parciales siguen igual.
+    *   **🖨️ Comprobantes más Cuidados:** El pagaré imprime el importe con el mismo formato que el total del ticket y su cantidad con letra sale del mismo número; los datos del cliente se acomodan al ancho del papel; el bloque de saldos dice a qué fecha corresponde; y el cobro de una factura ya liquidada vuelve a imprimirse.
+    *   **📅 Recepción: La Fecha al Frente de la Referencia de Lote:** La referencia pasa de terminar con la fecha a empezar con ella en formato `aammdd`, para que el orden alfabético refleje la antigüedad. Ningún lote ya emitido se toca y la geometría de las etiquetas no cambia.
+    *   **📡 Impresión por Bluetooth: Una Sola Conexión por Tanda:** La impresión abría y cerraba la conexión entre copias y ahí se perdían tiras a medias. Ahora es una sola conexión, y si una tanda falla a medias el aviso dice cuántas copias salieron y el reintento continúa desde la que falta.
+    *   **🔧 Mantenimientos: Estabilidad, Encabezado y Legibilidad:** Se corrigen tres cierres inesperados al cambiar de pestaña, guardar e imprimir; el encabezado del ticket se baja junto con los catálogos y avisa con reintento si falta; y la lista de servicios encabeza con el cliente, fecha, equipo, tareas e importe.
+    *   **🚛 Tractocamión: Bluetooth Automático y Flujo Correcto:** El bluetooth se enciende solo al entrar al módulo y sólo se apaga si fue la aplicación quien lo encendió. Mantenimientos y Descarga ya no terminan pidiendo el origen de la carga al reanudar.
 
 ### Versión 3.1.0 Build 202609021354 (2 de septiembre, 2026, 1:54 PM)
 *   **Novedades:**
