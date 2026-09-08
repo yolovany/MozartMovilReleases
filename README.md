@@ -6,24 +6,34 @@
 
 ---
 
-## 📥 Última Versión: 3.1.0 Build 202609021354
+## 📥 Última Versión: 3.2.0 Build 202609072114
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 2 de septiembre, 2026, 1:54 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.1.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.1.0.2609021354/MozartMovil.Ver.3.1.0.Build.202609021354.apk)
+*   **Fecha de lanzamiento:** 7 de septiembre, 2026, 9:14 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.2.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.2.0.2609072114/MozartMovil.Ver.3.2.0.Build.202609072114.apk)
 
-### ✨ Novedades Principales en la Versión 3.1.0
+### ✨ Novedades Principales en la Versión 3.2.0
 
-**🏷️ Etiquetas de Lote** *(equipos de producto terminado que imprimen sobre rollo preimpreso)*
+**🚚 Venta en Ruta** *(equipos que trabajan con agenda y visita a cliente)*
 
-*   **🎯 La Variante se Elige Donde se Imprime:** El selector de variante deja de vivir sólo en Configuración y aparece en el generador de etiquetas y en el diálogo de confirmación al registrar una entrada. Es el mismo ajuste visto desde los tres puntos: elegir en uno se refleja en los otros.
-*   **🆕 Tres Presentaciones del Nuevo Rollo Preimpreso:** Segunda etiqueta preimpresa, con el bloque de lote abajo, vertical, o en las dos posiciones a la vez. Las tres comparten rollo, así que una sola calibración de posición sirve para todas.
+*   **🧾 Reimpresiones: Documentos de Días Pasados:** El módulo ya dejaba elegir la fecha, pero al pedir un documento anterior no imprimía nada. Ahora repone remisiones de venta y recibos de cobranza de cualquier día, marcados como REIMPRESION, y también de clientes que ya no van en la ruta. Una remisión cancelada no se reimprime.
+*   **🚀 Descarga de Catálogos en Dos Segundos:** Entrar a visita a cliente descargaba tabla por tabla y escribía renglón por renglón. Ahora es un solo envío comprimido y una transacción por tabla, con las mismas tablas y los mismos datos de antes.
+*   **⚠️ Cobranza: Aviso de Cobros Previos:** Antes de guardar un cobro se muestran los que esa factura ya tiene registrados, con fecha, importe, forma de pago y quién los cobró. No bloquea: los abonos parciales siguen igual.
+*   **🖨️ Comprobantes más Cuidados:** El pagaré imprime el importe con el mismo formato que el total del ticket y su cantidad con letra sale del mismo número; los datos del cliente se acomodan al ancho del papel; el bloque de saldos dice a qué fecha corresponde; y el cobro de una factura ya liquidada vuelve a imprimirse.
 
-**🧩 Otras Mejoras** *(aplican a todos los equipos)*
+**🧪 Recepción y Trazabilidad** *(equipos que reciben producto en patio)*
 
-*   **🖨️ Mantenimientos: Ticket en Impresoras SM58XX:** El ticket se armaba siempre para impresoras CPCL y en una SM58XX salían impresos los comandos como texto. Ahora se detecta el modelo y se imprime en texto plano cuando corresponde, al guardar y al reimprimir.
-*   **🛠️ Correcciones:** La variante de lote deja de compartir ajuste con el tamaño de la etiqueta de QR de producto en proceso, que producía una etiqueta en blanco sin ningún aviso; se corrige el centrado del bloque de lote dentro del espacio que le reserva el arte, y la calibración de posición pasa a guardarse por rollo.
+*   **📅 La Fecha al Frente de la Referencia de Lote:** La referencia pasa de terminar con la fecha a empezar con ella en formato `aammdd`, seguida de producto, agricultor y rancho, para que el orden alfabético refleje la antigüedad y un lote viejo se identifique de un vistazo. Ningún lote ya emitido se toca: los dos formatos conviven hasta que las barricas existentes salgan de patio, y la geometría de las etiquetas no cambia.
+
+**📡 Impresión por Bluetooth** *(todos los módulos que imprimen)*
+
+*   **🖨️ Una Sola Conexión por Tanda:** La impresión abría y cerraba la conexión entre copias y ahí se perdían tiras a medias. Ahora es una sola conexión, con espera hasta que la impresora reciba todo y reintentos que descartan conexiones muertas. Si una tanda falla a medias, el aviso dice cuántas copias salieron y el reintento continúa desde la que falta. El interruptor de invertir colores de las firmas pasa a Configuración.
+
+**🧩 Otras Mejoras** *(equipos de mantenimiento y tractocamión)*
+
+*   **🔧 Mantenimientos: Estabilidad, Encabezado y Legibilidad:** Se corrigen tres cierres inesperados al cambiar de pestaña, guardar e imprimir; el encabezado del ticket se baja junto con los catálogos y avisa con reintento si falta; el flujo termina y regresa al menú al imprimir bien; y la lista de servicios encabeza con el cliente, fecha, equipo, tareas e importe en lugar del folio repetido.
+*   **🚛 Tractocamión: Bluetooth Automático y Flujo Correcto:** El bluetooth se enciende solo al entrar al módulo y sólo se apaga si fue la aplicación quien lo encendió. Mantenimientos y Descarga ya no terminan pidiendo el origen de la carga al reanudar. La descarga de catálogos se acota a las tablas del módulo y va comprimida.
 
 ---
 
@@ -31,7 +41,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-310-build-202609021354).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-320-build-202609072114).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -43,6 +53,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.1.0 Build 202609021354 (2 de septiembre, 2026, 1:54 PM)
+*   **Novedades:**
+    *   **🎯 Etiquetas de Lote: La Variante se Elige Donde se Imprime:** El selector deja de vivir sólo en Configuración y aparece en el generador de etiquetas y en el diálogo de confirmación al registrar una entrada. Es el mismo ajuste visto desde los tres puntos.
+    *   **🆕 Etiquetas de Lote: Tres Presentaciones del Nuevo Rollo Preimpreso:** Segunda etiqueta preimpresa, con el bloque de lote abajo, vertical, o en las dos posiciones a la vez. Las tres comparten rollo y una sola calibración.
+    *   **🖨️ Mantenimientos: Ticket en Impresoras SM58XX:** El ticket se armaba siempre para impresoras CPCL y en una SM58XX salían los comandos impresos como texto. Ahora se detecta el modelo, al guardar y al reimprimir.
+    *   **🛠️ Correcciones:** La variante de lote deja de compartir ajuste con el tamaño de la etiqueta de QR de producto en proceso, que producía una etiqueta en blanco sin aviso; se corrige el centrado del bloque de lote, y la calibración pasa a guardarse por rollo.
 
 ### Versión 3.0.0 Build 202609011240 (1 de septiembre, 2026, 12:40 PM)
 *   **Novedades:**
