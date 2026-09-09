@@ -413,6 +413,12 @@
 						"Manufacturer":"Honeywell",
 						"Formats":["[a-z-0-9-A-Z]{10}"],
 						"FormatsDescription":"debe ser alfanumérico de 10 caracteres"
+					},
+					{
+						"Devices":["bengal_515"],
+						"Manufacturer":"QUALCOMM",
+						"Formats":["[0-9]{14}"],
+						"FormatsDescription":"debe ser un número de 14 dígitos"
 					}
 				]
 			}
