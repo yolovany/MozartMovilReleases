@@ -249,15 +249,28 @@
 				"Companies":["FRUVAS"],
 				"MasterKey":"Mozart2010"
 			},
-			{
+	        {
 				"CommonName":"PRODUCTORA SC PRODUCE",
+				"VersionCode":30300,
+				"VersionName":"3.3.0",
+				"BuildVersion":202609101248,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/3.3.0.2609101248/MozartMovil.Ver.3.3.0.Build.202609101248.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/3.3.0.2609101248",
+				"Size":26214740,
+				"Companies":["SC_PRODUCE"],
+				"MasterKey":"Mozart2010",
+				"NewMarchLabelFormatSCProduce":false,
+				"Required":true
+			},
+			{
+				"CommonName":"SC PRUEBAS",
 				"VersionCode":287,
 				"VersionName":"2.8.7",
 				"BuildVersion":2026022707531,
 				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.7.26022707531/MozartMovil.Ver.2.8.7.Build.2026022707531.apk",
 				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.8.7.26022707531",
 				"Size":26049976,
-				"Companies":["SC_PRODUCE","SC_PRUEBAS"],
+				"Companies":["SC_PRUEBAS"],
 				"MasterKey":"Mozart2010",
 				"NewMarchLabelFormatSCProduce":false,
 				"Required":false
