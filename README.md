@@ -6,23 +6,22 @@
 
 ---
 
-## 📥 Última Versión: 3.2.1 Build 202609081254
+## 📥 Última Versión: 3.4.1 Build 202609151051
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 8 de septiembre, 2026, 12:54 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.2.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.2.1.2609081254/MozartMovil.Ver.3.2.1.Build.202609081254.apk)
+*   **Fecha de lanzamiento:** 15 de septiembre, 2026, 10:51 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.4.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.4.1.2609151051/MozartMovil.Ver.3.4.1.Build.202609151051.apk)
 
-### ✨ Novedades Principales en la Versión 3.2.1
+### ✨ Novedades Principales en la Versión 3.4.1
 
-**🚛 Tractocamión** *(equipos de mantenimiento y carga)*
+**🔧 Mantenimientos** *(equipos con impresora Zebra)*
 
-*   **🩹 Los Clientes Vuelven a Abrirse en Mantenimientos:** Al abrir un cliente salía "El usuario no tiene equipos asignados" y la pantalla se cerraba: el paquete comprimido de catálogos armaba la tabla de clientes sin equipos ni rutas. Ahora el equipo manda su lista de campos y revisa el paquete antes de tirar los catálogos que ya tiene; si llega recortado lo descarta y baja tabla por tabla.
-*   **📥 Doce Catálogos que no Estaban Bajando:** El camino de respaldo se guiaba por la posición de cada tabla en la lista y, al acotarla a las del módulo, doce catálogos dejaron de llegar: vendedores, tareas de mantenimiento, rutas, departamentos, proveedores, salidas y traspasos. Ahora cada tabla se identifica por su nombre, y se agregan rutas 2 y tractocamión. La descarga comprimida además espera lo mismo que la de ventas en ruta, para no rendirse en redes lentas.
+*   **🖨️ Comprobante Completo en Cualquier Zebra:** El comprobante se centra en el papel y cabe igual en RW420, ZQ510 y ZQ520: el encabezado y el folio ya no salen recortados, el domicilio se parte por palabra, FOLIO y CLIENTE van cada uno en su propio renglón y el nombre del cliente no se repite. La impresión en la SM58XX no cambia.
 
-**🚚 Venta en Ruta** *(equipos que trabajan con agenda y visita a cliente)*
+**⏱️ Reloj Checador**
 
-*   **🛡️ La Descarga de la Agenda, a Prueba del Mismo Tropiezo:** La agenda se guiaba por la misma posición en la lista que causó el problema en tractocamión. Se revisó tabla por tabla y no faltaba nada; aun así se cambió a identificar cada tabla por su nombre, para que un cambio futuro no vuelva a dejar catálogos afuera sin que nadie se entere. Las 35 tablas se verificaron contra el servidor y llegan completas.
+*   **🍽️ Comida y Descanso con la Tarea del Departamento:** El registro masivo de tiempos desde captura de campo, la edición de tiempos en el resumen y los destajos por descanso usan la tarea de comida y descanso del departamento del empleado, como ya hacía el reloj; editar un tiempo en el resumen ya no reescribe un descanso correcto con la tarea de la empresa.
 
 ---
 
@@ -30,7 +29,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-321-build-202609081254).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-341-build-202609151051).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -42,6 +41,31 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.4.0 Build 202609141235 (14 de septiembre, 2026, 12:35 PM)
+*   **Novedades:**
+    *   **🗂️ Control de Almacén: Bajas de Recepción con Seguimiento:** Dar de baja una recepción envía una solicitud al servidor y la aplicación muestra su avance en una línea de tiempo por documento y etapa hasta que el sistema la confirma, con lista de solicitudes, motivo, errores de red visibles y acceso directo para registrar de nuevo la recepción.
+    *   **🐢 Control de Almacén: Sin Pantallas Congeladas con el Servidor Lento:** Patio, cuarto frío, descuentos y traspasos consultan al servidor fuera del hilo de pantalla, y elegir Patio sin un almacén de transición permitido ya no cierra la aplicación.
+    *   **🏭 Control de Almacén: Descuentos y Consulta Rápida:** La orden de producción se elige con un botón y un diálogo con búsqueda, y el historial de códigos se abre desde un enlace.
+    *   **🛟 Captura de Artículos: Nada se Pierde si la Aplicación se Cae:** Las caídas quedan registradas, la aplicación se reinicia y avisa que la captura quedó guardada; lo capturado se escribe de forma segura ante cortes de energía.
+    *   **📝 Captura de Artículos: Borrador por Módulo:** Cada módulo guarda su propia captura pendiente y al entrar ofrece continuarla o iniciar una nueva; el botón Atrás permite Seguir capturando, Conservar o Descartar.
+    *   **🎯 Captura de Artículos: Escaneo Confiable:** Un escaneo a la vez, CONTINUAR siempre responde, un doble toque ya no registra el movimiento dos veces y el guardado deja de hacerse lento conforme crece la lista.
+    *   **📴 Reloj Checador: Modo Local sin Falsas Fallas de Conexión:** No tener registros en modo local abre directamente el diálogo de prorrateo.
+    *   **✨ Nueva Apariencia: Un Solo Estilo:** Tema unificado con paleta de marca, menús y listas en tarjetas, barra de título clara y botón principal destacado en cada pantalla.
+
+### Versión 3.3.0 Build 202609101248 (10 de septiembre, 2026, 12:48 PM)
+*   **Novedades:**
+    *   **🔐 Asistencia: Bloqueos por Inasistencia más Claros:** Reloj checador, destajos y pase de lista respetan el bloqueo calculado para cada empleado; el diálogo indica la última asistencia y el número de faltas antes de pedir autorización, y marcar que ayer no se trabajó libera únicamente a quienes faltaron ese día.
+    *   **✅ Registro de Tiempos: Una Sola Confirmación:** Entrada, salida, comida y cambio de centro de costos muestran una confirmación consolidada con fecha, hora y empleados permitidos; los empleados sin pase de lista, contrato o autorización se distinguen antes de escribir movimientos.
+    *   **🧾 Registro de Tiempos: Resultados en el Orden de la Operación:** El resumen presenta tarea y tabla de prorrateo en el orden en que participan en el reloj y se adapta a la configuración de cada empresa.
+    *   **🖨️ Mantenimientos: Impresión Estable y Copias Identificadas:** Registrar imprime ORIGINAL, COPIA CLIENTE y COPIA RESPALDO; las reimpresiones permiten de una a cinco copias identificadas como DUPLICADO; registro e impresión trabajan en segundo plano; y la captura ofrece únicamente el departamento de mantenimiento.
+    *   **👍 Catálogos: Confirmación al Terminar la Descarga:** Rondines y Tractocamión avisan cuando la actualización concluye correctamente, y las inasistencias se descargan con la ventana configurada para la empresa.
+
+### Versión 3.2.1 Build 202609081254 (8 de septiembre, 2026, 12:54 PM)
+*   **Novedades:**
+    *   **🩹 Tractocamión: Los Clientes Vuelven a Abrirse en Mantenimientos:** El paquete comprimido de catálogos armaba la tabla de clientes sin equipos ni rutas; ahora el equipo revisa el paquete antes de reemplazar sus catálogos y, si llega recortado, lo descarta y baja tabla por tabla.
+    *   **📥 Tractocamión: Doce Catálogos que no Estaban Bajando:** El camino de respaldo identificaba las tablas por su posición y dejó de traer doce catálogos; ahora cada tabla se identifica por su nombre, se agregan rutas 2 y tractocamión, y la descarga comprimida espera lo mismo que la de ventas en ruta.
+    *   **🛡️ Venta en Ruta: La Descarga de la Agenda, a Prueba del Mismo Tropiezo:** Las 35 tablas de la agenda se identifican por nombre y se verificaron completas contra el servidor.
 
 ### Versión 3.2.0 Build 202609072114 (7 de septiembre, 2026, 9:14 PM)
 *   **Novedades:**
