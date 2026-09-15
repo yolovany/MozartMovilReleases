@@ -6,22 +6,23 @@
 
 ---
 
-## 📥 Última Versión: 3.4.1 Build 202609151051
+## 📥 Última Versión: 3.4.2 Build 202609151353
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 15 de septiembre, 2026, 10:51 AM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.4.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.4.1.2609151051/MozartMovil.Ver.3.4.1.Build.202609151051.apk)
+*   **Fecha de lanzamiento:** 15 de septiembre, 2026, 1:53 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.4.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.4.2.2609151353/MozartMovil.Ver.3.4.2.Build.202609151353.apk)
 
-### ✨ Novedades Principales en la Versión 3.4.1
+### ✨ Novedades Principales en la Versión 3.4.2
 
-**🔧 Mantenimientos** *(equipos con impresora Zebra)*
+**🚚 Ventas en Ruta**
 
-*   **🖨️ Comprobante Completo en Cualquier Zebra:** El comprobante se centra en el papel y cabe igual en RW420, ZQ510 y ZQ520: el encabezado y el folio ya no salen recortados, el domicilio se parte por palabra, FOLIO y CLIENTE van cada uno en su propio renglón y el nombre del cliente no se repite. La impresión en la SM58XX no cambia.
+*   **📦 Catálogos Completos en Agenda y Visita a Cliente:** Si al guardar una tabla descargada ocurre un error, la descarga de inicio de sesión y "Actualizar Datos del Servidor" muestran "Descarga interrumpida" con el nombre de la tabla y ofrecen reintentar, en lugar de seguir con catálogos vacíos y productos faltantes en la venta. "Actualizar Datos del Servidor" ahora refresca también códigos de barras y almacenes, los mismos catálogos que el inicio de sesión, sin tocar el corte del día.
 
-**⏱️ Reloj Checador**
+**🔐 Inicio de Sesión**
 
-*   **🍽️ Comida y Descanso con la Tarea del Departamento:** El registro masivo de tiempos desde captura de campo, la edición de tiempos en el resumen y los destajos por descanso usan la tarea de comida y descanso del departamento del empleado, como ya hacía el reloj; editar un tiempo en el resumen ya no reescribe un descanso correcto con la tarea de la empresa.
+*   **🚨 El Error que Cerró la Aplicación se Ve al Volver a Abrirla:** El aviso de caída aparece antes del diálogo de inicio de sesión, incluye tipo de error, mensaje y punto donde ocurrió, y pide enviar captura de pantalla a soporte.
+*   **⚙️ No Inicia Sesión sin Parámetros de la Empresa:** Si no se obtienen los parámetros ni del servidor ni de la base local, se detiene con "Algo salió mal" en vez de arrancar con parámetros en blanco.
 
 ---
 
@@ -29,7 +30,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-341-build-202609151051).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-342-build-202609151353).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -41,6 +42,11 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.4.1 Build 202609151051 (15 de septiembre, 2026, 10:51 AM)
+*   **Novedades:**
+    *   **🖨️ Mantenimientos: Comprobante Completo en Cualquier Zebra:** El comprobante se centra en el papel y cabe igual en RW420, ZQ510 y ZQ520: el encabezado y el folio ya no salen recortados, el domicilio se parte por palabra, FOLIO y CLIENTE van cada uno en su propio renglón y el nombre del cliente no se repite. La impresión en la SM58XX no cambia.
+    *   **🍽️ Reloj Checador: Comida y Descanso con la Tarea del Departamento:** El registro masivo de tiempos desde captura de campo, la edición de tiempos en el resumen y los destajos por descanso usan la tarea de comida y descanso del departamento del empleado, como ya hacía el reloj; editar un tiempo en el resumen ya no reescribe un descanso correcto con la tarea de la empresa.
 
 ### Versión 3.4.0 Build 202609141235 (14 de septiembre, 2026, 12:35 PM)
 *   **Novedades:**
@@ -175,13 +181,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ### Versión 2.11.1 Build 202603240842 (24 de marzo, 2026)
 *   **Correcciones:**
     *   **📱 Errores al Mostrar Lista de Artículos:** Se corrigieron errores y se previnieron posibles interrupciones en el proceso de listado.
-
-### Versión 2.10.0 Build 202603131620 (13 de marzo, 2026, 04:20 PM)
-*   **Novedades:**
-    *   **📶 Validación de Conexión Inteligente:** La aplicación busca rutas alternativas de forma automática si un servidor de validación falla, mejorando la estabilidad en zonas con señal intermitente.
-    *   **🛡️ Mayor Seguridad al Desmarcar Empleados:** Ahora se solicita confirmación al deseleccionar trabajadores en la lista de pase de lista, evitando borrar la asistencia de alguien por accidente.
-    *   **👥 Control Inteligente de Reingresos:** Se eliminó la creación automática de registros genéricos al escanear un empleado que no está en la lista activa; el sistema busca en el historial de empleados inactivos antes de mostrar una alerta.
-    *   **🏷️ Nuevo Formato de Lectura para Gafetes (Ficha-Consecutivo):** Nueva opción para leer fichas de 10 caracteres, extrayendo los 6 números de la ficha e ignorando los 4 dígitos del consecutivo.
 
 ---
 
