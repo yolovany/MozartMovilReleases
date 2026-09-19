@@ -6,19 +6,18 @@
 
 ---
 
-## 📥 Última Versión: 3.7.1 Build 202609182230
+## 📥 Última Versión: 3.8.0 Build 202609191109
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 18 de septiembre, 2026, 10:30 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.7.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.7.1.2609182230/MozartMovil.Ver.3.7.1.Build.202609182230.apk)
+*   **Fecha de lanzamiento:** 19 de septiembre, 2026, 11:09 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.8.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.8.0.2609191109/MozartMovil.Ver.3.8.0.Build.202609191109.apk)
 
-### ✨ Novedades Principales en la Versión 3.7.1
+### ✨ Novedades Principales en la Versión 3.8.0
 
-*   **🛡️ Sincronización: Una Descarga que no Termina ya no Detiene el Trabajo:** Antes de escribir catálogos se guarda una copia de la base; si la descarga se corta o falla al guardar, se restaura y el menú sigue funcionando con los catálogos anteriores. El fallo se muestra con Reintentar y Cerrar, y un aviso persiste una vez por sesión hasta que una descarga termine bien.
-*   **⏱️ Sincronización: Los Flujos Automáticos Corren de Corrido:** La sincronización tras una venta o un QR, el envío de datos de Tractocamión y las actualizaciones de catálogos de Tractocamión y Visita a cliente muestran el resultado un momento y se cierran solos, sin pedir Listo.
-*   **🔑 Captura de Datos en Campo: Entra Sola tras Actualizar Catálogos:** Al reiniciar después de cualquier actualización de catálogos, con credenciales recordadas la sesión inicia sin tocar Entrar y la pantalla aparece ya en "Iniciando sesión".
-*   **🎨 Diálogos Afinados:** Unidad de reparto en Tractocamión y autorización del supervisor en Agenda de ventas en ruta con el estilo de la aplicación.
+*   **🖨️ Impresión: Cada Copia Espera a que se Corte la Anterior:** Tras el original aparece "Arranca la tira y toca Continuar" y nada más sale hasta el toque; en Zebra la aplicación además le pregunta a la impresora si ya terminó. Se acabaron las copias pegadas en un mismo trozo de papel.
+*   **⏱️ Impresión: Margen para que la Impresora Despierte:** Al conectar se espera un momento antes de enviar, para que la primera copia no salga sólo con el pie; cada conexión y cada envío fallido quedan en el historial.
+*   **🛒 Visita a Cliente: Herramientas Siempre Regresa al Lector:** Cancelar Sincronizar, Enviar datos o Actualizar datos, o entrar a Ver versiones, ya no deja la pantalla del cliente sin botones ni forma de volver a la agenda.
 
 ---
 
@@ -26,7 +25,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-371-build-202609182230).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-380-build-202609191109).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -38,6 +37,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.7.1 Build 202609182230 (18 de septiembre, 2026, 10:30 PM)
+*   **Novedades:**
+    *   **🛡️ Sincronización: Una Descarga que no Termina ya no Detiene el Trabajo:** Antes de escribir catálogos se guarda una copia de la base; si la descarga se corta o falla al guardar, se restaura y el menú sigue funcionando con los catálogos anteriores. El fallo se muestra con Reintentar y Cerrar, y un aviso persiste una vez por sesión hasta que una descarga termine bien.
+    *   **⏱️ Sincronización: Los Flujos Automáticos Corren de Corrido:** La sincronización tras una venta o un QR, el envío de datos de Tractocamión y las actualizaciones de catálogos de Tractocamión y Visita a cliente muestran el resultado un momento y se cierran solos, sin pedir Listo.
+    *   **🔑 Captura de Datos en Campo: Entra Sola tras Actualizar Catálogos:** Al reiniciar después de cualquier actualización de catálogos, con credenciales recordadas la sesión inicia sin tocar Entrar y la pantalla aparece ya en "Iniciando sesión".
+    *   **🎨 Diálogos Afinados:** Unidad de reparto en Tractocamión y autorización del supervisor en Agenda de ventas en ruta con el estilo de la aplicación.
 
 ### Versión 3.7.0 Build 202609181809 (18 de septiembre, 2026, 6:09 PM)
 *   **Novedades:**
@@ -174,11 +180,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ### Versión 2.11.6 Build 202605181255 (18 de mayo, 2026)
 *   **Novedades:**
     *   **🧾 Registro del Ayudante del Vendedor en Cortes de Venta:** Se incluye ahora el ayudante del vendedor en el registro de cortes de venta para módulos de visita a cliente.
-
-### Versión 2.11.5 Build 202605051249 (5 de mayo, 2026)
-*   **Novedades:**
-    *   **📦 Inventarios Reales (Sin Negativos):** Ajustamos el cálculo interno de existencias. El sistema ignora automáticamente registros con valores negativos al sumar totales de un artículo o ubicación, mejorando la obtención de ubicaciones disponibles en todos los procesos de control de almacén.
-    *   **🏷️ Filtros Precisos para Etiquetas QR:** Corregimos la lógica de visualización en el módulo de Generación de Etiquetas QR, donde los grupos de artículos no siempre se filtraban correctamente. Al generar QRs se enlistan artículos de patio y de producción en proceso.
 
 ---
 
