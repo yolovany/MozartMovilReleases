@@ -6,19 +6,19 @@
 
 ---
 
-## 📥 Última Versión: 3.7.0 Build 202609181809
+## 📥 Última Versión: 3.7.1 Build 202609182230
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 18 de septiembre, 2026, 6:09 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.7.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.7.0.2609181809/MozartMovil.Ver.3.7.0.Build.202609181809.apk)
+*   **Fecha de lanzamiento:** 18 de septiembre, 2026, 10:30 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.7.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.7.1.2609182230/MozartMovil.Ver.3.7.1.Build.202609182230.apk)
 
-### ✨ Novedades Principales en la Versión 3.7.0
+### ✨ Novedades Principales en la Versión 3.7.1
 
-*   **🔄 Sincronización: Una Pregunta, una Lista y un Resultado Claro:** Actualizar catálogos y Enviar datos explican qué van a hacer, esperan Iniciar o Enviar, muestran una lista única con ✓ por renglón y cierran con un resultado grande; si algo falla, ✗ con Reintentar. Agenda, Visita a cliente y Tractocamión usan la misma ventana.
-*   **🚀 Arranque: Transiciones Suaves y Validación dentro del Formulario:** Todo entra y sale en fundido, el anillo gira mientras trabaja, el inicio de sesión muestra cada paso (servidor, licencia con días restantes, usuario, configuración) y la despedida dice "Hasta pronto" antes de cerrar de verdad.
-*   **🛡️ Inicio de Sesión: Sin Conexión se Entra con la Información del Equipo:** Si el servidor no responde, la sesión arranca con las tablas locales; "Atrás" cierra la aplicación en lugar de reiniciarla en ciclo y el botón Ajustes de red aparece ante cualquier fallo.
-*   **🌐 Ajustes de Red: Teclado con Punto y Dos Puntos:** Al capturar la dirección del servidor el teclado numérico trae punto y dos puntos para el puerto, y cambia a texto si se escribe un dominio.
+*   **🛡️ Sincronización: Una Descarga que no Termina ya no Detiene el Trabajo:** Antes de escribir catálogos se guarda una copia de la base; si la descarga se corta o falla al guardar, se restaura y el menú sigue funcionando con los catálogos anteriores. El fallo se muestra con Reintentar y Cerrar, y un aviso persiste una vez por sesión hasta que una descarga termine bien.
+*   **⏱️ Sincronización: Los Flujos Automáticos Corren de Corrido:** La sincronización tras una venta o un QR, el envío de datos de Tractocamión y las actualizaciones de catálogos de Tractocamión y Visita a cliente muestran el resultado un momento y se cierran solos, sin pedir Listo.
+*   **🔑 Captura de Datos en Campo: Entra Sola tras Actualizar Catálogos:** Al reiniciar después de cualquier actualización de catálogos, con credenciales recordadas la sesión inicia sin tocar Entrar y la pantalla aparece ya en "Iniciando sesión".
+*   **🎨 Diálogos Afinados:** Unidad de reparto en Tractocamión y autorización del supervisor en Agenda de ventas en ruta con el estilo de la aplicación.
 
 ---
 
@@ -26,7 +26,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-370-build-202609181809).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-371-build-202609182230).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -38,6 +38,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.7.0 Build 202609181809 (18 de septiembre, 2026, 6:09 PM)
+*   **Novedades:**
+    *   **🔄 Sincronización: Una Pregunta, una Lista y un Resultado Claro:** Actualizar catálogos y Enviar datos explican qué van a hacer, esperan Iniciar o Enviar, muestran una lista única con ✓ por renglón y cierran con un resultado grande; si algo falla, ✗ con Reintentar. Agenda, Visita a cliente y Tractocamión usan la misma ventana.
+    *   **🚀 Arranque: Transiciones Suaves y Validación dentro del Formulario:** Todo entra y sale en fundido, el anillo gira mientras trabaja, el inicio de sesión muestra cada paso (servidor, licencia con días restantes, usuario, configuración) y la despedida dice "Hasta pronto" antes de cerrar de verdad.
+    *   **🛡️ Inicio de Sesión: Sin Conexión se Entra con la Información del Equipo:** Si el servidor no responde, la sesión arranca con las tablas locales; "Atrás" cierra la aplicación en lugar de reiniciarla en ciclo y el botón Ajustes de red aparece ante cualquier fallo.
+    *   **🌐 Ajustes de Red: Teclado con Punto y Dos Puntos:** Al capturar la dirección del servidor el teclado numérico trae punto y dos puntos para el puerto, y cambia a texto si se escribe un dominio.
 
 ### Versión 3.6.0 Build 202609171225 (17 de septiembre, 2026, 12:25 PM)
 *   **Novedades:**
@@ -172,14 +179,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 *   **Novedades:**
     *   **📦 Inventarios Reales (Sin Negativos):** Ajustamos el cálculo interno de existencias. El sistema ignora automáticamente registros con valores negativos al sumar totales de un artículo o ubicación, mejorando la obtención de ubicaciones disponibles en todos los procesos de control de almacén.
     *   **🏷️ Filtros Precisos para Etiquetas QR:** Corregimos la lógica de visualización en el módulo de Generación de Etiquetas QR, donde los grupos de artículos no siempre se filtraban correctamente. Al generar QRs se enlistan artículos de patio y de producción en proceso.
-
-### Versión 2.11.4 Build 202604291459 (29 de abril, 2026)
-*   **Novedades:**
-    *   **🛡️ Mayor Estabilidad en el Registro de Destajos:** Validación reforzada para evitar errores y duplicados, especialmente en zonas con conectividad intermitente.
-    *   **🏷️ Etiquetas QR para Artículos de Patio:** Generación e impresión de códigos QR para artículos del grupo "patio" de forma manual.
-    *   **🖨️ Reimpresión de Remisiones desde el Servidor:** Acceso a remisiones históricas directamente desde el servidor si no están en el dispositivo.
-    *   **📋 Escaneo QR/NFC Opcional en Visitas:** Configuración por vendedor para hacer opcional el escaneo al iniciar una visita a cliente.
-    *   **🚗 Mayor Control en el Kilometraje:** Validación automática de valores de kilómetros para evitar errores de captura.
 
 ---
 
