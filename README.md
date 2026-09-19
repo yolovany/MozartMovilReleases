@@ -6,18 +6,21 @@
 
 ---
 
-## 📥 Última Versión: 3.8.0 Build 202609191109
+## 📥 Última Versión: 3.8.1 Build 202609191523
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 19 de septiembre, 2026, 11:09 AM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.8.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.8.0.2609191109/MozartMovil.Ver.3.8.0.Build.202609191109.apk)
+*   **Fecha de lanzamiento:** 19 de septiembre, 2026, 3:23 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.8.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.8.1.2609191523/MozartMovil.Ver.3.8.1.Build.202609191523.apk)
 
-### ✨ Novedades Principales en la Versión 3.8.0
+### ✨ Novedades Principales en la Versión 3.8.1
 
-*   **🖨️ Impresión: Cada Copia Espera a que se Corte la Anterior:** Tras el original aparece "Arranca la tira y toca Continuar" y nada más sale hasta el toque; en Zebra la aplicación además le pregunta a la impresora si ya terminó. Se acabaron las copias pegadas en un mismo trozo de papel.
-*   **⏱️ Impresión: Margen para que la Impresora Despierte:** Al conectar se espera un momento antes de enviar, para que la primera copia no salga sólo con el pie; cada conexión y cada envío fallido quedan en el historial.
-*   **🛒 Visita a Cliente: Herramientas Siempre Regresa al Lector:** Cancelar Sincronizar, Enviar datos o Actualizar datos, o entrar a Ver versiones, ya no deja la pantalla del cliente sin botones ni forma de volver a la agenda.
+*   **🧾 Registrar Destajos: Tarjeta de Estado en vez del Mensaje "Registrando":** Bajo el campo de lectura una tarjeta dice en qué va: azul con anillo mientras registra, ✓ verde con el nombre del empleado, hora y ficha al terminar, ✗ si se rechazó; las lecturas seguidas se ven como número grande. Mismo flujo, validaciones y sonidos de siempre; mientras está azul no entran toques ni un segundo escaneo.
+*   **🗂️ Registrar Destajos: Cabecera y Configuración en Tarjetas:** La barra muestra "Registrar destajos" con fecha y hora; la configuración va en tarjetas con la clave como chip, el nombre en oración, la tarea destacada y un lápiz en las filas que se editan con toque largo.
+*   **💬 Diálogos con el Tema:** Rechazos con ilustración, captura de cantidad, código de rastreo, lote, precio y equivalencia, ticket por empleado e intercambios usan el título y los márgenes del tema en vez de la franja azul, también fuera de destajos (reloj checador, pase de lista, tractocamión, mantenimientos).
+*   **⚡ Impresión: La Copia Sale sin Esperar Reconexión ni Drenado:** Entre copias la conexión se queda abierta y el drenado se descuenta conforme pasa; la pausa entre copias es manual en todas las impresoras, incluida Zebra.
+*   **🔁 Impresión: REIMPRIMIR desde la Venta Vuelve a Imprimir:** Recarga lo que salió en la última tanda antes de imprimir; antes no hacía nada.
+*   **🛒 Visita a Cliente: Sin Caídas al Volver de Reimpresiones:** ACEPTAR en el lector NFC/QR ya no tumba la aplicación y una sincronía que termina con la pantalla cerrada no falla.
 
 ---
 
@@ -25,7 +28,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-380-build-202609191109).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-381-build-202609191523).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +40,12 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.8.0 Build 202609191109 (19 de septiembre, 2026, 11:09 AM)
+*   **Novedades:**
+    *   **🖨️ Impresión: Cada Copia Espera a que se Corte la Anterior:** Tras el original aparece "Arranca la tira y toca Continuar" y nada más sale hasta el toque; en Zebra la aplicación además le pregunta a la impresora si ya terminó. Se acabaron las copias pegadas en un mismo trozo de papel.
+    *   **⏱️ Impresión: Margen para que la Impresora Despierte:** Al conectar se espera un momento antes de enviar, para que la primera copia no salga sólo con el pie; cada conexión y cada envío fallido quedan en el historial.
+    *   **🛒 Visita a Cliente: Herramientas Siempre Regresa al Lector:** Cancelar Sincronizar, Enviar datos o Actualizar datos, o entrar a Ver versiones, ya no deja la pantalla del cliente sin botones ni forma de volver a la agenda.
 
 ### Versión 3.7.1 Build 202609182230 (18 de septiembre, 2026, 10:30 PM)
 *   **Novedades:**
@@ -176,10 +185,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🧊 Nuevo Módulo: Entradas a Cuarto Frío:** Nuevo sistema para gestionar entradas de productos al cuarto frío, con pantalla de inicio para capturar la información inicial y pantalla de confirmación para revisar y validar los datos antes de guardarlos. Incluye validaciones en cada paso para evitar errores en el inventario de productos refrigerados.
     *   **🌐 Actualización de Conexiones con Servidores:** Renovamos las referencias de comunicación con los servicios de Usuarios y Datos de Empresa, garantizando mayor eficiencia y estabilidad de conexión con los servidores de MozartWeb.
     *   **🚪 Control de Acceso al Módulo de Cuarto Frío:** Solo los usuarios con permisos adecuados podrán acceder al nuevo módulo de entradas a cuarto frío. El administrador configura desde el sistema central qué usuarios tienen habilitado este módulo especializado.
-
-### Versión 2.11.6 Build 202605181255 (18 de mayo, 2026)
-*   **Novedades:**
-    *   **🧾 Registro del Ayudante del Vendedor en Cortes de Venta:** Se incluye ahora el ayudante del vendedor en el registro de cortes de venta para módulos de visita a cliente.
 
 ---
 
