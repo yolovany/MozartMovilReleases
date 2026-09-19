@@ -6,19 +6,19 @@
 
 ---
 
-## 📥 Última Versión: 3.6.0 Build 202609171225
+## 📥 Última Versión: 3.7.0 Build 202609181809
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 17 de septiembre, 2026, 12:25 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.6.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.6.0.2609171225/MozartMovil.Ver.3.6.0.Build.202609171225.apk)
+*   **Fecha de lanzamiento:** 18 de septiembre, 2026, 6:09 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.7.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.7.0.2609181809/MozartMovil.Ver.3.7.0.Build.202609181809.apk)
 
-### ✨ Novedades Principales en la Versión 3.6.0
+### ✨ Novedades Principales en la Versión 3.7.0
 
-*   **🚀 Arranque: Progreso Claro desde que Abre la Aplicación:** Una pantalla de marca muestra cada comprobación, explica cualquier condición que detenga el inicio y presenta la acción para resolverla; el inicio de sesión comparte la misma experiencia y muestra en qué etapa va la validación.
-*   **🖨️ Impresoras: Configuración Bluetooth Guiada:** Una sola pantalla activa Bluetooth, busca, empareja, elige y prueba la impresora; cada equipo puede llevar un nombre propio para distinguir impresoras del mismo modelo.
-*   **🔄 Sincronización: Envío y Catálogos con Seguimiento Detallado:** La aplicación muestra las etapas de conexión, envío, descarga y guardado, con el avance de cada tabla y un resumen al terminar; también está disponible en Tractocamión, Visita a cliente y Agenda.
-*   **🌐 Conexión: Acceso Directo a Ajustes de Red:** Si no se pueden obtener los parámetros de la empresa, el aviso permite corregir las direcciones del servidor y volver a intentar sin quedar atrapado en el inicio de sesión.
+*   **🔄 Sincronización: Una Pregunta, una Lista y un Resultado Claro:** Actualizar catálogos y Enviar datos explican qué van a hacer, esperan Iniciar o Enviar, muestran una lista única con ✓ por renglón y cierran con un resultado grande; si algo falla, ✗ con Reintentar. Agenda, Visita a cliente y Tractocamión usan la misma ventana.
+*   **🚀 Arranque: Transiciones Suaves y Validación dentro del Formulario:** Todo entra y sale en fundido, el anillo gira mientras trabaja, el inicio de sesión muestra cada paso (servidor, licencia con días restantes, usuario, configuración) y la despedida dice "Hasta pronto" antes de cerrar de verdad.
+*   **🛡️ Inicio de Sesión: Sin Conexión se Entra con la Información del Equipo:** Si el servidor no responde, la sesión arranca con las tablas locales; "Atrás" cierra la aplicación en lugar de reiniciarla en ciclo y el botón Ajustes de red aparece ante cualquier fallo.
+*   **🌐 Ajustes de Red: Teclado con Punto y Dos Puntos:** Al capturar la dirección del servidor el teclado numérico trae punto y dos puntos para el puerto, y cambia a texto si se escribe un dominio.
 
 ---
 
@@ -26,7 +26,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-360-build-202609171225).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-370-build-202609181809).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -38,6 +38,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.6.0 Build 202609171225 (17 de septiembre, 2026, 12:25 PM)
+*   **Novedades:**
+    *   **🚀 Arranque: Progreso Claro desde que Abre la Aplicación:** Una pantalla de marca muestra cada comprobación, explica cualquier condición que detenga el inicio y presenta la acción para resolverla; el inicio de sesión comparte la misma experiencia y muestra en qué etapa va la validación.
+    *   **🖨️ Impresoras: Configuración Bluetooth Guiada:** Una sola pantalla activa Bluetooth, busca, empareja, elige y prueba la impresora; cada equipo puede llevar un nombre propio para distinguir impresoras del mismo modelo.
+    *   **🔄 Sincronización: Envío y Catálogos con Seguimiento Detallado:** La aplicación muestra las etapas de conexión, envío, descarga y guardado, con el avance de cada tabla y un resumen al terminar; también está disponible en Tractocamión, Visita a cliente y Agenda.
+    *   **🌐 Conexión: Acceso Directo a Ajustes de Red:** Si no se pueden obtener los parámetros de la empresa, el aviso permite corregir las direcciones del servidor y volver a intentar sin quedar atrapado en el inicio de sesión.
 
 ### Versión 3.5.0 Build 202609152215 (15 de septiembre, 2026, 10:15 PM)
 *   **Novedades:**
@@ -173,11 +180,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🖨️ Reimpresión de Remisiones desde el Servidor:** Acceso a remisiones históricas directamente desde el servidor si no están en el dispositivo.
     *   **📋 Escaneo QR/NFC Opcional en Visitas:** Configuración por vendedor para hacer opcional el escaneo al iniciar una visita a cliente.
     *   **🚗 Mayor Control en el Kilometraje:** Validación automática de valores de kilómetros para evitar errores de captura.
-
-### Versión 2.11.3 Build 202604210442 (21 de abril, 2026)
-*   **Novedades:**
-    *   **⚡ Escaneo Sin Interrupciones (Cero Pausas):** Se eliminó el límite de velocidad entre escaneos, permitiendo capturas de destajos tan rápidas como el dispositivo lo permita.
-    *   **🛠️ Mensajes Claros y Rastro de Errores:** Mensajes de error descriptivos y un historial silencioso que guarda un rastro detallado para que soporte técnico pueda dar soluciones instantáneas.
 
 ---
 
