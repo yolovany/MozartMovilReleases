@@ -6,21 +6,19 @@
 
 ---
 
-## 📥 Última Versión: 3.8.1 Build 202609191523
+## 📥 Última Versión: 3.8.2 Build 202609212217
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 19 de septiembre, 2026, 3:23 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.8.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.8.1.2609191523/MozartMovil.Ver.3.8.1.Build.202609191523.apk)
+*   **Fecha de lanzamiento:** 21 de septiembre, 2026, 10:17 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.8.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.8.2.2609212217/MozartMovil.Ver.3.8.2.Build.202609212217.apk)
 
-### ✨ Novedades Principales en la Versión 3.8.1
+### ✨ Novedades Principales en la Versión 3.8.2
 
-*   **🧾 Registrar Destajos: Tarjeta de Estado en vez del Mensaje "Registrando":** Bajo el campo de lectura una tarjeta dice en qué va: azul con anillo mientras registra, ✓ verde con el nombre del empleado, hora y ficha al terminar, ✗ si se rechazó; las lecturas seguidas se ven como número grande. Mismo flujo, validaciones y sonidos de siempre; mientras está azul no entran toques ni un segundo escaneo.
-*   **🗂️ Registrar Destajos: Cabecera y Configuración en Tarjetas:** La barra muestra "Registrar destajos" con fecha y hora; la configuración va en tarjetas con la clave como chip, el nombre en oración, la tarea destacada y un lápiz en las filas que se editan con toque largo.
-*   **💬 Diálogos con el Tema:** Rechazos con ilustración, captura de cantidad, código de rastreo, lote, precio y equivalencia, ticket por empleado e intercambios usan el título y los márgenes del tema en vez de la franja azul, también fuera de destajos (reloj checador, pase de lista, tractocamión, mantenimientos).
-*   **⚡ Impresión: La Copia Sale sin Esperar Reconexión ni Drenado:** Entre copias la conexión se queda abierta y el drenado se descuenta conforme pasa; la pausa entre copias es manual en todas las impresoras, incluida Zebra.
-*   **🔁 Impresión: REIMPRIMIR desde la Venta Vuelve a Imprimir:** Recarga lo que salió en la última tanda antes de imprimir; antes no hacía nada.
-*   **🛒 Visita a Cliente: Sin Caídas al Volver de Reimpresiones:** ACEPTAR en el lector NFC/QR ya no tumba la aplicación y una sincronía que termina con la pantalla cerrada no falla.
+*   **🛡️ Registrar Destajos: Si un Destajo no se Puede Guardar, la Aplicación lo Dice:** Alerta, vibración, aviso "Error: al insertar localmente" y tarjeta con ✗ "Destajo no registrado" cuando la base local rechaza el registro; antes la pantalla volvía al reposo como si nada. Borrar el parcial sin red ya no falla.
+*   **🪪 Registrar Destajos: La Tarjeta no Pierde el Último Destajo:** Al despertar la pantalla, tras imprimir o tras un rechazo, la tarjeta vuelve a mostrar quién fue el último registrado y a qué hora, en vez de "Listo para escanear". Se corrigió un orden de eventos que dejaba títulos viejos y la pantalla azul sin trabajar.
+*   **🔄 Registrar Destajos: Anillo de "Trabajando" que sí se Ve:** Un anillo blanco gira alrededor del ícono, separado del círculo, mientras registra, imprime o verifica la impresora; en un rechazo se apaga y la tarjeta vuelve a blanco.
+*   **✅ Calidad: Registrar Destajos Verificado contra la Versión Anterior:** 36 escenarios se ejecutan automáticamente en el equipo real y se comparan con la versión previa a la modernización: mismas filas, diálogos, avisos y tickets.
 
 ---
 
@@ -28,7 +26,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-381-build-202609191523).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-382-build-202609212217).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -40,6 +38,15 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.8.1 Build 202609191523 (19 de septiembre, 2026, 3:23 PM)
+*   **Novedades:**
+    *   **🧾 Registrar Destajos: Tarjeta de Estado en vez del Mensaje "Registrando":** Bajo el campo de lectura una tarjeta dice en qué va: azul con anillo mientras registra, ✓ verde con el nombre del empleado, hora y ficha al terminar, ✗ si se rechazó; las lecturas seguidas se ven como número grande. Mismo flujo, validaciones y sonidos de siempre; mientras está azul no entran toques ni un segundo escaneo.
+    *   **🗂️ Registrar Destajos: Cabecera y Configuración en Tarjetas:** La barra muestra "Registrar destajos" con fecha y hora; la configuración va en tarjetas con la clave como chip, el nombre en oración, la tarea destacada y un lápiz en las filas que se editan con toque largo.
+    *   **💬 Diálogos con el Tema:** Rechazos con ilustración, captura de cantidad, código de rastreo, lote, precio y equivalencia, ticket por empleado e intercambios usan el título y los márgenes del tema en vez de la franja azul, también fuera de destajos (reloj checador, pase de lista, tractocamión, mantenimientos).
+    *   **⚡ Impresión: La Copia Sale sin Esperar Reconexión ni Drenado:** Entre copias la conexión se queda abierta y el drenado se descuenta conforme pasa; la pausa entre copias es manual en todas las impresoras, incluida Zebra.
+    *   **🔁 Impresión: REIMPRIMIR desde la Venta Vuelve a Imprimir:** Recarga lo que salió en la última tanda antes de imprimir; antes no hacía nada.
+    *   **🛒 Visita a Cliente: Sin Caídas al Volver de Reimpresiones:** ACEPTAR en el lector NFC/QR ya no tumba la aplicación y una sincronía que termina con la pantalla cerrada no falla.
 
 ### Versión 3.8.0 Build 202609191109 (19 de septiembre, 2026, 11:09 AM)
 *   **Novedades:**
@@ -178,13 +185,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 *   **Novedades:**
     *   **Nuevo Módulo de Destajos Prorrateados:** Nuevo módulo para distribuir destajos generales entre múltiples centros de costos utilizados en la jornada, con opción para generar lista dinámica mediante escaneo de gafetes.
     *   **⏱️ Pase de Lista con Entrada Automática:** Al acceder a "Pase de lista" desde la actividad de destajos, el sistema registra automáticamente la entrada de los empleados que aún no han checado su llegada, ahorrando tiempo al supervisor.
-
-### Versión 2.11.7 Build 202605230113 (23 de mayo, 2026, 01:13 AM)
-*   **Novedades:**
-    *   **🔍 Búsqueda Inteligente de Empleados por Folio:** Mejoramos la búsqueda de empleados al escanear por folio en destajos. El sistema verifica si el grupo del empleado requiere clave adicional, cruzando información entre el folio escaneado y los datos del empleado para asegurar que solo el personal autorizado registre destajos.
-    *   **🧊 Nuevo Módulo: Entradas a Cuarto Frío:** Nuevo sistema para gestionar entradas de productos al cuarto frío, con pantalla de inicio para capturar la información inicial y pantalla de confirmación para revisar y validar los datos antes de guardarlos. Incluye validaciones en cada paso para evitar errores en el inventario de productos refrigerados.
-    *   **🌐 Actualización de Conexiones con Servidores:** Renovamos las referencias de comunicación con los servicios de Usuarios y Datos de Empresa, garantizando mayor eficiencia y estabilidad de conexión con los servidores de MozartWeb.
-    *   **🚪 Control de Acceso al Módulo de Cuarto Frío:** Solo los usuarios con permisos adecuados podrán acceder al nuevo módulo de entradas a cuarto frío. El administrador configura desde el sistema central qué usuarios tienen habilitado este módulo especializado.
 
 ---
 
