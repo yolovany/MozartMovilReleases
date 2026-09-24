@@ -6,19 +6,22 @@
 
 ---
 
-## 📥 Última Versión: 3.8.2 Build 202609212217
+## 📥 Última Versión: 3.9.0 Build 202609240009
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 21 de septiembre, 2026, 10:17 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.8.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.8.2.2609212217/MozartMovil.Ver.3.8.2.Build.202609212217.apk)
+*   **Fecha de lanzamiento:** 24 de septiembre, 2026, 12:09 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.9.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.9.0.2609240009/MozartMovil.Ver.3.9.0.Build.202609240009.apk)
 
-### ✨ Novedades Principales en la Versión 3.8.2
+### ✨ Novedades Principales en la Versión 3.9.0
 
-*   **🛡️ Registrar Destajos: Si un Destajo no se Puede Guardar, la Aplicación lo Dice:** Alerta, vibración, aviso "Error: al insertar localmente" y tarjeta con ✗ "Destajo no registrado" cuando la base local rechaza el registro; antes la pantalla volvía al reposo como si nada. Borrar el parcial sin red ya no falla.
-*   **🪪 Registrar Destajos: La Tarjeta no Pierde el Último Destajo:** Al despertar la pantalla, tras imprimir o tras un rechazo, la tarjeta vuelve a mostrar quién fue el último registrado y a qué hora, en vez de "Listo para escanear". Se corrigió un orden de eventos que dejaba títulos viejos y la pantalla azul sin trabajar.
-*   **🔄 Registrar Destajos: Anillo de "Trabajando" que sí se Ve:** Un anillo blanco gira alrededor del ícono, separado del círculo, mientras registra, imprime o verifica la impresora; en un rechazo se apaga y la tarjeta vuelve a blanco.
-*   **✅ Calidad: Registrar Destajos Verificado contra la Versión Anterior:** 36 escenarios se ejecutan automáticamente en el equipo real y se comparan con la versión previa a la modernización: mismas filas, diálogos, avisos y tickets.
+*   **📡 Conexión: La Red de la Planta sólo se Usa cuando se Está en Ella:** Con datos, sin red o en un hotspot de teléfono se va directo a la dirección externa; en otra Wi-Fi se prueba la de la planta una vez y se recuerda. Fuera de la planta el inicio de sesión bajó de 39 a 9 segundos y los catálogos de 130 a 39.
+*   **🔌 Conexión: Sin Internet ya no se Queda "Preparando MozartMovil":** Con datos sin saldo o Wi-Fi sin salida, el arranque bajó de casi 2 minutos a menos de 10 segundos; la búsqueda de versión no lo detiene más de 8 segundos.
+*   **🚀 Arranque: Inicio y Sesión más Rápidos:** Sin las pausas intencionales, el arranque es unos 3 segundos más rápido y el inicio de sesión unos 5.
+*   **📋 Conexión: Listas Completas Fuera de la Red:** Entradas a patio y cuarto frío, salidas de recepción, reservación y traspasos ya no muestran "Sin órdenes de producción" cuando el servidor sí responde por la dirección externa.
+*   **🔖 Control de Almacén: Patio y Cuarto Frío Guardan el QR Impreso:** El código de la etiqueta queda en la entrada, como en producto en proceso, para rastrear cada barrica o pallet.
+*   **🔤 Ventas en Ruta: Claves de Pedido con Letras:** Venta, lector y reposición las aceptan sin reiniciarse; el código de autorización no distingue mayúsculas.
+*   **📱 Licencia: Cambio de Dispositivo con el PIN de la Empresa:** Desde el menú se pide el PIN de confirmación que tiene soporte, igual que desde el inicio de sesión.
 
 ---
 
@@ -26,7 +29,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-382-build-202609212217).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-390-build-202609240009).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -38,6 +41,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+
+### Versión 3.8.2 Build 202609212217 (21 de septiembre, 2026, 10:17 PM)
+*   **Novedades:**
+    *   **🛡️ Registrar Destajos: Si un Destajo no se Puede Guardar, la Aplicación lo Dice:** Alerta, vibración, aviso "Error: al insertar localmente" y tarjeta con ✗ "Destajo no registrado" cuando la base local rechaza el registro; antes la pantalla volvía al reposo como si nada. Borrar el parcial sin red ya no falla.
+    *   **🪪 Registrar Destajos: La Tarjeta no Pierde el Último Destajo:** Al despertar la pantalla, tras imprimir o tras un rechazo, la tarjeta vuelve a mostrar quién fue el último registrado y a qué hora, en vez de "Listo para escanear". Se corrigió un orden de eventos que dejaba títulos viejos y la pantalla azul sin trabajar.
+    *   **🔄 Registrar Destajos: Anillo de "Trabajando" que sí se Ve:** Un anillo blanco gira alrededor del ícono, separado del círculo, mientras registra, imprime o verifica la impresora; en un rechazo se apaga y la tarjeta vuelve a blanco.
+    *   **✅ Calidad: Registrar Destajos Verificado contra la Versión Anterior:** 36 escenarios se ejecutan automáticamente en el equipo real y se comparan con la versión previa a la modernización: mismas filas, diálogos, avisos y tickets.
 
 ### Versión 3.8.1 Build 202609191523 (19 de septiembre, 2026, 3:23 PM)
 *   **Novedades:**
@@ -180,11 +190,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **❄️ Corrección en Cuarto Frío y Traspasos:** Se corrigió la validación de artículos contra grupos incorrectos en cuarto frío y se reconocen correctamente los grupos de patio, producto en proceso y cuarto frío en traspasos.
     *   **⏱️ Pase de Lista: Entrada Automática Mejorada:** Al escanear un gafete desde el pase de lista de destajos, el sistema registra automáticamente la entrada del empleado en el reloj checador, incluso si la entrada fue eliminada previamente del historial.
     *   **🔧 Entradas de Producto: Mejor Búsqueda de Referencias:** Se corrigió la búsqueda de referencias de entradas de producto en proceso y producto terminado, recurriendo automáticamente al servidor de respaldo cuando la búsqueda inicial no encuentra resultados.
-
-### Versión 2.12.0 Build 202606041230 (4 de junio, 2026, 12:30 PM)
-*   **Novedades:**
-    *   **Nuevo Módulo de Destajos Prorrateados:** Nuevo módulo para distribuir destajos generales entre múltiples centros de costos utilizados en la jornada, con opción para generar lista dinámica mediante escaneo de gafetes.
-    *   **⏱️ Pase de Lista con Entrada Automática:** Al acceder a "Pase de lista" desde la actividad de destajos, el sistema registra automáticamente la entrada de los empleados que aún no han checado su llegada, ahorrando tiempo al supervisor.
 
 ---
 
