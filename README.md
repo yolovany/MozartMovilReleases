@@ -191,15 +191,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 *   **Novedades:**
     *   **⚡ Traspasos: Validación de Costos más Eficiente:** La consulta de costos de la barrica al servidor ahora solo se realiza cuando el almacén origen tiene activa la restricción de no permitir salidas sin costo, agilizando la operación y reduciendo los tiempos de espera al escanear.
 
-### Versión 2.12.1 Build 202606151350 (15 de junio, 2026, 1:50 PM)
-*   **Novedades:**
-    *   **🏭 Traspasos: Control de Costos por Almacén:** La restricción que impedía traspasar barricas sin costo ahora se puede activar o desactivar por almacén, permitiendo que cada uno tenga su propia política según su operación.
-    *   **❄️ Corrección en Cuarto Frío y Traspasos:** Se corrigió la validación de artículos contra grupos incorrectos en cuarto frío y se reconocen correctamente los grupos de patio, producto en proceso y cuarto frío en traspasos.
-    *   **⏱️ Pase de Lista: Entrada Automática Mejorada:** Al escanear un gafete desde el pase de lista de destajos, el sistema registra automáticamente la entrada del empleado en el reloj checador, incluso si la entrada fue eliminada previamente del historial.
-    *   **🔧 Entradas de Producto: Mejor Búsqueda de Referencias:** Se corrigió la búsqueda de referencias de entradas de producto en proceso y producto terminado, recurriendo automáticamente al servidor de respaldo cuando la búsqueda inicial no encuentra resultados.
-
----
-
 ## 📚 Documentación y Soporte
 
 *   **Aprende a usar la aplicación:**
