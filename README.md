@@ -6,25 +6,25 @@
 
 ---
 
-## 📥 Última Versión: 3.10.0 Build 202609301414
+## 📥 Última Versión: 3.10.1 Build 202610021459
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 30 de septiembre, 2026, 02:14 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.10.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.10.0.2609301414/MozartMovil.Ver.3.10.0.Build.202609301414.apk)
+*   **Fecha de lanzamiento:** 2 de octubre, 2026, 02:59 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.10.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.10.1.2610021459/MozartMovil.Ver.3.10.1.Build.202610021459.apk)
 
-### ✨ Novedades Principales en la Versión 3.10.0
+### ✨ Novedades Principales en la Versión 3.10.1
 
-*   **🏷️ Control de Almacén: Confirmaciones por Pasos:** La entrada muestra barricas registradas y pendientes, avanza con una palomita por cada confirmación y evita salir mientras trabaja.
-*   **🔁 Control de Almacén: Reintentar sin Perder el Proceso:** Si no hay lugares libres, el aviso explica qué ocurre y permite reintentar sin cerrar ni reiniciar la operación.
-*   **⚖️ Control de Almacén: Peso de la Orden Actual:** Patio y cuarto frío calculan el peso por barrica con los kilos y barricas pendientes de la orden abierta.
+*   **🛡️ Control de Almacén: Devoluciones que Confirman la Ubicación:** Si no se puede confirmar que el lugar está libre, avisa y permite reintentar en vez de devolver la barrica encima de otra.
+*   **🖨️ Impresión: Papel de 80 mm Corregido:** Total de venta, acumulados, destajos, reloj checador y recibos salen con el ancho correcto.
+*   **📐 Configuración: Pantalla a Todo lo Ancho:** La configuración aprovecha todo el ancho del equipo.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-310-build-202609301414).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3101-build-202610021459).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -36,6 +36,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.10.0 Build 202609301414 (30 de septiembre, 2026, 2:14 PM)
+*   **Novedades principales:**
+
+*   **🏷️ Control de Almacén: Confirmaciones por Pasos:** La entrada muestra barricas registradas y pendientes, avanza con una palomita por cada confirmación y evita salir mientras trabaja.
+*   **🔁 Control de Almacén: Reintentar sin Perder el Proceso:** Si no hay lugares libres, el aviso explica qué ocurre y permite reintentar sin cerrar ni reiniciar la operación.
+*   **⚖️ Control de Almacén: Peso de la Orden Actual:** Patio y cuarto frío calculan el peso por barrica con los kilos y barricas pendientes de la orden abierta.
+
 ### Versión 3.9.0 Build 202609240009 (24 de septiembre, 2026, 12:09 AM)
 *   **Novedades principales:**
 
@@ -186,10 +193,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🚫 Destajos Prorrateados: Bloqueo de Empleados sin Salida:** Empleados con entrada de reloj checador sin salida se marcan como "SIN SALIDA" y no pueden seleccionarse para prorrateo, tanto al cargar la lista como al escanear gafetes.
     *   **📋 Recepciones: Nuevo Campo de Folio de Remisión:** Nuevo campo numérico para capturar el folio de remisión durante la recepción, visible en la confirmación y guardado con la entrada del artículo.
     *   **⏱️ Pase de Lista: Tarea Específica del Empleado:** Al registrar entrada desde pase de lista, se asigna la tarea propia del empleado si la tiene configurada; de lo contrario se usa la tarea general.
-
-### Versión 2.12.2 Build 202606160904 (16 de junio, 2026, 9:04 AM)
-*   **Novedades:**
-    *   **⚡ Traspasos: Validación de Costos más Eficiente:** La consulta de costos de la barrica al servidor ahora solo se realiza cuando el almacén origen tiene activa la restricción de no permitir salidas sin costo, agilizando la operación y reduciendo los tiempos de espera al escanear.
 
 ## 📚 Documentación y Soporte
 
