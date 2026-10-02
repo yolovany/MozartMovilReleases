@@ -1,28 +1,28 @@
-﻿[
+[
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//                                                                      ARCHIVO DE CONTROL                                                          		        //
-	//                                       Archivo para el control de versiones de la aplicaciÃ³n MozartMovil y MozartWebServices	                                    //
+	//                                       Archivo para el control de versiones de la aplicación MozartMovil y MozartWebServices	                                    //
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 
-        // InformaciÃ³n de la clase UpdateInfo2.
- 		    // - VersionCode: cÃ³digo de versiÃ³n escrito en el manifiesto.
- 		    // - VersionName: nombre de versiÃ³n escrito en el manifiesto.
- 		    // - DownloadURL: url del archivo de instalaciÃ³n a descargar.
- 		    // - Size: tamaÃ±o en bytes del instalador a descargar.
-            // - Companies: arreglo de empresas que aplican para actualizaciÃ³n.
- 		    // - Users: arreglo de usuarios de las empresas que aplican para actualizaciÃ³n.
- 		    // - MasterKey: ContraseÃ±a para acceso con licencia temporal de 1 dÃ­a. Para que la MasterKey funcione debe estar en GLOBALES o en la empresa actual.
- 		    // - ApiLevels: arreglo de nÃºmeros de API correspondiente a la versiÃ³n de Android.
- 		    // - BuildVersion: NÃºmero de compilaciÃ³n (revisiÃ³n) en formato YYYYMMDDHHMM.
- 		    // - DevicesSerialNumbers: Arreglo de nÃºmeros seriales de dispositivos mÃ³viles admitidos.
+        // Información de la clase UpdateInfo2.
+ 		    // - VersionCode: código de versión escrito en el manifiesto.
+ 		    // - VersionName: nombre de versión escrito en el manifiesto.
+ 		    // - DownloadURL: url del archivo de instalación a descargar.
+ 		    // - Size: tamaño en bytes del instalador a descargar.
+            // - Companies: arreglo de empresas que aplican para actualización.
+ 		    // - Users: arreglo de usuarios de las empresas que aplican para actualización.
+ 		    // - MasterKey: Contraseña para acceso con licencia temporal de 1 día. Para que la MasterKey funcione debe estar en GLOBALES o en la empresa actual.
+ 		    // - ApiLevels: arreglo de números de API correspondiente a la versión de Android.
+ 		    // - BuildVersion: Número de compilación (revisión) en formato YYYYMMDDHHMM.
+ 		    // - DevicesSerialNumbers: Arreglo de números seriales de dispositivos móviles admitidos.
  		    // - ScheduleDateRelease: String que indica la fecha de lanzamiento programada en formato YYYY-MM-DD.
- 		    // - ReleasesNotesURL: Enlace de las notas de versiÃ³n en Github.
- 		    // - Required: booleano para especificar si la actualizaciÃ³n es requerida.
- 		    // - NotificationEmails: Arreglo de correos electrÃ³nicos que recibirÃ¡n correo de notificaciÃ³n de MozartMovil (beta).
- 		    // - ErrorEmails: Arreglo de correos electrÃ³nicos que recibirÃ¡n correo de notificaciÃ³n de MozartMovil cuando falle (beta).
- 		    // - DisableEmailNotifications: booleano para activar o inactivar envÃ­o de notificaciones por correo desde MozartMovil.
- 		    // - PayConditions: Esta clase la utiliza especificarle a MozartWebServices el nÃºmero de movimientos para considerar un dispositivo como parte de la factura del mes.
- 		    // - SerialDeviceFormats: Se utiliza para la validaciÃ³n de nÃºmeros seriales de dispositivos en MozartMovil.
+ 		    // - ReleasesNotesURL: Enlace de las notas de versión en Github.
+ 		    // - Required: booleano para especificar si la actualización es requerida.
+ 		    // - NotificationEmails: Arreglo de correos electrónicos que recibirán correo de notificación de MozartMovil (beta).
+ 		    // - ErrorEmails: Arreglo de correos electrónicos que recibirán correo de notificación de MozartMovil cuando falle (beta).
+ 		    // - DisableEmailNotifications: booleano para activar o inactivar envío de notificaciones por correo desde MozartMovil.
+ 		    // - PayConditions: Esta clase la utiliza especificarle a MozartWebServices el número de movimientos para considerar un dispositivo como parte de la factura del mes.
+ 		    // - SerialDeviceFormats: Se utiliza para la validación de números seriales de dispositivos en MozartMovil.
 	        // - NewMarchLabelFormatSCProduce: Parametro especial para SC_PRODUCE para usar nuevo formato de etiquetas de producto terminado vigente en Marzo.
 
 
@@ -70,7 +70,7 @@
 				"Required":false
 			},
 			{
-				"CommonName":"AGRÃCOLA NKR",
+				"CommonName":"AGRÍCOLA NKR",
 				"VersionCode":0,
 				"VersionName":"0.0.0",
 				"BuildVersion":0,
@@ -117,7 +117,7 @@
 				"MasterKey":"Mozart2010"
 			},
 			{
-				"CommonName":"AGRÃCOLA VEMA",
+				"CommonName":"AGRÍCOLA VEMA",
 				"VersionCode":0,
 				"VersionName":"0.0.0",
 				"BuildVersion":0,
@@ -129,7 +129,7 @@
 				"MasterKey":"Mozart2010"
 			},
 			{
-				"CommonName":"RANCHO HERMANOS MAGAÃ‘A",
+				"CommonName":"RANCHO HERMANOS MAGAÑA",
 				"VersionCode":0,
 				"VersionName":"0.0.0",
 				"BuildVersion":0,
@@ -226,7 +226,7 @@
 				"MasterKey":"Mozart2010"
 			},
 	        {
-				"CommonName":"AGRÃCOLA VEGEX",
+				"CommonName":"AGRÍCOLA VEGEX",
 				"VersionCode":287,
 				"VersionName":"2.8.7",
 				"BuildVersion":2026022707531,
@@ -239,7 +239,7 @@
 				"Required":true
 			},
 			{
-				"CommonName":"AGRÃCOLA FRUVAS",
+				"CommonName":"AGRÍCOLA FRUVAS",
 				"VersionCode":273,
 				"VersionName":"2.7.3",
 				"BuildVersion":2025090812543,
@@ -260,7 +260,7 @@
 				"Companies":["SC_PRODUCE"],
 				"MasterKey":"Mozart2010",
 				"NewMarchLabelFormatSCProduce":false,
-				"Required":true
+				"Required":false
 			},
 			{
 				"CommonName":"SC PRUEBAS",
@@ -329,114 +329,113 @@
 						"Devices":["BV5200","BV4900","BV7100"],
 						"Manufacturer":"Blackview",
 						"Formats":["[a-z-0-9-A-Z]{16}"],
-						"FormatsDescription":"debe ser alfanumÃ©rico de 16 caracteres"
+						"FormatsDescription":"debe ser alfanumérico de 16 caracteres"
 					},
 					{
 						"Devices":["BV5500Plus"],
 						"Manufacturer":"wheatek",
 						"Formats":["[a-z-0-9-A-Z]{18}"],
-						"FormatsDescription":"debe ser alfanumÃ©rico de 18 caracteres"
+						"FormatsDescription":"debe ser alfanumérico de 18 caracteres"
 					},
 					{
 						"Devices":["NBP-60"],
 						"Manufacturer":"alps",
 						"Formats":["[0-9]{7}"],
-						"FormatsDescription":"debe ser un nÃºmero de 7 dÃ­gitos"
+						"FormatsDescription":"debe ser un número de 7 dígitos"
 					},
 					{
 						"Devices":["TC15","TC21","TC22","TC26","TC27"],
 						"Manufacturer":"Zebra Technologies",
 						"Formats":["[0-9]{14}"],
-						"FormatsDescription":"debe ser un nÃºmero de 14 dÃ­gitos"
+						"FormatsDescription":"debe ser un número de 14 dígitos"
 					},
 					{
 						"Devices":["TC52"],
 						"Manufacturer":"Zebra Technologies",
 						"Formats":["[0-9]{8}"],
-						"FormatsDescription":"debe ser un nÃºmero de 8 dÃ­gitos"
+						"FormatsDescription":"debe ser un número de 8 dígitos"
 					},
 					{
 						"Devices":["U8000S","AN60","T80S"],
 						"Manufacturer":"alps",
 						"Formats":["[0-9]{12}"],
-						"FormatsDescription":"debe ser un nÃºmero de 12 dÃ­gitos"
+						"FormatsDescription":"debe ser un número de 12 dígitos"
 					},
 					{
 						"Devices":["N60"],
 						"Manufacturer":"BLD",
 						"Formats":["[0-9]{12}"],
-						"FormatsDescription":"debe ser un nÃºmero de 12 dÃ­gitos"
+						"FormatsDescription":"debe ser un número de 12 dígitos"
 					},
 					{
 						"Devices":["V790pro"],
 						"Manufacturer":"V790pro",
 						"Formats":["[V790][0-9]{15}"],
-						"FormatsDescription":"debe contener una cadena \"V790\" y 15 nÃºmeros considerando los nÃºmeros de la cadena"
+						"FormatsDescription":"debe contener una cadena \"V790\" y 15 números considerando los números de la cadena"
 					},
 					{
 						"Devices":["X704A","X704V","TB125FU"],
 						"Manufacturer":"LENOVO",
 						"Formats":["[a-z-0-9-A-Z]{8}"],
-						"FormatsDescription":"debe ser alfanumÃ©rico de 8 caracteres"
+						"FormatsDescription":"debe ser alfanumérico de 8 caracteres"
 					},
 					{
 						"Devices":["gtowifi","gta3xlwifi","a22","x1s","a31","beyondxq","dm2q","r9s","a05m"],
 						"Manufacturer":"samsung",
 						"Formats":["[a-z-0-9-A-Z]{11}"],
-						"FormatsDescription":"debe ser AlfanumÃ©rico de 11 caracteres"
+						"FormatsDescription":"debe ser Alfanumérico de 11 caracteres"
 					},
 					{
 						"Devices":["beyond2q","dm3q"],
 						"Manufacturer":"samsung",
 						"Formats":["[a-z-0-9-A-Z]{16}"],
-						"FormatsDescription":"debe ser AlfanumÃ©rico de 16 caracteres"
+						"FormatsDescription":"debe ser Alfanumérico de 16 caracteres"
 					},
 					{
 						"Devices":["generic_x86"],
 						"Manufacturer":"unknown",
 						"Formats":["[0-9-A-Z]{16}"],
-						"FormatsDescription":"debe ser AlfanumÃ©rico de 16 caracteres"
+						"FormatsDescription":"debe ser Alfanumérico de 16 caracteres"
 					},
 					{
 						"Devices":["generic_x86_arm","generic_x86"],
 						"Manufacturer":"Google",
 						"Formats":["[0-9-A-Z]{16}"],
-						"FormatsDescription":"debe ser AlfanumÃ©rico de 16 caracteres"
+						"FormatsDescription":"debe ser Alfanumérico de 16 caracteres"
 					},
 					{
 						"Devices":["merlin"],
 						"Manufacturer":"Xiaomi",
 						"Formats":["[0-9-A-Z]{12}"],
-						"FormatsDescription":"debe ser AlfanumÃ©rico de 12 caracteres"
+						"FormatsDescription":"debe ser Alfanumérico de 12 caracteres"
 					},
 					{
 						"Devices":["Armor_X6_Pro"],
 						"Manufacturer":"Ulefone",
 						"Formats":["[0-9-A-Z]{16}"],
-						"FormatsDescription":"debe ser AlfanumÃ©rico de 16 caracteres"
+						"FormatsDescription":"debe ser Alfanumérico de 16 caracteres"
 					},
 					{
 						"Devices":["RS35"],
 						"Manufacturer":"CipherLab",
 						"Formats":["[0-9-A-Z]{15}"],
-						"FormatsDescription":"debe ser AlfanumÃ©rico de 15 caracteres"
+						"FormatsDescription":"debe ser Alfanumérico de 15 caracteres"
 					},
 					{
 						"Devices":["EDA52"],
 						"Manufacturer":"Honeywell",
 						"Formats":["[a-z-0-9-A-Z]{10}"],
-						"FormatsDescription":"debe ser alfanumÃ©rico de 10 caracteres"
+						"FormatsDescription":"debe ser alfanumérico de 10 caracteres"
 					},
 					{
 						"Devices":["bengal_515"],
 						"Manufacturer":"QUALCOMM",
 						"Formats":["[0-9]{14}"],
-						"FormatsDescription":"debe ser un nÃºmero de 14 dÃ­gitos"
+						"FormatsDescription":"debe ser un número de 14 dígitos"
 					}
 				]
 			}
 ]
-
 
 
 
