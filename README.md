@@ -16,7 +16,7 @@ Descarga la versión más reciente para disfrutar de las últimas funcionalidade
 ### ✨ Novedades Principales en la Versión 3.10.1
 
 *   **🛡️ Control de Almacén: Devoluciones que Confirman la Ubicación:** Si no se puede confirmar que el lugar está libre, avisa y permite reintentar en vez de devolver la barrica encima de otra.
-*   **🖨️ Impresión: Papel de 80 mm Corregido:** Total de venta, acumulados, destajos, reloj checador y recibos salen con el ancho correcto.
+*   **🖨️ Impresión: Papel de 80 mm Corregido:** En visita a cliente, el total de venta y el recibo de cobranza caben en el papel; acumulados, destajos y reloj checador salen con el ancho correcto.
 *   **📐 Configuración: Pantalla a Todo lo Ancho:** La configuración aprovecha todo el ancho del equipo.
 
 ---
@@ -42,6 +42,7 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 *   **🏷️ Control de Almacén: Confirmaciones por Pasos:** La entrada muestra barricas registradas y pendientes, avanza con una palomita por cada confirmación y evita salir mientras trabaja.
 *   **🔁 Control de Almacén: Reintentar sin Perder el Proceso:** Si no hay lugares libres, el aviso explica qué ocurre y permite reintentar sin cerrar ni reiniciar la operación.
 *   **⚖️ Control de Almacén: Peso de la Orden Actual:** Patio y cuarto frío calculan el peso por barrica con los kilos y barricas pendientes de la orden abierta.
+*   **🖨️ Impresión: Impresora de 80 mm:** Se elige en Configuración y aprovecha el papel completo en visita a cliente, reimpresiones, entrega de efectivo, mantenimiento y tractocamión.
 
 ### Versión 3.9.0 Build 202609240009 (24 de septiembre, 2026, 12:09 AM)
 *   **Novedades principales:**
