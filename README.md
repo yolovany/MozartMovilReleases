@@ -6,25 +6,26 @@
 
 ---
 
-## 📥 Última Versión: 3.10.1 Build 202610021459
+## 📥 Última Versión: 3.10.2 Build 202610060751
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 2 de octubre, 2026, 02:59 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.10.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.10.1.2610021459/MozartMovil.Ver.3.10.1.Build.202610021459.apk)
+*   **Fecha de lanzamiento:** 6 de octubre, 2026, 07:51 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.10.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.10.2.2610060751/MozartMovil.Ver.3.10.2.Build.202610060751.apk)
 
-### ✨ Novedades Principales en la Versión 3.10.1
+### ✨ Novedades Principales en la Versión 3.10.2
 
-*   **🛡️ Control de Almacén: Devoluciones que Confirman la Ubicación:** Si no se puede confirmar que el lugar está libre, avisa y permite reintentar en vez de devolver la barrica encima de otra.
-*   **🖨️ Impresión: Papel de 80 mm Corregido:** En visita a cliente, el total de venta y el recibo de cobranza caben en el papel; acumulados, destajos y reloj checador salen con el ancho correcto.
-*   **📐 Configuración: Pantalla a Todo lo Ancho:** La configuración aprovecha todo el ancho del equipo.
+*   **↩️ Control de Almacén: Devoluciones al Almacén de Transición:** La reubicación ofrece el botón «Transición» cuando las barricas salieron de ahí y, con el servidor actualizado, su ubicación queda apartada 6 horas para devolverlas con la misma etiqueta.
+*   **🔎 Control de Almacén: Qué Produce la Orden:** La confirmación del traspaso a producción dice qué produce la orden elegida.
+*   **🛡️ Control de Almacén: Traspasos sin Registros a Medias:** Si un traspaso o una devolución no se termina de registrar, se borra lo grabado y se ofrece Reintentar.
+*   **🖨️ Impresión: Impresora de 80 mm Conserva su Modelo:** El modelo elegido a mano ya no regresa al anterior al cambiar de impresora y queda ligado a su equipo Bluetooth.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3101-build-202610021459).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3102-build-202610060751).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -36,6 +37,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.10.1 Build 202610021459 (2 de octubre, 2026, 2:59 PM)
+*   **Novedades principales:**
+
+*   **🛡️ Control de Almacén: Devoluciones que Confirman la Ubicación:** Si no se puede confirmar que el lugar está libre, avisa y permite reintentar en vez de devolver la barrica encima de otra.
+*   **🖨️ Impresión: Papel de 80 mm Corregido:** En visita a cliente, el total de venta y el recibo de cobranza caben en el papel; acumulados, destajos y reloj checador salen con el ancho correcto.
+*   **📐 Configuración: Pantalla a Todo lo Ancho:** La configuración aprovecha todo el ancho del equipo.
+
 ### Versión 3.10.0 Build 202609301414 (30 de septiembre, 2026, 2:14 PM)
 *   **Novedades principales:**
 
@@ -187,13 +195,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🚫 Reloj Checador: Corrección de Filtro por Puesto:** Cada registro ahora conserva y se filtra por el puesto que tenía al momento de capturarse, en lugar de reasignarse retroactivamente al puesto actual.
     *   **🔓 Acceso a Configuración al Fallar la Validación de Fecha:** Cuando el servidor no responde y la validación de fecha está activa, se ofrece un acceso directo a configuración para desactivarla con la contraseña de autorización.
     *   **🏷️ Producción: Renombre de Etiqueta de Menú:** "Orden de barricas" ahora se refleja como "orden de producción" en el menú.
-
-### Versión 2.13.0 Build 202606241953 (24 de junio, 2026, 7:53 PM)
-*   **Novedades:**
-    *   **🧹 Destajos Prorrateados: Distribución de Costos Mejorada:** El prorrateo de gastos de limpieza ahora también considera registros de asistencia (reloj checador), no solo destajos, logrando una distribución más completa. Los destajos prorrateados generados aparecen en el historial del empleado.
-    *   **🚫 Destajos Prorrateados: Bloqueo de Empleados sin Salida:** Empleados con entrada de reloj checador sin salida se marcan como "SIN SALIDA" y no pueden seleccionarse para prorrateo, tanto al cargar la lista como al escanear gafetes.
-    *   **📋 Recepciones: Nuevo Campo de Folio de Remisión:** Nuevo campo numérico para capturar el folio de remisión durante la recepción, visible en la confirmación y guardado con la entrada del artículo.
-    *   **⏱️ Pase de Lista: Tarea Específica del Empleado:** Al registrar entrada desde pase de lista, se asigna la tarea propia del empleado si la tiene configurada; de lo contrario se usa la tarea general.
 
 ## 📚 Documentación y Soporte
 
