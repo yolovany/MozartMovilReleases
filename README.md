@@ -6,26 +6,26 @@
 
 ---
 
-## 📥 Última Versión: 3.10.2 Build 202610060751
+## 📥 Última Versión: 3.11.0 Build 202610081004
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 6 de octubre, 2026, 07:51 AM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.10.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.10.2.2610060751/MozartMovil.Ver.3.10.2.Build.202610060751.apk)
+*   **Fecha de lanzamiento:** 8 de octubre, 2026, 10:04 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.11.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.11.0.2610081004/MozartMovil.Ver.3.11.0.Build.202610081004.apk)
 
-### ✨ Novedades Principales en la Versión 3.10.2
+### ✨ Novedades Principales en la Versión 3.11.0
 
-*   **↩️ Control de Almacén: Devoluciones al Almacén de Transición:** La reubicación ofrece el botón «Transición» cuando las barricas salieron de ahí y, con el servidor actualizado, su ubicación queda apartada 6 horas para devolverlas con la misma etiqueta.
-*   **🔎 Control de Almacén: Qué Produce la Orden:** La confirmación del traspaso a producción dice qué produce la orden elegida.
-*   **🛡️ Control de Almacén: Traspasos sin Registros a Medias:** Si un traspaso o una devolución no se termina de registrar, se borra lo grabado y se ofrece Reintentar.
-*   **🖨️ Impresión: Impresora de 80 mm Conserva su Modelo:** El modelo elegido a mano ya no regresa al anterior al cambiar de impresora y queda ligado a su equipo Bluetooth.
+*   **🚚 Ventas en Ruta: El Camión Arranca en 0:** Solo se vende lo que se registra como carga del día; se quita la ventana «Sobrantes» y, con el servidor actualizado, una carga menor al mínimo pide al supervisor.
+*   **🛣️ Ventas en Ruta: Cierre del Día sin Bloqueos:** Combustible en litros de 1 a 400, recorrido máximo opcional y las unidades con kilometraje inválido ya pueden cerrar.
+*   **🧾 Impresión: Ticket de Mantenimiento con Dos Empresas:** Lleva los datos completos de las dos empresas del servicio y la bitácora guarda el texto enviado.
+*   **🔒 Instalación: Menos Permisos:** Se quitan 14 permisos que Android no concede o que la app no usa.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3102-build-202610060751).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3110-build-202610081004).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +37,14 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.10.2 Build 202610060751 (6 de octubre, 2026, 07:51 AM)
+*   **Novedades principales:**
+
+*   **↩️ Control de Almacén: Devoluciones al Almacén de Transición:** La reubicación ofrece el botón «Transición» cuando las barricas salieron de ahí y, con el servidor actualizado, su ubicación queda apartada 6 horas para devolverlas con la misma etiqueta.
+*   **🔎 Control de Almacén: Qué Produce la Orden:** La confirmación del traspaso a producción dice qué produce la orden elegida.
+*   **🛡️ Control de Almacén: Traspasos sin Registros a Medias:** Si un traspaso o una devolución no se termina de registrar, se borra lo grabado y se ofrece Reintentar.
+*   **🖨️ Impresión: Impresora de 80 mm Conserva su Modelo:** El modelo elegido a mano ya no regresa al anterior al cambiar de impresora y queda ligado a su equipo Bluetooth.
+
 ### Versión 3.10.1 Build 202610021459 (2 de octubre, 2026, 2:59 PM)
 *   **Novedades principales:**
 
@@ -187,14 +195,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **✅ Reloj Checador: Selección de Empleados Confiable:** La deselección al registrar un tiempo ocurre una sola vez, en línea y fuera de línea, con reconciliación por último movimiento al abrir el módulo y corrección de respaldos de consulta invertidos.
     *   **↩️ Reloj Checador: Revertir una SALIDA Restaura el Estado Previo:** Los empleados afectados vuelven a quedar seleccionados con su tabla de prorrateo y se restauran las horas de pase de lista de destajos.
     *   **🏷️ Cambio de Orden: Etiquetas QR Nuevas y Bloqueo de Reúso:** Se generan códigos QR ligados a la referencia del traspaso de retorno, se conserva la ubicación original de cada barrica y se rechazan etiquetas ya usadas como origen de un traspaso.
-
-### Versión 2.13.1 Build 202607150113 (15 de julio, 2026, 1:13 AM)
-*   **Novedades:**
-    *   **🌸 Producción FLOWERS: Desfase de Fecha en Movimientos:** Ajuste de fecha configurable (-2 a +2 días) exclusivo para FLOWERS, aplicable a entradas y traspasos abiertos desde producción, validado contra el servidor con respaldo local y remoto.
-    *   **🔁 Destajos Prorrateados: Repetición Solo por Gafete:** Escanear el gafete permite registrar un destajo prorrateado repetido para el empleado, evitando la restricción de la lista que excluye a quienes ya tienen uno registrado hoy.
-    *   **🚫 Reloj Checador: Corrección de Filtro por Puesto:** Cada registro ahora conserva y se filtra por el puesto que tenía al momento de capturarse, en lugar de reasignarse retroactivamente al puesto actual.
-    *   **🔓 Acceso a Configuración al Fallar la Validación de Fecha:** Cuando el servidor no responde y la validación de fecha está activa, se ofrece un acceso directo a configuración para desactivarla con la contraseña de autorización.
-    *   **🏷️ Producción: Renombre de Etiqueta de Menú:** "Orden de barricas" ahora se refleja como "orden de producción" en el menú.
 
 ## 📚 Documentación y Soporte
 
