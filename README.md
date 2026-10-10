@@ -6,26 +6,25 @@
 
 ---
 
-## 📥 Última Versión: 3.11.0 Build 202610081004
+## 📥 Última Versión: 3.11.1 Build 202610091949
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 8 de octubre, 2026, 10:04 AM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.11.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.11.0.2610081004/MozartMovil.Ver.3.11.0.Build.202610081004.apk)
+*   **Fecha de lanzamiento:** 9 de octubre, 2026, 7:49 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.11.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.11.1.2610091949/MozartMovil.Ver.3.11.1.Build.202610091949.apk)
 
-### ✨ Novedades Principales en la Versión 3.11.0
+### ✨ Novedades Principales en la Versión 3.11.1
 
-*   **🚚 Ventas en Ruta: El Camión Arranca en 0:** Solo se vende lo que se registra como carga del día; se quita la ventana «Sobrantes» y, con el servidor actualizado, una carga menor al mínimo pide al supervisor.
-*   **🛣️ Ventas en Ruta: Cierre del Día sin Bloqueos:** Combustible en litros de 1 a 400, recorrido máximo opcional y las unidades con kilometraje inválido ya pueden cerrar.
-*   **🧾 Impresión: Ticket de Mantenimiento con Dos Empresas:** Lleva los datos completos de las dos empresas del servicio y la bitácora guarda el texto enviado.
-*   **🔒 Instalación: Menos Permisos:** Se quitan 14 permisos que Android no concede o que la app no usa.
+*   **🛢️ Control de Almacén: Entradas a Patio y Cuarto Frío sin Registros a Medias:** Si la entrada no se termina de registrar, se deshace lo grabado, las ubicaciones quedan libres y Reintentar vuelve a elegir con las libres de ese momento.
+*   **📶 Control de Almacén: Deshacer sin Conexión:** Lo que no se pudo deshacer por falta de red queda guardado en el equipo y se manda solo; traspasos y devoluciones usan lo mismo.
+*   **🖥️ Control de Almacén: Servidor Actualizado:** Con MozartWeb 2026.10.09.0 las ubicaciones apartadas regresan al deshacer, un movimiento ya leído se da de baja y un traspaso reintentado no queda doble.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3110-build-202610081004).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3111-build-202610091949).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +36,14 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.11.0 Build 202610081004 (8 de octubre, 2026, 10:04 AM)
+*   **Novedades principales:**
+
+*   **🚚 Ventas en Ruta: El Camión Arranca en 0:** Solo se vende lo que se registra como carga del día; se quita la ventana «Sobrantes» y, con el servidor actualizado, una carga menor al mínimo pide al supervisor.
+*   **🛣️ Ventas en Ruta: Cierre del Día sin Bloqueos:** Combustible en litros de 1 a 400, recorrido máximo opcional y las unidades con kilometraje inválido ya pueden cerrar.
+*   **🧾 Impresión: Ticket de Mantenimiento con Dos Empresas:** Lleva los datos completos de las dos empresas del servicio y la bitácora guarda el texto enviado.
+*   **🔒 Instalación: Menos Permisos:** Se quitan 14 permisos que Android no concede o que la app no usa.
+
 ### Versión 3.10.2 Build 202610060751 (6 de octubre, 2026, 07:51 AM)
 *   **Novedades principales:**
 
@@ -186,15 +193,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🏷️ Etiquetas: Lote sobre el Rollo Preimpreso de 4"x6":** La lotificación se imprime sobre el espacio en blanco del rollo en lugar de pegarle encima el vinilo, con calibración de posición independiente por tamaño de etiqueta.
     *   **🔧 Mantenimientos: Nombre Comercial en el Ticket:** El ticket imprime el nombre comercial del cliente, al guardar y al reimprimir.
     *   **🛠️ Correcciones:** Descarga de catálogos sin interrupciones intermitentes, llave de supervisor del reloj funcional de nuevo, bloqueo de operaciones con descarga incompleta y corrección de cierres inesperados al eliminar destajos e imprimir.
-
-### Versión 2.14.0 Build 202608121120 (12 de agosto, 2026, 11:20 AM)
-*   **Novedades:**
-    *   **🔧 Mantenimientos: Selección de Equipo por Escaneo:** El técnico escanea el código pegado en el equipo (serie o clave) en lugar de buscarlo en la lista, con confirmación en pantalla del equipo seleccionado y solicitud de permiso de cámara al momento de usarla.
-    *   **📋 Mantenimientos: Lista de Equipos Real del Cliente:** La lista se arma desde el catálogo de EQUIPOS, donde el flujo de comodatos de MozartWeb asigna y retira, evitando equipos ya retirados y ausencias de los recién asignados.
-    *   **🚪 Reloj Checador: Quitar Empleado de la Lista sin Movimiento:** Manteniendo presionado su renglón se quita de la lista al empleado escaneado por error, con opción de eliminar los tiempos de la jornada en curso, abarcando las dos fechas en jornadas nocturnas.
-    *   **✅ Reloj Checador: Selección de Empleados Confiable:** La deselección al registrar un tiempo ocurre una sola vez, en línea y fuera de línea, con reconciliación por último movimiento al abrir el módulo y corrección de respaldos de consulta invertidos.
-    *   **↩️ Reloj Checador: Revertir una SALIDA Restaura el Estado Previo:** Los empleados afectados vuelven a quedar seleccionados con su tabla de prorrateo y se restauran las horas de pase de lista de destajos.
-    *   **🏷️ Cambio de Orden: Etiquetas QR Nuevas y Bloqueo de Reúso:** Se generan códigos QR ligados a la referencia del traspaso de retorno, se conserva la ubicación original de cada barrica y se rechazan etiquetas ya usadas como origen de un traspaso.
 
 ## 📚 Documentación y Soporte
 
