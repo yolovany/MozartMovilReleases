@@ -6,25 +6,26 @@
 
 ---
 
-## 📥 Última Versión: 3.11.1 Build 202610091949
+## 📥 Última Versión: 3.12.0 Build 202610101758
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 9 de octubre, 2026, 7:49 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.11.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.11.1.2610091949/MozartMovil.Ver.3.11.1.Build.202610091949.apk)
+*   **Fecha de lanzamiento:** 10 de octubre, 2026, 5:58 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.12.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.12.0.2610101758/MozartMovil.Ver.3.12.0.Build.202610101758.apk)
 
-### ✨ Novedades Principales en la Versión 3.11.1
+### ✨ Novedades Principales en la Versión 3.12.0
 
-*   **🛢️ Control de Almacén: Entradas a Patio y Cuarto Frío sin Registros a Medias:** Si la entrada no se termina de registrar, se deshace lo grabado, las ubicaciones quedan libres y Reintentar vuelve a elegir con las libres de ese momento.
-*   **📶 Control de Almacén: Deshacer sin Conexión:** Lo que no se pudo deshacer por falta de red queda guardado en el equipo y se manda solo; traspasos y devoluciones usan lo mismo.
-*   **🖥️ Control de Almacén: Servidor Actualizado:** Con MozartWeb 2026.10.09.0 las ubicaciones apartadas regresan al deshacer, un movimiento ya leído se da de baja y un traspaso reintentado no queda doble.
+*   **🔁 Estabilidad: Sin Reinicios en Ciclo:** Tras un cierre por error la app vuelve al inicio de sesión con el aviso, en vez de reabrirse y cerrarse cada segundo; también corrige la batería baja al registrar destajos y las horas 7 h adelantadas.
+*   **📤 Campo, Rondines y Planes: Envío más Confiable:** Un envío cortado ya no queda como enviado; Rondines y Planes mandan todo lo pendiente con la ventana de progreso y Reintentar; con MozartWeb 2026.10.10.0 los reenvíos no duplican.
+*   **📱 Serial del Equipo: Siempre Presente:** El serial ya no queda vacío y lo mandan también traspasos, Control de inventarios y Tractocamión.
+*   **🧾 Soporte: Bitácora Completa:** Pantallas, toques, llamadas al servidor y red quedan en la bitácora (sin contraseñas); tras un cierre por error se envía sola.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3111-build-202610091949).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3120-build-202610101758).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -36,6 +37,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.11.1 Build 202610091949 (9 de octubre, 2026, 7:49 PM)
+*   **Novedades principales:**
+
+*   **🛢️ Control de Almacén: Entradas a Patio y Cuarto Frío sin Registros a Medias:** Si la entrada no se termina de registrar, se deshace lo grabado, las ubicaciones quedan libres y Reintentar vuelve a elegir con las libres de ese momento.
+*   **📶 Control de Almacén: Deshacer sin Conexión:** Lo que no se pudo deshacer por falta de red queda guardado en el equipo y se manda solo; traspasos y devoluciones usan lo mismo.
+*   **🖥️ Control de Almacén: Servidor Actualizado:** Con MozartWeb 2026.10.09.0 las ubicaciones apartadas regresan al deshacer, un movimiento ya leído se da de baja y un traspaso reintentado no queda doble.
+
 ### Versión 3.11.0 Build 202610081004 (8 de octubre, 2026, 10:04 AM)
 *   **Novedades principales:**
 
@@ -181,18 +189,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🆕 Etiquetas de Lote: Tres Presentaciones del Nuevo Rollo Preimpreso:** Segunda etiqueta preimpresa, con el bloque de lote abajo, vertical, o en las dos posiciones a la vez. Las tres comparten rollo y una sola calibración.
     *   **🖨️ Mantenimientos: Ticket en Impresoras SM58XX:** El ticket se armaba siempre para impresoras CPCL y en una SM58XX salían los comandos impresos como texto. Ahora se detecta el modelo, al guardar y al reimprimir.
     *   **🛠️ Correcciones:** La variante de lote deja de compartir ajuste con el tamaño de la etiqueta de QR de producto en proceso, que producía una etiqueta en blanco sin aviso; se corrige el centrado del bloque de lote, y la calibración pasa a guardarse por rollo.
-
-### Versión 3.0.0 Build 202609011240 (1 de septiembre, 2026, 12:40 PM)
-*   **Novedades:**
-    *   **🧑‍🌾 Destajos: Captura con la Cuadrilla Mezclada:** El operador escanea a toda su gente sin elegir empresa ni cerrar sesión; el prefijo del gafete identifica la empresa del empleado y el destajo se registra ahí, con el precio de su catálogo.
-    *   **📋 Pase de Lista y Selección de Empleados:** La lista trae a toda la cuadrilla mezclada y ordenada por apellido, las operaciones masivas alcanzan a todos, y dos empleados de distinta empresa con el mismo número ya se distinguen entre sí.
-    *   **⏰ Reloj Checador: Registro Masivo con Cuadrilla Mixta:** Cada movimiento queda en la empresa del empleado con el horario de su jornada; el resumen, las búsquedas, la edición y el deshacer un lote trabajan sobre la cuadrilla completa.
-    *   **🖨️ Tickets con la Cuadrilla Completa:** El corte, su reimpresión, el corte general y la tira de acumulados salen con toda la gente, cada quien con su nombre, tarifa y destajos.
-    *   **✅ Aviso cuando los Catálogos no Coinciden:** Al terminar la descarga se revisa que los catálogos que alimentan el destajo signifiquen lo mismo en todas las empresas, y se pide corregirlo en Mozart antes de operar.
-    *   **🔐 Departamento, Puesto y Nómina de Cada Empresa:** Estos datos salen del propio empleado y no de la configuración de la empresa principal.
-    *   **🏷️ Etiquetas: Lote sobre el Rollo Preimpreso de 4"x6":** La lotificación se imprime sobre el espacio en blanco del rollo en lugar de pegarle encima el vinilo, con calibración de posición independiente por tamaño de etiqueta.
-    *   **🔧 Mantenimientos: Nombre Comercial en el Ticket:** El ticket imprime el nombre comercial del cliente, al guardar y al reimprimir.
-    *   **🛠️ Correcciones:** Descarga de catálogos sin interrupciones intermitentes, llave de supervisor del reloj funcional de nuevo, bloqueo de operaciones con descarga incompleta y corrección de cierres inesperados al eliminar destajos e imprimir.
 
 ## 📚 Documentación y Soporte
 
