@@ -6,26 +6,25 @@
 
 ---
 
-## 📥 Última Versión: 3.12.0 Build 202610101758
+## 📥 Última Versión: 3.12.1 Build 202610142242
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 10 de octubre, 2026, 5:58 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.12.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.12.0.2610101758/MozartMovil.Ver.3.12.0.Build.202610101758.apk)
+*   **Fecha de lanzamiento:** 14 de octubre, 2026, 10:42 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.12.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.12.1.2610142242/MozartMovil.Ver.3.12.1.Build.202610142242.apk)
 
-### ✨ Novedades Principales en la Versión 3.12.0
+### ✨ Novedades Principales en la Versión 3.12.1
 
-*   **🔁 Estabilidad: Sin Reinicios en Ciclo:** Tras un cierre por error la app vuelve al inicio de sesión con el aviso, en vez de reabrirse y cerrarse cada segundo; también corrige la batería baja al registrar destajos y las horas 7 h adelantadas.
-*   **📤 Campo, Rondines y Planes: Envío más Confiable:** Un envío cortado ya no queda como enviado; Rondines y Planes mandan todo lo pendiente con la ventana de progreso y Reintentar; con MozartWeb 2026.10.10.0 los reenvíos no duplican.
-*   **📱 Serial del Equipo: Siempre Presente:** El serial ya no queda vacío y lo mandan también traspasos, Control de inventarios y Tractocamión.
-*   **🧾 Soporte: Bitácora Completa:** Pantallas, toques, llamadas al servidor y red quedan en la bitácora (sin contraseñas); tras un cierre por error se envía sola.
+*   **🏷️ Estabilidad: Etiquetas de Entradas sin Cierres:** Imprimir las etiquetas de una entrada a producto terminado (y en proceso, recepción y generador QR) ya no cierra la app.
+*   **📥 Estabilidad: Base de Datos Incompleta:** Iniciar descarga en el aviso «Base de datos» ya no cierra la app; la descarga empieza y termina.
+*   **📅 Ventas en Ruta: Agenda sin Visitas Mezcladas:** Cerrar o reagendar una visita sin pedido ya no afecta a las demás, y la siguiente no hereda la venta de la anterior.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3120-build-202610101758).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3121-build-202610142242).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +36,14 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.12.0 Build 202610101758 (10 de octubre, 2026, 5:58 PM)
+*   **Novedades principales:**
+
+*   **🔁 Estabilidad: Sin Reinicios en Ciclo:** Tras un cierre por error la app vuelve al inicio de sesión con el aviso, en vez de reabrirse y cerrarse cada segundo; también corrige la batería baja al registrar destajos y las horas 7 h adelantadas.
+*   **📤 Campo, Rondines y Planes: Envío más Confiable:** Un envío cortado ya no queda como enviado; Rondines y Planes mandan todo lo pendiente con la ventana de progreso y Reintentar; con MozartWeb 2026.10.10.0 los reenvíos no duplican.
+*   **📱 Serial del Equipo: Siempre Presente:** El serial ya no queda vacío y lo mandan también traspasos, Control de inventarios y Tractocamión.
+*   **🧾 Soporte: Bitácora Completa:** Pantallas, toques, llamadas al servidor y red quedan en la bitácora (sin contraseñas); tras un cierre por error se envía sola.
+
 ### Versión 3.11.1 Build 202610091949 (9 de octubre, 2026, 7:49 PM)
 *   **Novedades principales:**
 
@@ -182,13 +189,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **📡 Impresión por Bluetooth: Una Sola Conexión por Tanda:** La impresión abría y cerraba la conexión entre copias y ahí se perdían tiras a medias. Ahora es una sola conexión, y si una tanda falla a medias el aviso dice cuántas copias salieron y el reintento continúa desde la que falta.
     *   **🔧 Mantenimientos: Estabilidad, Encabezado y Legibilidad:** Se corrigen tres cierres inesperados al cambiar de pestaña, guardar e imprimir; el encabezado del ticket se baja junto con los catálogos y avisa con reintento si falta; y la lista de servicios encabeza con el cliente, fecha, equipo, tareas e importe.
     *   **🚛 Tractocamión: Bluetooth Automático y Flujo Correcto:** El bluetooth se enciende solo al entrar al módulo y sólo se apaga si fue la aplicación quien lo encendió. Mantenimientos y Descarga ya no terminan pidiendo el origen de la carga al reanudar.
-
-### Versión 3.1.0 Build 202609021354 (2 de septiembre, 2026, 1:54 PM)
-*   **Novedades:**
-    *   **🎯 Etiquetas de Lote: La Variante se Elige Donde se Imprime:** El selector deja de vivir sólo en Configuración y aparece en el generador de etiquetas y en el diálogo de confirmación al registrar una entrada. Es el mismo ajuste visto desde los tres puntos.
-    *   **🆕 Etiquetas de Lote: Tres Presentaciones del Nuevo Rollo Preimpreso:** Segunda etiqueta preimpresa, con el bloque de lote abajo, vertical, o en las dos posiciones a la vez. Las tres comparten rollo y una sola calibración.
-    *   **🖨️ Mantenimientos: Ticket en Impresoras SM58XX:** El ticket se armaba siempre para impresoras CPCL y en una SM58XX salían los comandos impresos como texto. Ahora se detecta el modelo, al guardar y al reimprimir.
-    *   **🛠️ Correcciones:** La variante de lote deja de compartir ajuste con el tamaño de la etiqueta de QR de producto en proceso, que producía una etiqueta en blanco sin aviso; se corrige el centrado del bloque de lote, y la calibración pasa a guardarse por rollo.
 
 ## 📚 Documentación y Soporte
 
