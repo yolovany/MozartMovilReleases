@@ -227,16 +227,16 @@
 			},
 	        {
 				"CommonName":"AGRÍCOLA VEGEX",
-				"VersionCode":287,
-				"VersionName":"2.8.7",
-				"BuildVersion":2026022707531,
-				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/2.8.7.26022707531/MozartMovil.Ver.2.8.7.Build.2026022707531.apk",
-				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/2.8.7.26022707531",
-				"Size":26049976,
+				"VersionCode":31300,
+				"VersionName":"3.13.0",
+				"BuildVersion":202610171552,
+				"DownloadURL":"https://github.com/yolovany/MozartMovilReleases/releases/download/3.13.0.2610171552/MozartMovil.Ver.3.13.0.Build.202610171552.apk",
+				"ReleasesNotesURL":"https://github.com/yolovany/MozartMovilReleases/releases/tag/3.13.0.2610171552",
+				"Size":26487301,
 				"EnableSimultaneousScanLock":false,
 				"Companies":["VEGEX","SHANI"],
 				"MasterKey":"Mozart2010",
-				"Required":true
+				"Required":false
 			},
 			{
 				"CommonName":"AGRÍCOLA FRUVAS",
