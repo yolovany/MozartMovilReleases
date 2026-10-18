@@ -6,25 +6,25 @@
 
 ---
 
-## 📥 Última Versión: 3.13.0 Build 202610171552
+## 📥 Última Versión: 3.14.0 Build 202610172145
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 17 de octubre, 2026, 3:52 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.13.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.13.0.2610171552/MozartMovil.Ver.3.13.0.Build.202610171552.apk)
+*   **Fecha de lanzamiento:** 17 de octubre, 2026, 9:45 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.14.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.14.0.2610172145/MozartMovil.Ver.3.14.0.Build.202610172145.apk)
 
-### ✨ Novedades Principales en la Versión 3.13.0
+### ✨ Novedades Principales en la Versión 3.14.0
 
-*   **🌙 Campo: Sincronización Automática de Noche:** De madrugada el equipo envía lo pendiente y actualiza catálogos solo; reintenta hasta las 5:00, se configura y se prueba desde Configuración, y avisa en el menú si algo quedó pendiente.
-*   **📶 Conexión: VPN con Datos Móviles:** Con la misma IP local y externa, Actualizar catálogos con datos ya no falla al instante con «No se pudo conectar con el servidor».
-*   **📱 Inicio de Sesión: Pantallas Pequeñas:** El botón Entrar queda a la vista con un logo más chico y sin textos de sobra; en equipos con las animaciones del sistema apagadas, los indicadores de carga vuelven a moverse.
+*   **🧾 Campo: Rechazados por el Servidor:** Lo que la sincronización de noche dejó aparte se ve arriba de Historial de envíos, con su motivo, y se vuelve a mandar con **Reintentar**.
+*   **🟠 Campo: Aviso en el Menú:** Franja ámbar con cuántos registros rechazó el servidor; al tocarla abre Historial de envíos.
+*   **🗓️ Campo: Detalle Legible:** Fechas en día/mes/año y el rondín con su hora.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3130-build-202610171552).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3140-build-202610172145).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -36,6 +36,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.13.0 Build 202610171552 (17 de octubre, 2026, 3:52 PM)
+*   **Novedades principales:**
+
+*   **🌙 Campo: Sincronización Automática de Noche:** De madrugada el equipo envía lo pendiente y actualiza catálogos solo; reintenta hasta las 5:00, se configura y se prueba desde Configuración, y avisa en el menú si algo quedó pendiente.
+*   **📶 Conexión: VPN con Datos Móviles:** Con la misma IP local y externa, Actualizar catálogos con datos ya no falla al instante con «No se pudo conectar con el servidor».
+*   **📱 Inicio de Sesión: Pantallas Pequeñas:** El botón Entrar queda a la vista con un logo más chico y sin textos de sobra; en equipos con las animaciones del sistema apagadas, los indicadores de carga vuelven a moverse.
+
 ### Versión 3.12.1 Build 202610142242 (14 de octubre, 2026, 10:42 PM)
 *   **Novedades principales:**
 
@@ -179,12 +186,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🧾 Registro de Tiempos: Resultados en el Orden de la Operación:** El resumen presenta tarea y tabla de prorrateo en el orden en que participan en el reloj y se adapta a la configuración de cada empresa.
     *   **🖨️ Mantenimientos: Impresión Estable y Copias Identificadas:** Registrar imprime ORIGINAL, COPIA CLIENTE y COPIA RESPALDO; las reimpresiones permiten de una a cinco copias identificadas como DUPLICADO; registro e impresión trabajan en segundo plano; y la captura ofrece únicamente el departamento de mantenimiento.
     *   **👍 Catálogos: Confirmación al Terminar la Descarga:** Rondines y Tractocamión avisan cuando la actualización concluye correctamente, y las inasistencias se descargan con la ventana configurada para la empresa.
-
-### Versión 3.2.1 Build 202609081254 (8 de septiembre, 2026, 12:54 PM)
-*   **Novedades:**
-    *   **🩹 Tractocamión: Los Clientes Vuelven a Abrirse en Mantenimientos:** El paquete comprimido de catálogos armaba la tabla de clientes sin equipos ni rutas; ahora el equipo revisa el paquete antes de reemplazar sus catálogos y, si llega recortado, lo descarta y baja tabla por tabla.
-    *   **📥 Tractocamión: Doce Catálogos que no Estaban Bajando:** El camino de respaldo identificaba las tablas por su posición y dejó de traer doce catálogos; ahora cada tabla se identifica por su nombre, se agregan rutas 2 y tractocamión, y la descarga comprimida espera lo mismo que la de ventas en ruta.
-    *   **🛡️ Venta en Ruta: La Descarga de la Agenda, a Prueba del Mismo Tropiezo:** Las 35 tablas de la agenda se identifican por nombre y se verificaron completas contra el servidor.
 
 ## 📚 Documentación y Soporte
 
