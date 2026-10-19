@@ -6,25 +6,25 @@
 
 ---
 
-## 📥 Última Versión: 3.14.0 Build 202610172145
+## 📥 Última Versión: 3.15.0 Build 202610190907
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 17 de octubre, 2026, 9:45 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.14.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.14.0.2610172145/MozartMovil.Ver.3.14.0.Build.202610172145.apk)
+*   **Fecha de lanzamiento:** 19 de octubre, 2026, 9:07 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.15.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.15.0.2610190907/MozartMovil.Ver.3.15.0.Build.202610190907.apk)
 
-### ✨ Novedades Principales en la Versión 3.14.0
+### ✨ Novedades Principales en la Versión 3.15.0
 
-*   **🧾 Campo: Rechazados por el Servidor:** Lo que la sincronización de noche dejó aparte se ve arriba de Historial de envíos, con su motivo, y se vuelve a mandar con **Reintentar**.
-*   **🟠 Campo: Aviso en el Menú:** Franja ámbar con cuántos registros rechazó el servidor; al tocarla abre Historial de envíos.
-*   **🗓️ Campo: Detalle Legible:** Fechas en día/mes/año y el rondín con su hora.
+*   **🌤️ Campo: Envío de Tarde en Segundo Plano:** De 2:00 a 8:00 PM lo capturado sube solo tras 5 minutos sin uso, sin sacar al usuario de su pantalla ni mandar Excel; si falla, lo reintenta.
+*   **🌙 Campo: Sincronización de Noche más Confiable:** Espera 20 minutos sin uso, no se repite en la misma madrugada y reintenta si el servidor no puede confirmar la protección de los datos.
+*   **📥 Campo: Sin Descargas Repetidas:** Si la noche ya descargó, el arranque y «Nuevo día detectado» no vuelven a descargar.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3140-build-202610172145).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3150-build-202610190907).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -36,6 +36,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.14.0 Build 202610172145 (17 de octubre, 2026, 9:45 PM)
+*   **Novedades principales:**
+
+*   **🧾 Campo: Rechazados por el Servidor:** Lo que la sincronización de noche dejó aparte se ve arriba de Historial de envíos, con su motivo, y se vuelve a mandar con **Reintentar**.
+*   **🟠 Campo: Aviso en el Menú:** Franja ámbar con cuántos registros rechazó el servidor; al tocarla abre Historial de envíos.
+*   **🗓️ Campo: Detalle Legible:** Fechas en día/mes/año y el rondín con su hora.
+
 ### Versión 3.13.0 Build 202610171552 (17 de octubre, 2026, 3:52 PM)
 *   **Novedades principales:**
 
@@ -178,14 +185,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🎯 Captura de Artículos: Escaneo Confiable:** Un escaneo a la vez, CONTINUAR siempre responde, un doble toque ya no registra el movimiento dos veces y el guardado deja de hacerse lento conforme crece la lista.
     *   **📴 Reloj Checador: Modo Local sin Falsas Fallas de Conexión:** No tener registros en modo local abre directamente el diálogo de prorrateo.
     *   **✨ Nueva Apariencia: Un Solo Estilo:** Tema unificado con paleta de marca, menús y listas en tarjetas, barra de título clara y botón principal destacado en cada pantalla.
-
-### Versión 3.3.0 Build 202609101248 (10 de septiembre, 2026, 12:48 PM)
-*   **Novedades:**
-    *   **🔐 Asistencia: Bloqueos por Inasistencia más Claros:** Reloj checador, destajos y pase de lista respetan el bloqueo calculado para cada empleado; el diálogo indica la última asistencia y el número de faltas antes de pedir autorización, y marcar que ayer no se trabajó libera únicamente a quienes faltaron ese día.
-    *   **✅ Registro de Tiempos: Una Sola Confirmación:** Entrada, salida, comida y cambio de centro de costos muestran una confirmación consolidada con fecha, hora y empleados permitidos; los empleados sin pase de lista, contrato o autorización se distinguen antes de escribir movimientos.
-    *   **🧾 Registro de Tiempos: Resultados en el Orden de la Operación:** El resumen presenta tarea y tabla de prorrateo en el orden en que participan en el reloj y se adapta a la configuración de cada empresa.
-    *   **🖨️ Mantenimientos: Impresión Estable y Copias Identificadas:** Registrar imprime ORIGINAL, COPIA CLIENTE y COPIA RESPALDO; las reimpresiones permiten de una a cinco copias identificadas como DUPLICADO; registro e impresión trabajan en segundo plano; y la captura ofrece únicamente el departamento de mantenimiento.
-    *   **👍 Catálogos: Confirmación al Terminar la Descarga:** Rondines y Tractocamión avisan cuando la actualización concluye correctamente, y las inasistencias se descargan con la ventana configurada para la empresa.
 
 ## 📚 Documentación y Soporte
 
