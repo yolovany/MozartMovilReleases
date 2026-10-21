@@ -6,25 +6,26 @@
 
 ---
 
-## 📥 Última Versión: 3.15.0 Build 202610190907
+## 📥 Última Versión: 3.16.0 Build 202610210459
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 19 de octubre, 2026, 9:07 AM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.15.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.15.0.2610190907/MozartMovil.Ver.3.15.0.Build.202610190907.apk)
+*   **Fecha de lanzamiento:** 21 de octubre, 2026, 4:59 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.16.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.16.0.2610210459/MozartMovil.Ver.3.16.0.Build.202610210459.apk)
 
-### ✨ Novedades Principales en la Versión 3.15.0
+### ✨ Novedades Principales en la Versión 3.16.0
 
-*   **🌤️ Campo: Envío de Tarde en Segundo Plano:** De 2:00 a 8:00 PM lo capturado sube solo tras 5 minutos sin uso, sin sacar al usuario de su pantalla ni mandar Excel; si falla, lo reintenta.
-*   **🌙 Campo: Sincronización de Noche más Confiable:** Espera 20 minutos sin uso, no se repite en la misma madrugada y reintenta si el servidor no puede confirmar la protección de los datos.
-*   **📥 Campo: Sin Descargas Repetidas:** Si la noche ya descargó, el arranque y «Nuevo día detectado» no vuelven a descargar.
+*   **🔁 Visita a Cliente: Una Sincronización a la Vez:** Si se pide otra mientras una corre, se hace al terminar la primera; la misma venta ya no llega dos veces al servidor ni falla la descarga con claves repetidas.
+*   **🧾 Visita a Cliente: Folios y Reimpresiones:** La sincronización ya no se detiene con dos folios nuevos de una serie, y al reimprimir ya no se pide la firma si la empresa no captura firmas.
+*   **⏱️ Reloj: Registro de Tiempos Rápido:** El registro por tipo y la búsqueda de empleados vuelven a ser ágiles con miles de empleados en el catálogo.
+*   **🛢️ Producción: Barricas sin Costo:** El cambio de orden de producción no acepta barricas sin costo cuando el almacén no permite salidas de producto sin costo.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3150-build-202610190907).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3160-build-202610210459).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -36,6 +37,13 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.15.0 Build 202610190907 (19 de octubre, 2026, 9:07 AM)
+*   **Novedades principales:**
+
+*   **🌤️ Campo: Envío de Tarde en Segundo Plano:** De 2:00 a 8:00 PM lo capturado sube solo tras 5 minutos sin uso, sin sacar al usuario de su pantalla ni mandar Excel; si falla, lo reintenta.
+*   **🌙 Campo: Sincronización de Noche más Confiable:** Espera 20 minutos sin uso, no se repite en la misma madrugada y reintenta si el servidor no puede confirmar la protección de los datos.
+*   **📥 Campo: Sin Descargas Repetidas:** Si la noche ya descargó, el arranque y «Nuevo día detectado» no vuelven a descargar.
+
 ### Versión 3.14.0 Build 202610172145 (17 de octubre, 2026, 9:45 PM)
 *   **Novedades principales:**
 
@@ -174,17 +182,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 *   **Novedades:**
     *   **🖨️ Mantenimientos: Comprobante Completo en Cualquier Zebra:** El comprobante se centra en el papel y cabe igual en RW420, ZQ510 y ZQ520: el encabezado y el folio ya no salen recortados, el domicilio se parte por palabra, FOLIO y CLIENTE van cada uno en su propio renglón y el nombre del cliente no se repite. La impresión en la SM58XX no cambia.
     *   **🍽️ Reloj Checador: Comida y Descanso con la Tarea del Departamento:** El registro masivo de tiempos desde captura de campo, la edición de tiempos en el resumen y los destajos por descanso usan la tarea de comida y descanso del departamento del empleado, como ya hacía el reloj; editar un tiempo en el resumen ya no reescribe un descanso correcto con la tarea de la empresa.
-
-### Versión 3.4.0 Build 202609141235 (14 de septiembre, 2026, 12:35 PM)
-*   **Novedades:**
-    *   **🗂️ Control de Almacén: Bajas de Recepción con Seguimiento:** Dar de baja una recepción envía una solicitud al servidor y la aplicación muestra su avance en una línea de tiempo por documento y etapa hasta que el sistema la confirma, con lista de solicitudes, motivo, errores de red visibles y acceso directo para registrar de nuevo la recepción.
-    *   **🐢 Control de Almacén: Sin Pantallas Congeladas con el Servidor Lento:** Patio, cuarto frío, descuentos y traspasos consultan al servidor fuera del hilo de pantalla, y elegir Patio sin un almacén de transición permitido ya no cierra la aplicación.
-    *   **🏭 Control de Almacén: Descuentos y Consulta Rápida:** La orden de producción se elige con un botón y un diálogo con búsqueda, y el historial de códigos se abre desde un enlace.
-    *   **🛟 Captura de Artículos: Nada se Pierde si la Aplicación se Cae:** Las caídas quedan registradas, la aplicación se reinicia y avisa que la captura quedó guardada; lo capturado se escribe de forma segura ante cortes de energía.
-    *   **📝 Captura de Artículos: Borrador por Módulo:** Cada módulo guarda su propia captura pendiente y al entrar ofrece continuarla o iniciar una nueva; el botón Atrás permite Seguir capturando, Conservar o Descartar.
-    *   **🎯 Captura de Artículos: Escaneo Confiable:** Un escaneo a la vez, CONTINUAR siempre responde, un doble toque ya no registra el movimiento dos veces y el guardado deja de hacerse lento conforme crece la lista.
-    *   **📴 Reloj Checador: Modo Local sin Falsas Fallas de Conexión:** No tener registros en modo local abre directamente el diálogo de prorrateo.
-    *   **✨ Nueva Apariencia: Un Solo Estilo:** Tema unificado con paleta de marca, menús y listas en tarjetas, barra de título clara y botón principal destacado en cada pantalla.
 
 ## 📚 Documentación y Soporte
 
