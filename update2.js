@@ -261,7 +261,7 @@
 				"Companies":["SC_PRODUCE"],
 				"MasterKey":"Mozart2010",
 				"NewMarchLabelFormatSCProduce":false,
-				"Required":false
+				"Required":true
 			},
 			{
 				"CommonName":"SC PRUEBAS",
