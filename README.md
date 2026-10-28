@@ -6,26 +6,27 @@
 
 ---
 
-## 📥 Última Versión: 3.16.0 Build 202610210459
+## 📥 Última Versión: 3.16.1 Build 202610272315
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 21 de octubre, 2026, 4:59 AM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.16.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.16.0.2610210459/MozartMovil.Ver.3.16.0.Build.202610210459.apk)
+*   **Fecha de lanzamiento:** 27 de octubre, 2026, 11:15 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.16.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.16.1.2610272315/MozartMovil.Ver.3.16.1.Build.202610272315.apk)
 
-### ✨ Novedades Principales en la Versión 3.16.0
+### ✨ Novedades Principales en la Versión 3.16.1
 
-*   **🔁 Visita a Cliente: Una Sincronización a la Vez:** Si se pide otra mientras una corre, se hace al terminar la primera; la misma venta ya no llega dos veces al servidor ni falla la descarga con claves repetidas.
-*   **🧾 Visita a Cliente: Folios y Reimpresiones:** La sincronización ya no se detiene con dos folios nuevos de una serie, y al reimprimir ya no se pide la firma si la empresa no captura firmas.
-*   **⏱️ Reloj: Registro de Tiempos Rápido:** El registro por tipo y la búsqueda de empleados vuelven a ser ágiles con miles de empleados en el catálogo.
-*   **🛢️ Producción: Barricas sin Costo:** El cambio de orden de producción no acepta barricas sin costo cuando el almacén no permite salidas de producto sin costo.
+*   **📤 Visita a Cliente: Ventas con Varios Cortes Pendientes:** Con dos o más cortes pendientes, todas sus ventas se envían; antes la sincronización fallaba en cada intento.
+*   **👥 Visita a Cliente: Clientes Nuevos en la Descarga:** Solo se guardan los clientes que faltan; la descarga ya no falla con claves repetidas.
+*   **🔁 Visita a Cliente: Ventana de Sincronización:** Ya no queda a la vista el aviso anterior con Reintentar, y las fallas por billetes o monedas se muestran con Reintentar.
+*   **📋 Agenda Inicial: Ventas Pendientes de Otro Día:** La pantalla ya no se cierra al mandar ventas pendientes de días anteriores.
+*   **🔐 Inicio y Cierre de Día: Código de Autorización:** Un código mal escrito se rechaza como inválido en vez de cerrar la app.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3160-build-202610210459).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3161-build-202610272315).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -37,6 +38,14 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.16.0 Build 202610210459 (21 de octubre, 2026, 4:59 AM)
+*   **Novedades principales:**
+
+*   **🔁 Visita a Cliente: Una Sincronización a la Vez:** Si se pide otra mientras una corre, se hace al terminar la primera; la misma venta ya no llega dos veces al servidor ni falla la descarga con claves repetidas.
+*   **🧾 Visita a Cliente: Folios y Reimpresiones:** La sincronización ya no se detiene con dos folios nuevos de una serie, y al reimprimir ya no se pide la firma si la empresa no captura firmas.
+*   **⏱️ Reloj: Registro de Tiempos Rápido:** El registro por tipo y la búsqueda de empleados vuelven a ser ágiles con miles de empleados en el catálogo.
+*   **🛢️ Producción: Barricas sin Costo:** El cambio de orden de producción no acepta barricas sin costo cuando el almacén no permite salidas de producto sin costo.
+
 ### Versión 3.15.0 Build 202610190907 (19 de octubre, 2026, 9:07 AM)
 *   **Novedades principales:**
 
@@ -177,11 +186,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **📦 Ventas en Ruta: Catálogos Completos en Agenda y Visita a Cliente:** Si al guardar una tabla descargada ocurre un error, la descarga de inicio de sesión y "Actualizar Datos del Servidor" muestran "Descarga interrumpida" con el nombre de la tabla y ofrecen reintentar, en lugar de seguir con catálogos vacíos. "Actualizar Datos del Servidor" refresca también códigos de barras y almacenes, sin tocar el corte del día.
     *   **🚨 Inicio de Sesión: El Error que Cerró la Aplicación se Ve al Volver a Abrirla:** El aviso de caída aparece antes del diálogo de inicio de sesión, con tipo de error, mensaje y punto donde ocurrió.
     *   **⚙️ Inicio de Sesión: No Inicia Sesión sin Parámetros de la Empresa:** Si no se obtienen los parámetros ni del servidor ni de la base local, se detiene con "Algo salió mal" en vez de arrancar con parámetros en blanco.
-
-### Versión 3.4.1 Build 202609151051 (15 de septiembre, 2026, 10:51 AM)
-*   **Novedades:**
-    *   **🖨️ Mantenimientos: Comprobante Completo en Cualquier Zebra:** El comprobante se centra en el papel y cabe igual en RW420, ZQ510 y ZQ520: el encabezado y el folio ya no salen recortados, el domicilio se parte por palabra, FOLIO y CLIENTE van cada uno en su propio renglón y el nombre del cliente no se repite. La impresión en la SM58XX no cambia.
-    *   **🍽️ Reloj Checador: Comida y Descanso con la Tarea del Departamento:** El registro masivo de tiempos desde captura de campo, la edición de tiempos en el resumen y los destajos por descanso usan la tarea de comida y descanso del departamento del empleado, como ya hacía el reloj; editar un tiempo en el resumen ya no reescribe un descanso correcto con la tarea de la empresa.
 
 ## 📚 Documentación y Soporte
 
