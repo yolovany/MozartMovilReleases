@@ -298,7 +298,7 @@
 				"Size":26495493,
 				"EnableSimultaneousScanLock":false,
 				"Companies":["CRISTA","QI"],
-				"DevicesSerialNumbers":["83CF2F483054CDCB"],
+				"DevicesSerialNumbers":["83CF2F483054CDCB","132FBA93C7AE8FA7","70C6EFE96C4BA7FF"],
 				"MasterKey":"Mozart2010",
 				"Required":false
 			},
