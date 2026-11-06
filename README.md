@@ -6,27 +6,27 @@
 
 ---
 
-## 📥 Última Versión: 3.16.1 Build 202610272315
+## 📥 Última Versión: 3.16.2 Build 202611052142
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 27 de octubre, 2026, 11:15 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.16.1**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.16.1.2610272315/MozartMovil.Ver.3.16.1.Build.202610272315.apk)
+*   **Fecha de lanzamiento:** 5 de noviembre, 2026, 9:42 PM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.16.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.16.2.2611052142/MozartMovil.Ver.3.16.2.Build.202611052142.apk)
 
-### ✨ Novedades Principales en la Versión 3.16.1
+### ✨ Novedades Principales en la Versión 3.16.2
 
-*   **📤 Visita a Cliente: Ventas con Varios Cortes Pendientes:** Con dos o más cortes pendientes, todas sus ventas se envían; antes la sincronización fallaba en cada intento.
-*   **👥 Visita a Cliente: Clientes Nuevos en la Descarga:** Solo se guardan los clientes que faltan; la descarga ya no falla con claves repetidas.
-*   **🔁 Visita a Cliente: Ventana de Sincronización:** Ya no queda a la vista el aviso anterior con Reintentar, y las fallas por billetes o monedas se muestran con Reintentar.
-*   **📋 Agenda Inicial: Ventas Pendientes de Otro Día:** La pantalla ya no se cierra al mandar ventas pendientes de días anteriores.
-*   **🔐 Inicio y Cierre de Día: Código de Autorización:** Un código mal escrito se rechaza como inválido en vez de cerrar la app.
+*   **👥 Pase de Lista: Lista de Empleados al Día:** Al volver de Pase de lista ya se ve a los empleados escaneados, y Seleccionar empleados, Reloj checador y Destajos muestran lo mismo.
+*   **⏱️ Reloj Checador: Pase de Lista sin Repetir:** Ya no se pide el pase a quien ya lo tiene.
+*   **📶 Catálogos: Una Sola Actualización sin Conexión:** Si la actualización de la mañana no se logra, ya no se repite en cada regreso al menú.
+*   **🚀 Inicio: Abrir Durante la Sincronización Automática:** El arranque continúa normal cuando la sincronización termina.
+*   **↩️ Reloj Checador: Botón Atrás:** Presionar atrás muestra el aviso de salida en vez de cerrar la app.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3161-build-202610272315).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3162-build-202611052142).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -38,6 +38,15 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.16.1 Build 202610272315 (27 de octubre, 2026, 11:15 PM)
+*   **Novedades principales:**
+
+*   **📤 Visita a Cliente: Ventas con Varios Cortes Pendientes:** Con dos o más cortes pendientes, todas sus ventas se envían; antes la sincronización fallaba en cada intento.
+*   **👥 Visita a Cliente: Clientes Nuevos en la Descarga:** Solo se guardan los clientes que faltan; la descarga ya no falla con claves repetidas.
+*   **🔁 Visita a Cliente: Ventana de Sincronización:** Ya no queda a la vista el aviso anterior con Reintentar, y las fallas por billetes o monedas se muestran con Reintentar.
+*   **📋 Agenda Inicial: Ventas Pendientes de Otro Día:** La pantalla ya no se cierra al mandar ventas pendientes de días anteriores.
+*   **🔐 Inicio y Cierre de Día: Código de Autorización:** Un código mal escrito se rechaza como inválido en vez de cerrar la app.
+
 ### Versión 3.16.0 Build 202610210459 (21 de octubre, 2026, 4:59 AM)
 *   **Novedades principales:**
 
@@ -180,12 +189,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 *   **Novedades:**
     *   **🧭 Configuración: Captura Guiada de IP Local e IP Externa:** Los campos de Ajustes de red validan mientras se escribe, muestran qué falta, adaptan sus reglas a IPv4 o dominio y bloquean direcciones que nunca pueden ser un servidor; el diálogo de Mantenimiento comparte la misma captura.
     *   **📡 Conexión al Servidor: Comprobación Específica de MozartWeb:** La aplicación ya no confunde cualquier equipo que responda por HTTP con el servidor; verifica MozartWeb y usa la dirección externa cuando la local apunta a otro equipo.
-
-### Versión 3.4.2 Build 202609151353 (15 de septiembre, 2026, 1:53 PM)
-*   **Novedades:**
-    *   **📦 Ventas en Ruta: Catálogos Completos en Agenda y Visita a Cliente:** Si al guardar una tabla descargada ocurre un error, la descarga de inicio de sesión y "Actualizar Datos del Servidor" muestran "Descarga interrumpida" con el nombre de la tabla y ofrecen reintentar, en lugar de seguir con catálogos vacíos. "Actualizar Datos del Servidor" refresca también códigos de barras y almacenes, sin tocar el corte del día.
-    *   **🚨 Inicio de Sesión: El Error que Cerró la Aplicación se Ve al Volver a Abrirla:** El aviso de caída aparece antes del diálogo de inicio de sesión, con tipo de error, mensaje y punto donde ocurrió.
-    *   **⚙️ Inicio de Sesión: No Inicia Sesión sin Parámetros de la Empresa:** Si no se obtienen los parámetros ni del servidor ni de la base local, se detiene con "Algo salió mal" en vez de arrancar con parámetros en blanco.
 
 ## 📚 Documentación y Soporte
 
