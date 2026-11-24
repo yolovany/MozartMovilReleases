@@ -6,27 +6,27 @@
 
 ---
 
-## 📥 Última Versión: 3.16.2 Build 202611052142
+## 📥 Última Versión: 3.17.0 Build 202611241039
 
 Descarga la versión más reciente para disfrutar de las últimas funcionalidades y mejoras de estabilidad.
 
-*   **Fecha de lanzamiento:** 5 de noviembre, 2026, 9:42 PM
-*   **Enlace de descarga:** [**Descargar MozartMovil 3.16.2**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.16.2.2611052142/MozartMovil.Ver.3.16.2.Build.202611052142.apk)
+*   **Fecha de lanzamiento:** 24 de noviembre, 2026, 10:39 AM
+*   **Enlace de descarga:** [**Descargar MozartMovil 3.17.0**](https://github.com/yolovany/MozartMovilReleases/releases/download/3.17.0.2611241039/MozartMovil.Ver.3.17.0.Build.202611241039.apk)
 
-### ✨ Novedades Principales en la Versión 3.16.2
+### ✨ Novedades Principales en la Versión 3.17.0
 
-*   **👥 Pase de Lista: Lista de Empleados al Día:** Al volver de Pase de lista ya se ve a los empleados escaneados, y Seleccionar empleados, Reloj checador y Destajos muestran lo mismo.
-*   **⏱️ Reloj Checador: Pase de Lista sin Repetir:** Ya no se pide el pase a quien ya lo tiene.
-*   **📶 Catálogos: Una Sola Actualización sin Conexión:** Si la actualización de la mañana no se logra, ya no se repite en cada regreso al menú.
-*   **🚀 Inicio: Abrir Durante la Sincronización Automática:** El arranque continúa normal cuando la sincronización termina.
-*   **↩️ Reloj Checador: Botón Atrás:** Presionar atrás muestra el aviso de salida en vez de cerrar la app.
+*   **🧾 Destajos: Tickets de Días Pasados Completos:** La tira y el ticket de un día anterior se piden al servidor, con todos los destajos del empleado en ese día.
+*   **📶 Destajos: Ticket de Ayer sin Conexión:** Se imprime lo de este equipo con su leyenda; con destajos sin enviar, se avisa antes de imprimir.
+*   **🌙 Turno Nocturno: Turno sin Cerrar:** La franja del menú de Campo lleva al cierre, y solo un usuario de empaque abre el turno.
+*   **⏰ Turno Nocturno: Cierre Tarde:** Se pregunta a qué hora terminó el turno, y lo registrado después y sin enviar pasa al día.
+*   **✍️ Mantenimientos: Firma del Cliente:** Con el parámetro activo, el ticket pide e imprime la firma y el nombre del cliente.
 
 ---
 ## 🚀 Cómo Instalar
 
 Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 
-1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3162-build-202611052142).
+1.  **Descarga el archivo APK** desde el [enlace de la última versión](#-última-versión-3170-build-202611241039).
 2.  **Habilita la instalación de fuentes desconocidas:**
     *   Ve a **Ajustes** > **Seguridad** en tu dispositivo.
     *   Activa la opción **"Fuentes desconocidas"** o **"Instalar aplicaciones desconocidas"**. Este paso es necesario porque estás instalando la app directamente y no desde la Google Play Store.
@@ -38,6 +38,15 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
 ---
 
 ## 📜 Historial de Cambios Recientes
+### Versión 3.16.2 Build 202611052142 (5 de noviembre, 2026, 9:42 PM)
+*   **Novedades principales:**
+
+*   **👥 Pase de Lista: Lista de Empleados al Día:** Al volver de Pase de lista ya se ve a los empleados escaneados, y Seleccionar empleados, Reloj checador y Destajos muestran lo mismo.
+*   **⏱️ Reloj Checador: Pase de Lista sin Repetir:** Ya no se pide el pase a quien ya lo tiene.
+*   **📶 Catálogos: Una Sola Actualización sin Conexión:** Si la actualización de la mañana no se logra, ya no se repite en cada regreso al menú.
+*   **🚀 Inicio: Abrir Durante la Sincronización Automática:** El arranque continúa normal cuando la sincronización termina.
+*   **↩️ Reloj Checador: Botón Atrás:** Presionar atrás muestra el aviso de salida en vez de cerrar la app.
+
 ### Versión 3.16.1 Build 202610272315 (27 de octubre, 2026, 11:15 PM)
 *   **Novedades principales:**
 
@@ -184,11 +193,6 @@ Para instalar la aplicación en tu dispositivo Android, sigue estos pasos:
     *   **🖨️ Impresoras: Configuración Bluetooth Guiada:** Una sola pantalla activa Bluetooth, busca, empareja, elige y prueba la impresora; cada equipo puede llevar un nombre propio para distinguir impresoras del mismo modelo.
     *   **🔄 Sincronización: Envío y Catálogos con Seguimiento Detallado:** La aplicación muestra las etapas de conexión, envío, descarga y guardado, con el avance de cada tabla y un resumen al terminar; también está disponible en Tractocamión, Visita a cliente y Agenda.
     *   **🌐 Conexión: Acceso Directo a Ajustes de Red:** Si no se pueden obtener los parámetros de la empresa, el aviso permite corregir las direcciones del servidor y volver a intentar sin quedar atrapado en el inicio de sesión.
-
-### Versión 3.5.0 Build 202609152215 (15 de septiembre, 2026, 10:15 PM)
-*   **Novedades:**
-    *   **🧭 Configuración: Captura Guiada de IP Local e IP Externa:** Los campos de Ajustes de red validan mientras se escribe, muestran qué falta, adaptan sus reglas a IPv4 o dominio y bloquean direcciones que nunca pueden ser un servidor; el diálogo de Mantenimiento comparte la misma captura.
-    *   **📡 Conexión al Servidor: Comprobación Específica de MozartWeb:** La aplicación ya no confunde cualquier equipo que responda por HTTP con el servidor; verifica MozartWeb y usa la dirección externa cuando la local apunta a otro equipo.
 
 ## 📚 Documentación y Soporte
 
